@@ -1,0 +1,9 @@
+C:\Users\mavargasb\Documents\Auxiliar\Autenticación\DominioAuth\bin\Debug\netcoreapp3.1\DominioAuth.deps.json
+C:\Users\mavargasb\Documents\Auxiliar\Autenticación\DominioAuth\bin\Debug\netcoreapp3.1\DominioAuth.dll
+C:\Users\mavargasb\Documents\Auxiliar\Autenticación\DominioAuth\bin\Debug\netcoreapp3.1\DominioAuth.pdb
+C:\Users\mavargasb\Documents\Auxiliar\Autenticación\DominioAuth\obj\Debug\netcoreapp3.1\DominioAuth.AssemblyInfoInputs.cache
+C:\Users\mavargasb\Documents\Auxiliar\Autenticación\DominioAuth\obj\Debug\netcoreapp3.1\DominioAuth.AssemblyInfo.cs
+C:\Users\mavargasb\Documents\Auxiliar\Autenticación\DominioAuth\obj\Debug\netcoreapp3.1\DominioAuth.csproj.CoreCompileInputs.cache
+C:\Users\mavargasb\Documents\Auxiliar\Autenticación\DominioAuth\obj\Debug\netcoreapp3.1\DominioAuth.dll
+C:\Users\mavargasb\Documents\Auxiliar\Autenticación\DominioAuth\obj\Debug\netcoreapp3.1\DominioAuth.pdb
+C:\Users\mavargasb\Documents\Auxiliar\Autenticación\DominioAuth\obj\Debug\netcoreapp3.1\DominioAuth.csprojAssemblyReference.cache
