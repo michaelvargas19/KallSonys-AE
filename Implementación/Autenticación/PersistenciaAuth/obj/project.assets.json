@@ -6546,11 +6546,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Autenticación\\PersistenciaAuth\\PersistenciaAuth.csproj",
+      "projectUniqueName": "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Autenticación\\PersistenciaAuth\\PersistenciaAuth.csproj",
       "projectName": "PersistenciaAuth",
-      "projectPath": "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Autenticación\\PersistenciaAuth\\PersistenciaAuth.csproj",
+      "projectPath": "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Autenticación\\PersistenciaAuth\\PersistenciaAuth.csproj",
       "packagesPath": "C:\\Users\\mavargasb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Autenticación\\PersistenciaAuth\\obj\\",
+      "outputPath": "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Autenticación\\PersistenciaAuth\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -6574,8 +6574,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Autenticación\\DominioAuth\\DominioAuth.csproj": {
-              "projectPath": "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Autenticación\\DominioAuth\\DominioAuth.csproj"
+            "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Autenticación\\DominioAuth\\DominioAuth.csproj": {
+              "projectPath": "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Autenticación\\DominioAuth\\DominioAuth.csproj"
             }
           }
         }
