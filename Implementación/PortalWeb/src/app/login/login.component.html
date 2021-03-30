@@ -1,0 +1,31 @@
+<div style="margin-top:20%;">
+<mat-card id="card" style="text-align: center;width: 30%; margin: auto;" >
+	<mat-card-title>
+		Iniciar Sesión
+	</mat-card-title>
+
+	<mat-card-content>
+
+		<form [formGroup]="loginForm">
+            <ng-template matStepLabel>Login</ng-template>
+            <mat-form-field class="lvl2-stepper">
+                <mat-label>Usuario:</mat-label>
+                  <br>
+                <input matInput formControlName="usuario" placeholder="Usuario" required >
+            </mat-form-field>
+            <br/>
+            <mat-form-field class="lvl2-stepper">
+                <mat-label>Contraseña:</mat-label>
+                  <br>
+                <input matInput formControlName="password" placeholder="Contraseña" required >
+            </mat-form-field>
+        </form>
+        <br/>
+		<button mat-raised-button color="primary" style="margin-right:5px;" (click)="iniciarSesion()">Entrar</button>
+		<button mat-raised-button color="primary" style="margin-right:5px;">Registrar</button>
+
+	</mat-card-content>
+</mat-card>
+
+</div>
+<app-modal></app-modal>
