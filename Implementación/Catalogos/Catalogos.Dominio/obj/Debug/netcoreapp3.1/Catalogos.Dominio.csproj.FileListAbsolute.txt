@@ -1,0 +1,9 @@
+C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.Dominio\bin\Debug\netcoreapp3.1\Catalogos.Dominio.deps.json
+C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.Dominio\bin\Debug\netcoreapp3.1\Catalogos.Dominio.dll
+C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.Dominio\bin\Debug\netcoreapp3.1\Catalogos.Dominio.pdb
+C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.Dominio\obj\Debug\netcoreapp3.1\Catalogos.Dominio.AssemblyInfoInputs.cache
+C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.Dominio\obj\Debug\netcoreapp3.1\Catalogos.Dominio.AssemblyInfo.cs
+C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.Dominio\obj\Debug\netcoreapp3.1\Catalogos.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.Dominio\obj\Debug\netcoreapp3.1\Catalogos.Dominio.dll
+C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.Dominio\obj\Debug\netcoreapp3.1\Catalogos.Dominio.pdb
+C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.Dominio\obj\Debug\netcoreapp3.1\Catalogos.Dominio.csprojAssemblyReference.cache
