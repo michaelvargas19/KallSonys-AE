@@ -45,7 +45,7 @@ namespace Autenticacion.Dominio.Services.Command
                 Aplicacion app = _ufw.RepositoryQueryAplicacion().Find(new AplicacionSpecification(request.IdAplicacion, true, true)).FirstOrDefault();
 
                 IEnumerable<Claim> claims = null;
-                if ((app != null) && (app.Estado == true) && (app.PermiteJWT == true) && (app.FechaExpiracionLlave.Value.CompareTo(DateTime.Now) <= 0) && (app.LlaveSecreta != null))
+                if ((app != null) && (app.Estado == true) && (app.PermiteJWT == true) && (app.FechaExpiracionLlave.Value.CompareTo(DateTime.Now) >= 0) && (app.LlaveSecreta != null))
                 {
 
                     request.Usuario = request.Usuario.Contains("@") ? request.Usuario.Split("@")[0] : request.Usuario;

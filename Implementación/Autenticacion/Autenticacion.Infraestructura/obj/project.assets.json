@@ -6527,11 +6527,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Autenticacion\\Autenticacion.Infraestructura\\Autenticacion.Infraestructura.csproj",
+      "projectUniqueName": "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Autenticacion\\Autenticacion.Infraestructura\\Autenticacion.Infraestructura.csproj",
       "projectName": "Autenticacion.Infraestructura",
-      "projectPath": "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Autenticacion\\Autenticacion.Infraestructura\\Autenticacion.Infraestructura.csproj",
+      "projectPath": "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Autenticacion\\Autenticacion.Infraestructura\\Autenticacion.Infraestructura.csproj",
       "packagesPath": "C:\\Users\\mavargasb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Autenticacion\\Autenticacion.Infraestructura\\obj\\",
+      "outputPath": "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Autenticacion\\Autenticacion.Infraestructura\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

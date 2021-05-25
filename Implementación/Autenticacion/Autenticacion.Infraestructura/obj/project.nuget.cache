@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OQ476pD43rBoQdkcTjrIMjWugFFDq/xKQDMH7JBUmcWKBAdOy+1QAG6gRMVO9KJ+5BX4nVusGE/0Yp8N3bzreg==",
+  "dgSpecHash": "9ntRwL177RmvyKYx9SmzgXsTlEtPtj5T9J5ylUYCVc0j3zRpcH0DbPy1jfoIpVSJjpDmZVvWdvCdh8fIHr+/5w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Autenticacion\\Autenticacion.Infraestructura\\Autenticacion.Infraestructura.csproj",
+  "projectFilePath": "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Autenticacion\\Autenticacion.Infraestructura\\Autenticacion.Infraestructura.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mavargasb\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\mavargasb\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

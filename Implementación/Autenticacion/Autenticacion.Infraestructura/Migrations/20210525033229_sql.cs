@@ -303,22 +303,22 @@ namespace Autenticacion.Infraestructura.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetAplicacion",
                 columns: new[] { "IdAplicacion", "AlgoritmoDeSeguridad", "EmailContacto", "Estado", "EstadoLlave", "FechaExpiracionLlave", "LlaveSecreta", "MinutosDeVida", "Nombre", "PermiteJWT" },
-                values: new object[] { "Manager", "HmacSha512", "michavarg9@gmail.com", true, true, new DateTime(2023, 5, 23, 10, 1, 17, 707, DateTimeKind.Local).AddTicks(9094), "Secret_Key", 60.0, "Account Service", true });
+                values: new object[] { "Manager", "HmacSha512", "michavarg9@gmail.com", true, true, new DateTime(2023, 5, 24, 22, 32, 28, 735, DateTimeKind.Local).AddTicks(8147), "XYyZhvxK6T5xJO1dfiDOPrE5ZOldILWAGx5aStCYPpv5p495p2TRaoOSSU9Ddm6PvlFu6LUL3ttIUy9K5UHvvGqncNpvZW3c7zUfOpdqnZWl53bEVBwUe8dGbvJ9BSRTA4gDP9UT5ZHoiMw07wvzLcpsybShy1eKl1IGb1nmkGwHJl5EHYYrWCon6GCF30wv3v8jT0fmRY9AxbsRHGWc4ECQe9uy4vtUb0iUzD9vuqQWzxRpkwpptxjDqqBv3Qzy", 60.0, "Account Service", true });
 
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "Apellidos", "Cargo", "ConcurrencyStamp", "Description", "Email", "EmailConfirmed", "EsExterno", "IdTipoAuth", "Identificacion", "LockoutEnabled", "LockoutEnd", "Nombres", "NormalizedEmail", "NormalizedUserName", "Organizacion", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { 1, 0, "", "Administrador del sistema", "adfe54ba-b549-4839-8ce5-81ec1f4a1aec", "Administrador del sistema de autenticación", "admin@admin.org.co", true, false, 1, null, false, null, "Admin", "ADMIN@ADMIN.ORG.CO", "ADMIN", "PUJ", "AQAAAAEAACcQAAAAEDvsJrU5P2uO7jfhKVQTK2rMCwYlOAoWC3AzIGB+iktmo8A2515Utzul5+KXfWEjqQ==", null, false, "XVMFBE37LCN4TNGMZSHLPHBV7FIVHBQG", false, "Admin" });
+                values: new object[] { 1, 0, "", "Administrador del sistema", "ccc29a99-e332-48c0-9d30-ed197f8c2f81", "Administrador del sistema de autenticación", "admin@admin.org.co", true, false, 1, null, false, null, "Admin", "ADMIN@ADMIN.ORG.CO", "ADMIN", "PUJ", "AQAAAAEAACcQAAAAEDvsJrU5P2uO7jfhKVQTK2rMCwYlOAoWC3AzIGB+iktmo8A2515Utzul5+KXfWEjqQ==", null, false, "XVMFBE37LCN4TNGMZSHLPHBV7FIVHBQG", false, "Admin" });
 
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Descripcion", "Display", "IdAplicacion", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { 1, "2f98f861-d2e4-43a2-ac09-f1e605335952", "Usuario con permisos Full", "PowerUser", "Manager", "PowerUser", "POWERUSER" },
-                    { 2, "a3307ea4-077d-48e9-a5d9-db5b16d2a719", "Usuario con permisos de Admin", "Administrador", "Manager", "Administrador", "ADMINISTRADOR" },
-                    { 3, "67ebce17-09b4-4d0f-ad24-8b7085ed4ea9", "Cliente del sistema", "Cliente", "Manager", "Cliente", "CLIENTE" },
-                    { 4, "dd5a7d54-a1d2-406e-b8e3-e945970ad591", "Proveedor del sistema", "Proveedor", "Manager", "Proveedor", "PROVEEDOR" }
+                    { 1, "48fe9d80-b505-4842-9fc5-a130ccc7a5bf", "Usuario con permisos Full", "PowerUser", "Manager", "PowerUser", "POWERUSER" },
+                    { 2, "b3135eb5-1b1e-456b-a357-57952160816b", "Usuario con permisos de Admin", "Administrador", "Manager", "Administrador", "ADMINISTRADOR" },
+                    { 3, "b37ba6ad-80e7-4d61-814e-eab68817b94e", "Cliente del sistema", "Cliente", "Manager", "Cliente", "CLIENTE" },
+                    { 4, "3fbeaf4e-ce88-447e-b313-6710ed2df4cd", "Proveedor del sistema", "Proveedor", "Manager", "Proveedor", "PROVEEDOR" }
                 });
 
             migrationBuilder.InsertData(

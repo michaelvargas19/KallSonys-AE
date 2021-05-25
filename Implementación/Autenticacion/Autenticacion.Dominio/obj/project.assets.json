@@ -6545,11 +6545,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Autenticacion\\Autenticacion.Dominio\\Autenticacion.Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Autenticacion\\Autenticacion.Dominio\\Autenticacion.Dominio.csproj",
       "projectName": "Autenticacion.Dominio",
-      "projectPath": "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Autenticacion\\Autenticacion.Dominio\\Autenticacion.Dominio.csproj",
+      "projectPath": "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Autenticacion\\Autenticacion.Dominio\\Autenticacion.Dominio.csproj",
       "packagesPath": "C:\\Users\\mavargasb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Autenticacion\\Autenticacion.Dominio\\obj\\",
+      "outputPath": "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Autenticacion\\Autenticacion.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -6573,8 +6573,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Autenticacion\\Autenticacion.Infraestructura\\Autenticacion.Infraestructura.csproj": {
-              "projectPath": "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Autenticacion\\Autenticacion.Infraestructura\\Autenticacion.Infraestructura.csproj"
+            "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Autenticacion\\Autenticacion.Infraestructura\\Autenticacion.Infraestructura.csproj": {
+              "projectPath": "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Autenticacion\\Autenticacion.Infraestructura\\Autenticacion.Infraestructura.csproj"
             }
           }
         }

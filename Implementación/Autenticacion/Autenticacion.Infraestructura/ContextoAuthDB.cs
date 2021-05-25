@@ -36,7 +36,8 @@ namespace Autenticacion.Infraestructura
 
             //Insert App
             builder.Entity<Aplicacion>().HasData(
-                            new Aplicacion() { IdAplicacion = "Manager", Nombre = "Account Service", EmailContacto = "michavarg9@gmail.com", Estado = true, PermiteJWT = true, EstadoLlave = true, AlgoritmoDeSeguridad = "HmacSha512", LlaveSecreta = "Secret_Key", MinutosDeVida = 60, FechaExpiracionLlave = DateTime.Now.AddYears(2) }
+                            new Aplicacion() { IdAplicacion = "Manager", Nombre = "Account Service", EmailContacto = "michavarg9@gmail.com", Estado = true, PermiteJWT = true, EstadoLlave = true, AlgoritmoDeSeguridad = "HmacSha512", LlaveSecreta = "XYyZhvxK6T5xJO1dfiDOPrE5ZOldILWAGx5aStCYPpv5p495p2TRaoOSSU9Ddm6PvlFu6LUL3ttIUy9K5UHvvGqncNpvZW3c7zUfOpdqnZWl53bEVBwUe8dGbvJ9BSRTA4gDP9UT5ZHoiMw07wvzLcpsybShy1eKl1IGb1nmkGwHJl5EHYYrWCon6GCF30wv3v8jT0fmRY9AxbsRHGWc4ECQe9uy4vtUb0iUzD9vuqQWzxRpkwpptxjDqqBv3Qzy",
+                                               MinutosDeVida = 60, FechaExpiracionLlave = DateTime.Now.AddYears(2) }
                          ); ;
 
             //Insert Role

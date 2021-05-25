@@ -199,8 +199,8 @@ namespace Autenticacion.Infraestructura.Migrations
                             EmailContacto = "michavarg9@gmail.com",
                             Estado = true,
                             EstadoLlave = true,
-                            FechaExpiracionLlave = new DateTime(2023, 5, 23, 10, 1, 17, 707, DateTimeKind.Local).AddTicks(9094),
-                            LlaveSecreta = "Secret_Key",
+                            FechaExpiracionLlave = new DateTime(2023, 5, 24, 22, 32, 28, 735, DateTimeKind.Local).AddTicks(8147),
+                            LlaveSecreta = "XYyZhvxK6T5xJO1dfiDOPrE5ZOldILWAGx5aStCYPpv5p495p2TRaoOSSU9Ddm6PvlFu6LUL3ttIUy9K5UHvvGqncNpvZW3c7zUfOpdqnZWl53bEVBwUe8dGbvJ9BSRTA4gDP9UT5ZHoiMw07wvzLcpsybShy1eKl1IGb1nmkGwHJl5EHYYrWCon6GCF30wv3v8jT0fmRY9AxbsRHGWc4ECQe9uy4vtUb0iUzD9vuqQWzxRpkwpptxjDqqBv3Qzy",
                             MinutosDeVida = 60.0,
                             Nombre = "Account Service",
                             PermiteJWT = true
@@ -253,7 +253,7 @@ namespace Autenticacion.Infraestructura.Migrations
                         new
                         {
                             Id = 1,
-                            ConcurrencyStamp = "2f98f861-d2e4-43a2-ac09-f1e605335952",
+                            ConcurrencyStamp = "48fe9d80-b505-4842-9fc5-a130ccc7a5bf",
                             Descripcion = "Usuario con permisos Full",
                             Display = "PowerUser",
                             IdAplicacion = "Manager",
@@ -263,7 +263,7 @@ namespace Autenticacion.Infraestructura.Migrations
                         new
                         {
                             Id = 2,
-                            ConcurrencyStamp = "a3307ea4-077d-48e9-a5d9-db5b16d2a719",
+                            ConcurrencyStamp = "b3135eb5-1b1e-456b-a357-57952160816b",
                             Descripcion = "Usuario con permisos de Admin",
                             Display = "Administrador",
                             IdAplicacion = "Manager",
@@ -273,7 +273,7 @@ namespace Autenticacion.Infraestructura.Migrations
                         new
                         {
                             Id = 3,
-                            ConcurrencyStamp = "67ebce17-09b4-4d0f-ad24-8b7085ed4ea9",
+                            ConcurrencyStamp = "b37ba6ad-80e7-4d61-814e-eab68817b94e",
                             Descripcion = "Cliente del sistema",
                             Display = "Cliente",
                             IdAplicacion = "Manager",
@@ -283,7 +283,7 @@ namespace Autenticacion.Infraestructura.Migrations
                         new
                         {
                             Id = 4,
-                            ConcurrencyStamp = "dd5a7d54-a1d2-406e-b8e3-e945970ad591",
+                            ConcurrencyStamp = "3fbeaf4e-ce88-447e-b313-6710ed2df4cd",
                             Descripcion = "Proveedor del sistema",
                             Display = "Proveedor",
                             IdAplicacion = "Manager",
@@ -464,7 +464,7 @@ namespace Autenticacion.Infraestructura.Migrations
                             AccessFailedCount = 0,
                             Apellidos = "",
                             Cargo = "Administrador del sistema",
-                            ConcurrencyStamp = "adfe54ba-b549-4839-8ce5-81ec1f4a1aec",
+                            ConcurrencyStamp = "ccc29a99-e332-48c0-9d30-ed197f8c2f81",
                             Description = "Administrador del sistema de autenticación",
                             Email = "admin@admin.org.co",
                             EmailConfirmed = true,

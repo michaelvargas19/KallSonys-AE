@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Autenticacion.API</name>
+    </assembly>
+    <members>
+        <member name="M:Autenticacion.API.Controllers.AplicacionesController.VerRoles(System.String)">
+            <summary>Consultar aplicación</summary>
+            <param name="idAplicacion">Identificador de aplicación</param>
+            <returns>Datos de la aplicación</returns>
+            <response code="200">Solicitud procesada</response>
+            <response code="400">Problemas con la solicitud</response>
+            <response code="401">Falta de permisos</response>
+            <response code="500">Error Interno</response>
+        </member>
+        <member name="M:Autenticacion.API.Controllers.AplicacionesController.CrearAplicacion(Autenticacion.Dominio.Modelo.RequestBase{Autenticacion.Dominio.Modelo.Command.AplicacionCmd})">
+            <summary>Crear nueva aplicación</summary>
+            <param name="request))">Datos de la Aplicación</param>
+            <returns>Aplicación creada</returns>
+            <response code="200">Solicitud procesada</response>
+            <response code="202">Proceso no Completado</response>
+            <response code="400">Problemas con la solicitud</response>
+            <response code="401">Falta de permisos</response>
+            <response code="500">Error Interno</response>
+        </member>
+        <member name="M:Autenticacion.API.Controllers.RolesController.VerRoles(System.String)">
+            <summary>Consultar Roles por aplicación</summary>
+            <param name="idAplicacion">Identificador de aplicación</param>
+            <returns>Roles de la aplicación</returns>
+            <response code="200">Solicitud procesada</response>
+            <response code="400">Problemas con la solicitud</response>
+            <response code="401">Falta de permisos</response>
+            <response code="500">Error Interno</response>
+        </member>
+        <member name="M:Autenticacion.API.Controllers.RolesController.VerRolesPorUsuario(System.String,System.String)">
+            <summary>Consultar Roles de un Usuario</summary>
+            <param name="usuario">Nombre de ususario</param>
+            <param name="idAplicacion">Aplicación</param>
+            <returns>Roles del usuario</returns>
+            <response code="200">Solicitud procesada</response>
+            <response code="400">Problemas con la solicitud</response>
+            <response code="401">Falta de permisos</response>
+            <response code="500">Error Interno</response>
+        </member>
+        <member name="M:Autenticacion.API.Controllers.SesionesController.Post(Autenticacion.Dominio.Modelo.Command.CredencialesLogin)">
+            <summary>Iniciar sesión con usuario y contraseña</summary>
+            <remarks>
+            `Descripción:`
+            
+                Este es el servicio habilitado para el inicio de sesión, apatir de un usuario y contraseña.
+                Los pasos que se ejecutan son:
+                    * Recibir la solicitud de inicio de seción
+                    * Validar existencia de la aplicación y Usuario
+                    * Validar permiso del usuario en la aplicación
+                    * Identificar la información del usuario
+                    * Generar token JWT de sesión
+                    * Retornar el token JWT de la sesión
+             
+            `JSON de respuesta:`
+            ```
+            {
+                 autenticacion":    Indica el resulado del inicio de sesión
+                 tokenJWT":         Token JWT generado
+                 mensaje":          Descripción del resultado
+                 bloqueada":        Indica si la cuenta LDAP está bloqueada
+                 urLdesbloqueo":    URL para desbloquear la cuenta LDAP
+             }
+             ```
+             </remarks>
+            <param name="request">Datos para el inicio de sesión</param>
+            <returns>Token JWT con datos de la sesión</returns>
+            <response code="200">Usuario autenticado</response>
+            <response code="202">Inicio de sesión inválido</response>
+            <response code="203">Cuenta LDAP bloqueada</response>
+            <response code="400">Problemas con la solicitud</response>
+            <response code="401">Falta de permisos</response>
+        </member>
+        <member name="M:Autenticacion.API.Controllers.UsuariosController.CrearUsuario(Autenticacion.Dominio.Modelo.RequestBase{Autenticacion.Dominio.Modelo.Command.UsuarioCmd})">
+            <summary>Crear un nuevo usuario</summary>
+            <param name="request">Datos de Usuario</param>
+            <returns>usuario creado</returns>
+            <response code="200">Solicitud procesada</response>
+            <response code="202">Proceso no Completado</response>
+            <response code="400">Problemas con la solicitud</response>
+            <response code="401">Falta de permisos</response>
+            <response code="500">Error Interno</response>
+        </member>
+        <member name="M:Autenticacion.API.Controllers.UsuariosController.AsignarRol(Autenticacion.Dominio.Modelo.RequestBase{Autenticacion.Dominio.Modelo.Command.AsignarRolUserCmd})">
+            <summary>Asignar un rol a un usuario</summary>
+            <param name="request">Datos de configuración</param>
+            <returns>Resultado del proceso</returns>
+            <response code="200">Solicitud procesada</response>
+            <response code="202">Proceso no Completado</response>
+            <response code="400">Problemas con la solicitud</response>
+            <response code="401">Falta de permisos</response>
+            <response code="500">Error Interno</response>
+        </member>
+        <member name="M:Autenticacion.API.Controllers.UsuariosController.RemoverAsignarRol(Autenticacion.Dominio.Modelo.RequestBase{Autenticacion.Dominio.Modelo.Command.AsignarRolUserCmd})">
+            <summary>Asignar un rol a un usuario</summary>
+            <param name="request">Datos de configuración</param>
+            <returns>Resultado del proceso</returns>
+            <response code="200">Solicitud procesada</response>
+            <response code="202">Proceso no Completado</response>
+            <response code="400">Problemas con la solicitud</response>
+            <response code="401">Falta de permisos</response>
+            <response code="500">Error Interno</response>
+        </member>
+    </members>
+</doc>
