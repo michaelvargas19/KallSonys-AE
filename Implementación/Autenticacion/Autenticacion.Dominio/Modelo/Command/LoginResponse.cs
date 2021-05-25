@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Autenticacion.Dominio.Modelo.Queries;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
@@ -19,6 +20,8 @@ namespace Autenticacion.Dominio.Modelo.Command
         public bool Bloqueado { get; set; }
 
         public string URLdesbloqueo { get; set; }
+
+        public List<RolQuery> Roles { get; set; }
 
     }
 

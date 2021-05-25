@@ -1,4 +1,5 @@
 ﻿using Autenticacion.Dominio.IServices.Command;
+using Autenticacion.Dominio.IServices.Queries;
 using Autenticacion.Dominio.IUnitOfWorks;
 using Autenticacion.Dominio.Modelo.Command;
 using Autenticacion.Dominio.Specification;
@@ -21,15 +22,17 @@ namespace Autenticacion.Dominio.Services.Command
         private readonly string IdApp;
         private readonly string Issuer;
         private readonly IUnitOfWork _ufw;
+        private readonly IRolesServiceQuery _rolesService;
         
         public SesionesService(IConfiguration configuration,
-                               IUnitOfWork ufwAplicacion)
+                               IUnitOfWork ufwAplicacion,
+                               IRolesServiceQuery rolesService)
         {
             
             this.IdApp = configuration["IdentifierAPP:Id"];
             this.Issuer = configuration["JwtConfig:issuer"];
             this._ufw = ufwAplicacion;
-            
+            this._rolesService = rolesService;
         }
 
         public LoginResponse IniciarSesion(CredencialesLogin request)
@@ -37,7 +40,7 @@ namespace Autenticacion.Dominio.Services.Command
             LoginResponse response = new LoginResponse();
             response.Autenticacion = false;
             response.Bloqueado = false;
-
+            
             
             try
             {
@@ -89,6 +92,9 @@ namespace Autenticacion.Dominio.Services.Command
                         response.TokenJWT.Token = jwt;
                         
                         response.Mensaje = "Usuario Autenticado";
+
+                        response.Roles = _rolesService.verRolesPorUsuario_Aplicacion(usuario.UserName, app.IdAplicacion).Roles;
+
                     }
                 }
                 else
