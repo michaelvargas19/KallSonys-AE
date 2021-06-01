@@ -2,7 +2,6 @@ C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.API\obj\Debug\netcorea
 C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.API\obj\Debug\netcoreapp3.1\Catalogos.API.AssemblyInfoInputs.cache
 C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.API\obj\Debug\netcoreapp3.1\Catalogos.API.AssemblyInfo.cs
 C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.API\obj\Debug\netcoreapp3.1\Catalogos.API.csproj.CoreCompileInputs.cache
-C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.API\obj\Debug\netcoreapp3.1\Catalogos.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.API\obj\Debug\netcoreapp3.1\Catalogos.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.API\bin\Debug\netcoreapp3.1\appsettings.json
@@ -61,3 +60,5 @@ C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.API\obj\Debug\netcorea
 C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.API\obj\Debug\netcoreapp3.1\Catalogos.API.pdb
 C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.API\obj\Debug\netcoreapp3.1\Catalogos.API.genruntimeconfig.cache
 C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.API\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.API\obj\Debug\netcoreapp3.1\Catalogos.API.MvcApplicationPartsAssemblyInfo.cs

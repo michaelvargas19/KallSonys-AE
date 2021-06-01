@@ -2,6 +2,7 @@
 using Autenticacion.Dominio.IServices.Queries;
 using Autenticacion.Dominio.IUnitOfWorks;
 using Autenticacion.Dominio.Modelo.Command;
+using Autenticacion.Dominio.Modelo.Queries;
 using Autenticacion.Dominio.Specification;
 using Autenticacion.Infraestructura.Entities;
 using Autenticacion.Infraestructura.IRepositories.Command;
@@ -93,7 +94,26 @@ namespace Autenticacion.Dominio.Services.Command
                         
                         response.Mensaje = "Usuario Autenticado";
 
-                        response.Roles = _rolesService.verRolesPorUsuario_Aplicacion(usuario.UserName, app.IdAplicacion).Roles;
+                        var tipoAuth = _ufw.RepositoryQueryTipoAuth().Find(new TipoAuthSpecification(usuario.IdTipoAuth)).FirstOrDefault();
+
+                        response.DatosUsuario = new UsuarioQuery();
+                        response.DatosUsuario.IdUsuario = usuario.Id;
+                        response.DatosUsuario.Usuario = usuario.UserName;
+                        response.DatosUsuario.Nombres = usuario.Nombres;
+                        response.DatosUsuario.Apellidos = usuario.Apellidos;
+                        response.DatosUsuario.Identificacion = usuario.Identificacion;
+                        response.DatosUsuario.TelefonoMovil = usuario.PhoneNumber;
+                        response.DatosUsuario.Email = usuario.Email;
+                        response.DatosUsuario.IdTipoAuth = usuario.IdTipoAuth;
+                        response.DatosUsuario.TipoAutenticacion = (tipoAuth != null)? tipoAuth.Autenticacion : "";
+                        response.DatosUsuario.Organizacion = usuario.Organizacion;
+                        response.DatosUsuario.Cargo = usuario.Cargo;
+                        response.DatosUsuario.Description = usuario.Description;
+                        response.DatosUsuario.EsExterno = usuario.EsExterno;
+
+                        
+
+                        response.DatosUsuario.Roles = _rolesService.verRolesPorUsuario_Aplicacion(usuario.UserName, app.IdAplicacion).Roles;
 
                     }
                 }

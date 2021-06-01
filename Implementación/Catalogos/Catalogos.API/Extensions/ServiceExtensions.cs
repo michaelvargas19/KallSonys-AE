@@ -1,13 +1,19 @@
-﻿using Catalogos.Dominio.IRepositories;
+﻿using Catalogos.Dominio.IServices.Command;
+using Catalogos.Dominio.IServices.Queries;
 using Catalogos.Dominio.IUnitOfWorks;
-using Catalogos.Dominio.Modelo.Settings;
-using Catalogos.Dominio.Repository;
+using Catalogos.Dominio.Services.Command;
+using Catalogos.Dominio.Services.Queries;
+using Catalogos.Dominio.Util;
+using Catalogos.Infraestructura.IRepositories;
 using Catalogos.Infraestructura.Repositories;
+using Catalogos.Infraestructura.Repository;
+using Catalogos.Infraestructura.SettinsDB;
 using Catalogos.Infraestructura.UnitOfWorks;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
+using Microsoft.VisualBasic.CompilerServices;
 using System;
 using System.IO;
 using System.Reflection;
@@ -41,10 +47,29 @@ namespace Catalogos.API.Extensions
             services.AddSingleton<IMongoDbSettings>(serviceProvider =>
             serviceProvider.GetRequiredService<IOptions<MongoDbSettings>>().Value);
 
+        }
+
+        public static void Configureinterfaces(this IServiceCollection services)
+        {
+            //Services - Command
+            services.AddScoped<ICatalogosServiceCmd, CatalogosServiceCmd>();
+            services.AddScoped<IProductosServiceCmd, ProductosServiceCmd>();
+
+            //Services - Command
+            services.AddScoped<ICatalogosServiceQuery, CatalogosServiceQuery>();
+            services.AddScoped<IProductosServiceQuery, ProductosServiceQuery>();
+
+            //Init of work
+            services.AddScoped(typeof(IUnitOfWork<>), typeof(UnitOfWork<>));
+
+            //BD
             services.AddScoped(typeof(IMongoRepository<>), typeof(MongoRepository<>));
             services.AddScoped<IMongoContext, MongoContext>();
-            services.AddScoped(typeof(IUnitOfWork<>), typeof(UnitOfWork<>));
+
+            //Utils
+            services.AddScoped<IUtils, Dominio.Util.Utils>();
         }
+
 
 
         public static void AddSwagger(this IServiceCollection services)

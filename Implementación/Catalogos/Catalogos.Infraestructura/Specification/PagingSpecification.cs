@@ -1,8 +1,5 @@
-﻿using Catalogos.Dominio.Modelo;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Linq.Expressions;
-using System.Text;
 
 namespace Catalogos.Infraestructura.Specification
 {

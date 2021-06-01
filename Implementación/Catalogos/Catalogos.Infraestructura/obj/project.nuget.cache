@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d30y8Uh+9UDqmabqpSpe8YbNJhmCGWGIfyH71cNDRdsfBYL6P+m2pm7lKRAnb9T/SW9UuO1AwWDNdhJuwxYYDQ==",
+  "dgSpecHash": "LPgPeMBxn+hslXlURva8Uh5N3ieexjo0i/iCYArTraVBgTkx8CGMWNU7oOOeoMx6h33QYKKGnfFzeUbbuuRZbQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Catalogos\\Catalogos.Infraestructura\\Catalogos.Infraestructura.csproj",
+  "projectFilePath": "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Catalogos\\Catalogos.Infraestructura\\Catalogos.Infraestructura.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mavargasb\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\mavargasb\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",

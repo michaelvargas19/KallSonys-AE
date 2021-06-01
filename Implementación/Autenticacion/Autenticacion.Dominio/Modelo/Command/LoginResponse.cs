@@ -21,7 +21,8 @@ namespace Autenticacion.Dominio.Modelo.Command
 
         public string URLdesbloqueo { get; set; }
 
-        public List<RolQuery> Roles { get; set; }
+        public UsuarioQuery DatosUsuario { get; set; }
+
 
     }
 

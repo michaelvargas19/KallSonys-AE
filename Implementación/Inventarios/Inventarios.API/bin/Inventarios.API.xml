@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Inventarios.API</name>
+    </assembly>
+    <members>
+        <member name="M:Inventarios.API.Controllers.CatalogosController.verPaginacion(System.Int32,System.Int32)">
+            <summary>Consultar catálogos paginando</summary>
+            <param name="skip">Cantidad de datos a omitir</param>
+            <param name="take">Cantidad de datos a tomar</param>
+            <returns>Catálogos correspondientes</returns>
+            <response code="200">Solicitud procesada</response>
+            <response code="202">Solicitud no procesada</response>
+            <response code="400">Problemas con la solicitud</response>
+            <response code="401">Falta de permisos</response>
+            <response code="500">Error Interno</response>
+        </member>
+        <member name="M:Inventarios.API.Controllers.CatalogosController.CrearCatalogo(Inventarios.Dominio.Modelo.RequestBase{Inventarios.Dominio.Modelo.Command.CatalogoCmd})">
+            <summary>Crear un catálogo</summary>
+            <param name="request">Datos de la solicitud</param>
+            <returns>Catalogo Creado</returns>
+            <response code="200">Solicitud procesada</response>
+            <response code="202">Solicitud no procesada</response>
+            <response code="400">Problemas con la solicitud</response>
+            <response code="401">Falta de permisos</response>
+            <response code="500">Error Interno</response>
+        </member>
+        <member name="M:Inventarios.API.Controllers.CatalogosController.ActualizarCatalogo(Inventarios.Dominio.Modelo.RequestBase{Inventarios.Dominio.Modelo.Command.CatalogoCmd})">
+            <summary>Actualizar un catálogo</summary>
+            <param name="request">Datos de la solicitud</param>
+            <returns>Catálogo Actualizado</returns>
+            <response code="200">Solicitud procesada</response>
+            <response code="202">Solicitud no procesada</response>
+            <response code="400">Problemas con la solicitud</response>
+            <response code="401">Falta de permisos</response>
+            <response code="500">Error Interno</response>
+        </member>
+        <member name="M:Inventarios.API.Controllers.InventariosController.ConsultarDisponibilidadSKUs(System.String[])">
+            <summary>Consultar disponibilidad en almacen de un producto</summary>
+            <param name="sku">Códigos SKU de los productos</param>
+            <response code="200">Resultado de disponibilidad en almacen</response>
+            <response code="202">Han habido problemas en la creación</response>
+            <response code="400">Problemas con la solicitud</response>
+            <response code="401">Falta de permisos</response>
+        </member>
+        <member name="M:Inventarios.API.Controllers.InventariosController.ConsultarDisponibilidadSKU(System.String)">
+            <summary>Consultar disponibilidad en almacen de un producto</summary>
+            <param name="sku">Código SKU del producto</param>
+            <response code="200">Resultado de disponibilidad en almacen</response>
+            <response code="202">Han habido problemas en la creación</response>
+            <response code="400">Problemas con la solicitud</response>
+            <response code="401">Falta de permisos</response>
+        </member>
+        <member name="M:Inventarios.API.Controllers.KafkaController.ProbarKafka(Inventarios.Dominio.Modelo.EventBase{System.Collections.Generic.List{Inventarios.Dominio.Modelo.Command.VentaCmd}})">
+            <summary>Crear un catálogo</summary>
+            <param name="sku">SKU del producto</param>
+            <param name="cantidad">Datos de la solicitud</param>
+            <returns>Catalogo Creado</returns>
+            <response code="200">Solicitud procesada</response>
+            <response code="202">Solicitud no procesada</response>
+            <response code="400">Problemas con la solicitud</response>
+            <response code="401">Falta de permisos</response>
+            <response code="500">Error Interno</response>
+        </member>
+        <member name="M:Inventarios.API.Controllers.ProductosController.verPaginacion(System.Int32,System.Int32)">
+            <summary>Consultar productos paginandos</summary>
+            <param name="skip">Cantidad de datos a omitir</param>
+            <param name="take">Cantidad de datos a tomar</param>
+            <returns>Productos correspondientes</returns>
+            <response code="200">Solicitud procesada</response>
+            <response code="202">Solicitud no procesada</response>
+            <response code="400">Problemas con la solicitud</response>
+            <response code="401">Falta de permisos</response>
+            <response code="500">Error Interno</response>
+        </member>
+        <member name="M:Inventarios.API.Controllers.ProductosController.verRankingCatalogo(System.String,System.Int32,System.Int32)">
+            <summary>Consultar ranking de productos</summary>
+            <param name="codigo">Código del catálogo</param>
+            <param name="skip">Cantidad de datos a omitir</param>
+            <param name="take">Cantidad de datos a tomar</param>
+            <returns>Productos correspondientes</returns>
+            <response code="200">Solicitud procesada</response>
+            <response code="202">Solicitud no procesada</response>
+            <response code="400">Problemas con la solicitud</response>
+            <response code="401">Falta de permisos</response>
+            <response code="500">Error Interno</response>
+        </member>
+        <member name="M:Inventarios.API.Controllers.ProductosController.AgregarProducto(Inventarios.Dominio.Modelo.RequestBase{Inventarios.Dominio.Modelo.Command.ProductoCmd})">
+            <summary>Agregar un producto</summary>
+            <param name="request">Datos de la solicitud</param>
+            <returns>Producto Agregado</returns>
+            <response code="200">Solicitud procesada</response>
+            <response code="400">Problemas con la solicitud</response>
+            <response code="401">Falta de permisos</response>
+            <response code="500">Error Interno</response>
+        </member>
+        <member name="M:Inventarios.API.Controllers.ProductosController.ActualizarProducto(Inventarios.Dominio.Modelo.RequestBase{Inventarios.Dominio.Modelo.Command.ProductoCmd})">
+            <summary>Actualizar un producto</summary>
+            <param name="request">Datos de la solicitud</param>
+            <returns>Producto Actualizadp</returns>
+            <response code="200">Solicitud procesada</response>
+            <response code="400">Problemas con la solicitud</response>
+            <response code="401">Falta de permisos</response>
+            <response code="500">Error Interno</response>
+        </member>
+    </members>
+</doc>

@@ -4,5 +4,92 @@
         <name>Catalogos.API</name>
     </assembly>
     <members>
+        <member name="M:Catalogos.API.Controllers.CatalogosController.verPaginacion(System.Int32,System.Int32)">
+            <summary>Consultar catálogos paginando</summary>
+            <param name="skip">Cantidad de datos a omitir</param>
+            <param name="take">Cantidad de datos a tomar</param>
+            <returns>Catálogos correspondientes</returns>
+            <response code="200">Solicitud procesada</response>
+            <response code="202">Solicitud no procesada</response>
+            <response code="400">Problemas con la solicitud</response>
+            <response code="401">Falta de permisos</response>
+            <response code="500">Error Interno</response>
+        </member>
+        <member name="M:Catalogos.API.Controllers.CatalogosController.verCatalogo(System.String)">
+            <summary>Consultar catálogo con el código</summary>
+            <param name="codigo">Código del cátalogo</param>
+            <returns>Catálogo correspondiente</returns>
+            <response code="200">Solicitud procesada</response>
+            <response code="202">Solicitud no procesada</response>
+            <response code="400">Problemas con la solicitud</response>
+            <response code="401">Falta de permisos</response>
+            <response code="500">Error Interno</response>
+        </member>
+        <member name="M:Catalogos.API.Controllers.ProductosController.verPaginacion(System.Int32,System.Int32)">
+            <summary>Consultar productos paginandos</summary>
+            <param name="skip">Cantidad de datos a omitir</param>
+            <param name="take">Cantidad de datos a tomar</param>
+            <returns>Productos correspondientes</returns>
+            <response code="200">Solicitud procesada</response>
+            <response code="202">Solicitud no procesada</response>
+            <response code="400">Problemas con la solicitud</response>
+            <response code="401">Falta de permisos</response>
+            <response code="500">Error Interno</response>
+        </member>
+        <member name="M:Catalogos.API.Controllers.ProductosController.verRankingCatalogo(System.String,System.Int32,System.Int32)">
+            <summary>Consultar ranking de productos</summary>
+            <param name="codigo">Código del catálogo</param>
+            <param name="skip">Cantidad de datos a omitir</param>
+            <param name="take">Cantidad de datos a tomar</param>
+            <returns>Productos correspondientes</returns>
+            <response code="200">Solicitud procesada</response>
+            <response code="202">Solicitud no procesada</response>
+            <response code="400">Problemas con la solicitud</response>
+            <response code="401">Falta de permisos</response>
+            <response code="500">Error Interno</response>
+        </member>
+        <member name="M:Catalogos.API.Controllers.ProductosController.verRankingFullText(System.String,System.Int32,System.Int32)">
+            <summary>Consultar productos por texto</summary>
+            <param name="texto">Texto de búsqueda</param>
+            <param name="skip">Cantidad de datos a omitir</param>
+            <param name="take">Cantidad de datos a tomar</param>
+            <returns>Productos encontrados</returns>
+            <response code="200">Solicitud procesada</response>
+            <response code="202">Solicitud no procesada</response>
+            <response code="400">Problemas con la solicitud</response>
+            <response code="401">Falta de permisos</response>
+            <response code="500">Error Interno</response>
+        </member>
+        <member name="M:Catalogos.API.Controllers.ProductosController.verRankingMarca(System.String,System.Int32,System.Int32)">
+            <summary>Consultar productos por marca</summary>
+            <param name="marca">Marca de búsqueda</param>
+            <param name="skip">Cantidad de datos a omitir</param>
+            <param name="take">Cantidad de datos a tomar</param>
+            <returns>Productos encontrados</returns>
+            <response code="200">Solicitud procesada</response>
+            <response code="202">Solicitud no procesada</response>
+            <response code="400">Problemas con la solicitud</response>
+            <response code="401">Falta de permisos</response>
+            <response code="500">Error Interno</response>
+        </member>
+        <member name="M:Catalogos.API.Controllers.ProductosController.VerProductoPorId(System.String)">
+            <summary>Consultar producto por Id</summary>
+            <param name="codigo">Código del producto</param>
+            <returns>Detalles del Producto</returns>
+            <response code="200">Solicitud procesada</response>
+            <response code="202">Solicitud no procesada</response>
+            <response code="400">Problemas con la solicitud</response>
+            <response code="401">Falta de permisos</response>
+            <response code="500">Error Interno</response>
+        </member>
+        <member name="M:Catalogos.API.Controllers.ProductosController.VerProductoPorSKU(System.String)">
+            <summary>Consultar producto por Id</summary>
+            <param name="sku">Código SKU del producto</param>
+            <returns>Detalles del Producto</returns>
+            <response code="200">Solicitud procesada</response>
+            <response code="400">Problemas con la solicitud</response>
+            <response code="401">Falta de permisos</response>
+            <response code="500">Error Interno</response>
+        </member>
     </members>
 </doc>

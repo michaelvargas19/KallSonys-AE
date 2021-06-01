@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "rn9iQqeD8iCwXhbN+UvVxEGA1e7Uf1EA0ZtvjeknOI23WOmPOHcFPZtXrU78xg7UILIBw4vDvV4hcqHupkh+8g==",
+  "dgSpecHash": "MMYTHTrKHK5fgw21mDj6bjR7qEVOyg5CsNwGRWaFTZMvkPdebOQbqIBYRI1munkZNws2yl+BmXkDSdoWxbG1Gg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Catalogos\\Catalogos.Dominio\\Catalogos.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Catalogos\\Catalogos.Dominio\\Catalogos.Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mavargasb\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
+    "C:\\Users\\mavargasb\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\mavargasb\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\mavargasb\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\mavargasb\\.nuget\\packages\\mongodb.bson\\2.12.2\\mongodb.bson.2.12.2.nupkg.sha512",
     "C:\\Users\\mavargasb\\.nuget\\packages\\mongodb.driver\\2.12.2\\mongodb.driver.2.12.2.nupkg.sha512",

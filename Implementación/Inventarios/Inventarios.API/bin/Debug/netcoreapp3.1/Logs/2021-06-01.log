@@ -1,0 +1,2682 @@
+2021-06-01 10:23:56.1860|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 10:23:56.3176|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 10:23:56.3404|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 10:24:00.9448|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:24:00 a. m.
+
+2021-06-01 10:24:00.9588|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @0' 
+
+2021-06-01 10:24:01.6665|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 76' 
+
+
+
+2021-06-01 10:24:01.6835|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:24:01 a. m.
+
+2021-06-01 10:24:01.6919|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @1' 
+
+2021-06-01 10:24:01.8355|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 76' 
+
+
+
+2021-06-01 10:24:01.8487|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:24:01 a. m.
+
+2021-06-01 10:24:01.8568|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @2' 
+
+2021-06-01 10:24:02.0906|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:24:02.1169|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:24:02 a. m.
+
+2021-06-01 10:24:02.1264|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @3' 
+
+2021-06-01 10:24:02.2015|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:24:02.2015|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:24:02 a. m.
+
+2021-06-01 10:24:02.2185|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @4' 
+
+2021-06-01 10:24:02.3044|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:24:02.3245|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:24:02 a. m.
+
+2021-06-01 10:24:02.3312|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @5' 
+
+2021-06-01 10:24:02.4168|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:24:02.4305|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:24:02 a. m.
+
+2021-06-01 10:24:02.4367|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @6' 
+
+2021-06-01 10:24:02.5294|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:24:02.5550|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:24:02 a. m.
+
+2021-06-01 10:24:02.5714|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @7' 
+
+2021-06-01 10:24:02.6610|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:24:02.6783|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:24:02 a. m.
+
+2021-06-01 10:24:02.6867|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @8' 
+
+2021-06-01 10:24:02.7619|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:24:02.7734|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:24:02 a. m.
+
+2021-06-01 10:24:02.7821|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":null,"Fecha":"2021-06-01T02:21:28.2993702-05:00","Data":[{"SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta [[5]] @9' 
+
+2021-06-01 10:25:10.7470|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:25:10 a. m.
+
+2021-06-01 10:25:10.7997|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @0' 
+
+2021-06-01 10:25:10.9765|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:25:11.0037|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:25:10 a. m.
+
+2021-06-01 10:25:11.0125|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @1' 
+
+2021-06-01 10:25:11.1824|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:29:30.4880|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 10:29:30.6531|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 10:29:30.6686|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 10:29:35.1958|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:29:35 a. m.
+
+2021-06-01 10:29:35.2086|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @0' 
+
+2021-06-01 10:29:35.9360|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 76' 
+
+
+
+2021-06-01 10:29:35.9360|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:29:35 a. m.
+
+2021-06-01 10:29:35.9581|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @1' 
+
+2021-06-01 10:29:36.1369|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 76' 
+
+
+
+2021-06-01 10:29:36.1633|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:29:36 a. m.
+
+2021-06-01 10:29:36.1738|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @2' 
+
+2021-06-01 10:29:36.4090|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:29:36.4198|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:29:36 a. m.
+
+2021-06-01 10:29:36.4198|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @3' 
+
+2021-06-01 10:29:36.5221|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:29:36.5446|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:29:36 a. m.
+
+2021-06-01 10:29:36.5446|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @4' 
+
+2021-06-01 10:29:36.6523|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:29:36.6713|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:29:36 a. m.
+
+2021-06-01 10:29:36.6713|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @5' 
+
+2021-06-01 10:29:36.7542|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:29:36.7651|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:29:36 a. m.
+
+2021-06-01 10:29:36.7651|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @6' 
+
+2021-06-01 10:29:36.8476|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:29:36.8677|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:29:36 a. m.
+
+2021-06-01 10:29:36.8761|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @7' 
+
+2021-06-01 10:29:36.9585|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:29:36.9757|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:29:36 a. m.
+
+2021-06-01 10:29:36.9835|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @8' 
+
+2021-06-01 10:29:37.0610|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:29:37.0610|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:29:37 a. m.
+
+2021-06-01 10:29:37.0782|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":null,"Fecha":"2021-06-01T02:21:28.2993702-05:00","Data":[{"SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta [[5]] @9' 
+
+2021-06-01 10:29:40.7323|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:29:40 a. m.
+
+2021-06-01 10:29:40.7323|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @0' 
+
+2021-06-01 10:29:40.9116|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:29:40.9226|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:29:40 a. m.
+
+2021-06-01 10:29:40.9226|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @1' 
+
+2021-06-01 10:29:41.0371|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:30:49.0116|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 10:30:49.1642|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 10:30:49.1798|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 10:30:53.6451|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:30:53 a. m.
+
+2021-06-01 10:30:53.6855|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @0' 
+
+2021-06-01 10:30:55.0603|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 76' 
+
+
+
+2021-06-01 10:30:55.0603|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:30:55 a. m.
+
+2021-06-01 10:30:55.0792|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @1' 
+
+2021-06-01 10:30:55.2411|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 76' 
+
+
+
+2021-06-01 10:30:55.2639|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:30:55 a. m.
+
+2021-06-01 10:30:55.2639|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @2' 
+
+2021-06-01 10:30:55.5632|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:30:55.6158|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:30:55 a. m.
+
+2021-06-01 10:30:55.6987|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @3' 
+
+2021-06-01 10:30:55.8072|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:30:55.8293|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:30:55 a. m.
+
+2021-06-01 10:30:55.8293|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @4' 
+
+2021-06-01 10:30:55.9895|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:30:56.0352|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:30:56 a. m.
+
+2021-06-01 10:30:56.0630|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @5' 
+
+2021-06-01 10:30:56.1442|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:30:56.1545|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:30:56 a. m.
+
+2021-06-01 10:30:56.1545|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @6' 
+
+2021-06-01 10:30:56.2597|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:30:56.2777|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:30:56 a. m.
+
+2021-06-01 10:30:56.2777|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @7' 
+
+2021-06-01 10:30:56.3487|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:30:56.3606|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:30:56 a. m.
+
+2021-06-01 10:30:56.3606|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @8' 
+
+2021-06-01 10:30:56.4363|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:30:56.4363|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:30:56 a. m.
+
+2021-06-01 10:30:56.4518|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":null,"Fecha":"2021-06-01T02:21:28.2993702-05:00","Data":[{"SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta [[5]] @9' 
+
+2021-06-01 10:30:58.9385|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Hay productos no disponibles'  STACKTRACE:  '   at Inventarios.Dominio.Services.Command.InventariosServiceCmd.ProcesarVenta(EventBase`1 eventoVenta) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.Dominio\Services\Command\InventariosServiceCmd.cs:line 98
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 82' 
+
+
+
+2021-06-01 10:30:58.9628|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:30:58 a. m.
+
+2021-06-01 10:30:58.9708|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @0' 
+
+2021-06-01 10:30:59.0642|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:30:59.0798|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:30:59 a. m.
+
+2021-06-01 10:30:59.0944|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @1' 
+
+2021-06-01 10:30:59.1784|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:31:54.5215|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 10:31:54.6481|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 10:31:54.6578|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 10:31:58.4812|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:31:58 a. m.
+
+2021-06-01 10:31:58.4812|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @0' 
+
+2021-06-01 10:31:58.7990|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:31:58.7990|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:31:58 a. m.
+
+2021-06-01 10:31:58.8122|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @1' 
+
+2021-06-01 10:31:58.8652|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:31:58.8755|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:31:58 a. m.
+
+2021-06-01 10:31:58.8755|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @0' 
+
+2021-06-01 10:31:58.9962|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 76' 
+
+
+
+2021-06-01 10:31:59.0059|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:31:59 a. m.
+
+2021-06-01 10:31:59.0059|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @1' 
+
+2021-06-01 10:31:59.1155|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 76' 
+
+
+
+2021-06-01 10:31:59.1241|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:31:59 a. m.
+
+2021-06-01 10:31:59.1241|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @2' 
+
+2021-06-01 10:31:59.2311|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:31:59.2377|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:31:59 a. m.
+
+2021-06-01 10:31:59.2377|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @3' 
+
+2021-06-01 10:31:59.3145|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:31:59.3243|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:31:59 a. m.
+
+2021-06-01 10:31:59.3243|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @4' 
+
+2021-06-01 10:31:59.3900|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:31:59.3900|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:31:59 a. m.
+
+2021-06-01 10:31:59.4075|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @5' 
+
+2021-06-01 10:31:59.4673|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:31:59.4837|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:31:59 a. m.
+
+2021-06-01 10:31:59.4837|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @6' 
+
+2021-06-01 10:31:59.5513|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:31:59.5649|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:31:59 a. m.
+
+2021-06-01 10:31:59.5649|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @7' 
+
+2021-06-01 10:31:59.6332|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:31:59.6434|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:31:59 a. m.
+
+2021-06-01 10:31:59.6434|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @8' 
+
+2021-06-01 10:31:59.7020|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:31:59.7020|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:31:59 a. m.
+
+2021-06-01 10:31:59.7160|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":null,"Fecha":"2021-06-01T02:21:28.2993702-05:00","Data":[{"SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta [[5]] @9' 
+
+2021-06-01 10:32:01.7051|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Hay productos no disponibles'  STACKTRACE:  '   at Inventarios.Dominio.Services.Command.InventariosServiceCmd.ProcesarVenta(EventBase`1 eventoVenta) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.Dominio\Services\Command\InventariosServiceCmd.cs:line 98
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 82' 
+
+
+
+2021-06-01 10:34:01.6178|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 10:34:01.7158|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 10:34:01.7158|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 10:34:05.8017|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:34:05 a. m.
+
+2021-06-01 10:34:05.8017|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @0' 
+
+2021-06-01 10:34:06.1269|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 76' 
+
+
+
+2021-06-01 10:34:06.1269|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:34:06 a. m.
+
+2021-06-01 10:34:06.1401|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @1' 
+
+2021-06-01 10:34:06.2417|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 76' 
+
+
+
+2021-06-01 10:34:06.2605|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:34:06 a. m.
+
+2021-06-01 10:34:06.2654|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @2' 
+
+2021-06-01 10:34:06.3822|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:34:06.3892|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:34:06 a. m.
+
+2021-06-01 10:34:06.3892|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @3' 
+
+2021-06-01 10:34:06.4401|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:34:06.4401|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:34:06 a. m.
+
+2021-06-01 10:34:06.4536|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @4' 
+
+2021-06-01 10:34:06.5074|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:34:06.5151|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:34:06 a. m.
+
+2021-06-01 10:34:06.5151|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @5' 
+
+2021-06-01 10:34:06.5752|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:34:06.5752|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:34:06 a. m.
+
+2021-06-01 10:34:06.5933|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @6' 
+
+2021-06-01 10:34:06.6448|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:34:06.6535|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:34:06 a. m.
+
+2021-06-01 10:34:06.6535|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @7' 
+
+2021-06-01 10:34:06.7070|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:34:06.7070|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:34:06 a. m.
+
+2021-06-01 10:34:06.7195|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @8' 
+
+2021-06-01 10:34:06.7694|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:34:06.7694|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:34:06 a. m.
+
+2021-06-01 10:34:06.7802|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":null,"Fecha":"2021-06-01T02:21:28.2993702-05:00","Data":[{"SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta [[5]] @9' 
+
+2021-06-01 10:34:24.3107|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:34:24 a. m.
+
+2021-06-01 10:34:24.3107|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @0' 
+
+2021-06-01 10:34:24.3570|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:34:24.3570|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:34:24 a. m.
+
+2021-06-01 10:34:24.3570|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @1' 
+
+2021-06-01 10:34:24.4025|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:47:16.8802|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 10:47:16.9495|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 10:47:16.9662|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 10:47:21.7804|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:47:21 a. m.
+
+2021-06-01 10:47:21.7804|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @0' 
+
+2021-06-01 10:47:22.0593|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:47:22.0593|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:47:22 a. m.
+
+2021-06-01 10:47:22.0593|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @1' 
+
+2021-06-01 10:47:22.1150|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:47:22.1262|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:47:22 a. m.
+
+2021-06-01 10:47:22.1262|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @0' 
+
+2021-06-01 10:47:22.2161|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 76' 
+
+
+
+2021-06-01 10:47:22.2161|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:47:22 a. m.
+
+2021-06-01 10:47:22.2161|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @1' 
+
+2021-06-01 10:47:22.3161|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 76' 
+
+
+
+2021-06-01 10:47:22.3161|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:47:22 a. m.
+
+2021-06-01 10:47:22.3281|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @2' 
+
+2021-06-01 10:47:22.4046|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:47:22.4046|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:47:22 a. m.
+
+2021-06-01 10:47:22.4046|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @3' 
+
+2021-06-01 10:47:22.4662|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:47:22.4662|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:47:22 a. m.
+
+2021-06-01 10:47:22.4662|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @4' 
+
+2021-06-01 10:47:22.5263|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:47:22.5367|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:47:22 a. m.
+
+2021-06-01 10:47:22.5367|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @5' 
+
+2021-06-01 10:47:22.5994|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:47:22.5994|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:47:22 a. m.
+
+2021-06-01 10:47:22.6102|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @6' 
+
+2021-06-01 10:47:22.6571|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:47:22.6571|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:47:22 a. m.
+
+2021-06-01 10:47:22.6698|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @7' 
+
+2021-06-01 10:47:22.7204|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:47:22.7204|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:47:22 a. m.
+
+2021-06-01 10:47:22.7325|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @8' 
+
+2021-06-01 10:47:22.7822|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:47:22.7960|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:47:22 a. m.
+
+2021-06-01 10:47:22.7960|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":null,"Fecha":"2021-06-01T02:21:28.2993702-05:00","Data":[{"SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta [[5]] @9' 
+
+2021-06-01 10:49:46.5220|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 10:49:46.5866|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 10:49:46.5966|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 10:49:50.5629|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:49:50 a. m.
+
+2021-06-01 10:49:50.5629|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @0' 
+
+2021-06-01 10:49:50.8393|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:49:50.8452|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:49:50 a. m.
+
+2021-06-01 10:49:50.8452|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @1' 
+
+2021-06-01 10:49:50.8967|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:49:50.9094|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:49:50 a. m.
+
+2021-06-01 10:49:50.9094|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @0' 
+
+2021-06-01 10:49:50.9994|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 76' 
+
+
+
+2021-06-01 10:49:50.9994|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:49:51 a. m.
+
+2021-06-01 10:49:50.9994|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @1' 
+
+2021-06-01 10:49:51.0936|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 76' 
+
+
+
+2021-06-01 10:49:51.0936|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:49:51 a. m.
+
+2021-06-01 10:49:51.1068|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @2' 
+
+2021-06-01 10:49:51.1836|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:49:51.1836|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:49:51 a. m.
+
+2021-06-01 10:49:51.1836|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @3' 
+
+2021-06-01 10:49:51.2388|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:49:51.2388|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:49:51 a. m.
+
+2021-06-01 10:49:51.2481|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @4' 
+
+2021-06-01 10:49:51.2939|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:49:51.2939|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:49:51 a. m.
+
+2021-06-01 10:49:51.2939|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @5' 
+
+2021-06-01 10:49:51.3467|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:49:51.3595|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:49:51 a. m.
+
+2021-06-01 10:49:51.3595|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @6' 
+
+2021-06-01 10:49:51.4083|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:49:51.4083|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:49:51 a. m.
+
+2021-06-01 10:49:51.4187|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @7' 
+
+2021-06-01 10:49:51.4651|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:49:51.4728|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:49:51 a. m.
+
+2021-06-01 10:49:51.4728|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @8' 
+
+2021-06-01 10:49:51.5256|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:49:51.5318|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:49:51 a. m.
+
+2021-06-01 10:49:51.5318|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":null,"Fecha":"2021-06-01T02:21:28.2993702-05:00","Data":[{"SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta [[5]] @9' 
+
+2021-06-01 10:57:47.2116|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 10:57:47.3158|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 10:57:47.3258|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 10:57:51.6682|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:57:51 a. m.
+
+2021-06-01 10:57:51.6738|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @0' 
+
+2021-06-01 10:57:51.9580|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:57:51.9662|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:57:51 a. m.
+
+2021-06-01 10:57:51.9662|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @1' 
+
+2021-06-01 10:57:52.0154|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:57:52.0154|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:57:52 a. m.
+
+2021-06-01 10:57:52.0305|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @0' 
+
+2021-06-01 10:57:52.1443|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 76' 
+
+
+
+2021-06-01 10:57:52.1443|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:57:52 a. m.
+
+2021-06-01 10:57:52.1565|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @1' 
+
+2021-06-01 10:57:52.2668|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 76' 
+
+
+
+2021-06-01 10:57:52.2668|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:57:52 a. m.
+
+2021-06-01 10:57:52.2813|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @2' 
+
+2021-06-01 10:57:52.3786|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:57:52.3786|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:57:52 a. m.
+
+2021-06-01 10:57:52.3896|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @3' 
+
+2021-06-01 10:57:52.4349|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:57:52.4349|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:57:52 a. m.
+
+2021-06-01 10:57:52.4349|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @4' 
+
+2021-06-01 10:57:52.4888|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:57:52.4888|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:57:52 a. m.
+
+2021-06-01 10:57:52.5005|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @5' 
+
+2021-06-01 10:57:52.5474|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:57:52.5474|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:57:52 a. m.
+
+2021-06-01 10:57:52.5634|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @6' 
+
+2021-06-01 10:57:52.6064|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:57:52.6064|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:57:52 a. m.
+
+2021-06-01 10:57:52.6064|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @7' 
+
+2021-06-01 10:57:52.6605|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:57:52.6605|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:57:52 a. m.
+
+2021-06-01 10:57:52.6692|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @8' 
+
+2021-06-01 10:57:52.7102|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 10:57:52.7162|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 10:57:52 a. m.
+
+2021-06-01 10:57:52.7162|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":null,"Fecha":"2021-06-01T02:21:28.2993702-05:00","Data":[{"SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta [[5]] @9' 
+
+2021-06-01 11:03:19.4390|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 11:03:19.5149|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 11:03:19.5149|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 11:03:24.0547|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:03:24 a. m.
+
+2021-06-01 11:03:24.0615|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @0' 
+
+2021-06-01 11:03:24.3359|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 76' 
+
+
+
+2021-06-01 11:03:24.3418|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:03:24 a. m.
+
+2021-06-01 11:03:24.3418|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @1' 
+
+2021-06-01 11:03:24.4308|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 76' 
+
+
+
+2021-06-01 11:03:24.4432|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:03:24 a. m.
+
+2021-06-01 11:03:24.4432|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @2' 
+
+2021-06-01 11:03:24.5506|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:03:24.5506|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:03:24 a. m.
+
+2021-06-01 11:03:24.5616|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @3' 
+
+2021-06-01 11:03:24.6058|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:03:24.6058|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:03:24 a. m.
+
+2021-06-01 11:03:24.6058|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @4' 
+
+2021-06-01 11:03:24.6629|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:03:24.6695|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:03:24 a. m.
+
+2021-06-01 11:03:24.6695|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @5' 
+
+2021-06-01 11:03:24.7148|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:03:24.7148|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:03:24 a. m.
+
+2021-06-01 11:03:24.7148|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @6' 
+
+2021-06-01 11:03:24.7712|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:03:24.7712|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:03:24 a. m.
+
+2021-06-01 11:03:24.7817|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @7' 
+
+2021-06-01 11:03:24.8233|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:03:24.8294|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:03:24 a. m.
+
+2021-06-01 11:03:24.8294|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @8' 
+
+2021-06-01 11:03:24.8754|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:03:24.8754|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:03:24 a. m.
+
+2021-06-01 11:03:24.8754|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":null,"Fecha":"2021-06-01T02:21:28.2993702-05:00","Data":[{"SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta [[5]] @9' 
+
+2021-06-01 11:03:27.2632|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:03:27 a. m.
+
+2021-06-01 11:03:27.2632|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @0' 
+
+2021-06-01 11:03:27.3094|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:03:27.3094|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:03:27 a. m.
+
+2021-06-01 11:03:27.3094|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @1' 
+
+2021-06-01 11:03:27.3586|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:04:23.6098|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 11:04:23.6797|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 11:04:23.7033|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 11:04:28.2975|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:04:28 a. m.
+
+2021-06-01 11:04:28.2975|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @0' 
+
+2021-06-01 11:04:28.5827|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 76' 
+
+
+
+2021-06-01 11:04:28.5911|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:04:28 a. m.
+
+2021-06-01 11:04:28.5911|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @1' 
+
+2021-06-01 11:04:28.6765|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 76' 
+
+
+
+2021-06-01 11:04:28.6886|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:04:28 a. m.
+
+2021-06-01 11:04:28.6886|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @2' 
+
+2021-06-01 11:04:28.7910|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:04:28.7968|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:04:28 a. m.
+
+2021-06-01 11:04:28.7968|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @3' 
+
+2021-06-01 11:04:28.8422|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:04:28.8422|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:04:28 a. m.
+
+2021-06-01 11:04:28.8422|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @4' 
+
+2021-06-01 11:04:28.8993|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:04:28.9068|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:04:28 a. m.
+
+2021-06-01 11:04:28.9068|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @5' 
+
+2021-06-01 11:04:28.9545|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:04:28.9663|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:04:28 a. m.
+
+2021-06-01 11:04:28.9663|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @6' 
+
+2021-06-01 11:04:29.0120|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:04:29.0173|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:04:29 a. m.
+
+2021-06-01 11:04:29.0173|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @7' 
+
+2021-06-01 11:04:29.0611|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:04:29.0611|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:04:29 a. m.
+
+2021-06-01 11:04:29.0611|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @8' 
+
+2021-06-01 11:04:29.1093|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:04:29.1093|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:04:29 a. m.
+
+2021-06-01 11:04:29.1093|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":null,"Fecha":"2021-06-01T02:21:28.2993702-05:00","Data":[{"SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta [[5]] @9' 
+
+2021-06-01 11:04:31.5034|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:04:31 a. m.
+
+2021-06-01 11:04:31.5034|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @0' 
+
+2021-06-01 11:04:31.5508|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:04:31.5508|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:04:31 a. m.
+
+2021-06-01 11:04:31.5616|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @1' 
+
+2021-06-01 11:04:31.5980|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:09:13.8625|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 11:09:13.9456|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 11:09:13.9553|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 11:09:18.2114|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:09:18 a. m.
+
+2021-06-01 11:09:18.2213|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @0' 
+
+2021-06-01 11:09:18.5077|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 76' 
+
+
+
+2021-06-01 11:09:18.5127|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:09:18 a. m.
+
+2021-06-01 11:09:18.5127|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @1' 
+
+2021-06-01 11:09:18.5921|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 76' 
+
+
+
+2021-06-01 11:09:18.5921|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:09:18 a. m.
+
+2021-06-01 11:09:18.6085|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @2' 
+
+2021-06-01 11:09:18.6985|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:09:18.7050|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:09:18 a. m.
+
+2021-06-01 11:09:18.7050|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @3' 
+
+2021-06-01 11:09:18.7471|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:09:18.7471|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:09:18 a. m.
+
+2021-06-01 11:09:18.7471|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @4' 
+
+2021-06-01 11:09:18.7960|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:09:18.7960|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:09:18 a. m.
+
+2021-06-01 11:09:18.7960|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @5' 
+
+2021-06-01 11:09:18.8503|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:09:18.8626|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:09:18 a. m.
+
+2021-06-01 11:09:18.8626|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @6' 
+
+2021-06-01 11:09:18.9160|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:09:18.9261|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:09:18 a. m.
+
+2021-06-01 11:09:18.9261|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @7' 
+
+2021-06-01 11:09:18.9771|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:09:18.9842|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:09:18 a. m.
+
+2021-06-01 11:09:18.9842|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @8' 
+
+2021-06-01 11:09:19.0402|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:09:19.0473|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:09:19 a. m.
+
+2021-06-01 11:09:19.0473|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":null,"Fecha":"2021-06-01T02:21:28.2993702-05:00","Data":[{"SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta [[5]] @9' 
+
+2021-06-01 11:09:21.4076|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:09:21 a. m.
+
+2021-06-01 11:09:21.4076|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @0' 
+
+2021-06-01 11:09:21.4582|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:09:21.4582|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:09:21 a. m.
+
+2021-06-01 11:09:21.4670|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @1' 
+
+2021-06-01 11:09:21.5065|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:14:48.5599|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 11:14:48.6785|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 11:14:48.6856|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 11:14:53.2687|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:14:53 a. m.
+
+2021-06-01 11:14:53.2687|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @0' 
+
+2021-06-01 11:14:53.5177|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:14:53.5177|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:14:53 a. m.
+
+2021-06-01 11:14:53.5292|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @1' 
+
+2021-06-01 11:14:53.5711|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:14:53.5810|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:14:53 a. m.
+
+2021-06-01 11:14:53.5810|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @0' 
+
+2021-06-01 11:14:53.6700|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 76' 
+
+
+
+2021-06-01 11:14:53.6700|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:14:53 a. m.
+
+2021-06-01 11:14:53.6700|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @1' 
+
+2021-06-01 11:14:53.7607|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 76' 
+
+
+
+2021-06-01 11:14:53.7666|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:14:53 a. m.
+
+2021-06-01 11:14:53.7666|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @2' 
+
+2021-06-01 11:14:53.8423|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:14:53.8423|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:14:53 a. m.
+
+2021-06-01 11:14:53.8423|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @3' 
+
+2021-06-01 11:14:53.8952|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:14:53.8952|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:14:53 a. m.
+
+2021-06-01 11:14:53.9057|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @4' 
+
+2021-06-01 11:14:53.9481|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:14:53.9599|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:14:53 a. m.
+
+2021-06-01 11:14:53.9599|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @5' 
+
+2021-06-01 11:14:54.0067|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:14:54.0135|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:14:54 a. m.
+
+2021-06-01 11:14:54.0135|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @6' 
+
+2021-06-01 11:14:54.0623|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:14:54.0623|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:14:54 a. m.
+
+2021-06-01 11:14:54.0623|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @7' 
+
+2021-06-01 11:14:54.1165|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:14:54.1235|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:14:54 a. m.
+
+2021-06-01 11:14:54.1235|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @8' 
+
+2021-06-01 11:14:54.1704|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 89' 
+
+
+
+2021-06-01 11:14:54.1704|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:14:54 a. m.
+
+2021-06-01 11:14:54.1845|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":null,"Fecha":"2021-06-01T02:21:28.2993702-05:00","Data":[{"SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta [[5]] @9' 
+
+2021-06-01 11:21:25.6124|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 11:21:25.6789|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 11:21:25.6886|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 11:21:29.7924|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:21:29 a. m.
+
+2021-06-01 11:21:29.7983|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @0' 
+
+2021-06-01 11:21:30.0640|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 91' 
+
+
+
+2021-06-01 11:21:30.0640|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:21:30 a. m.
+
+2021-06-01 11:21:30.0763|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @1' 
+
+2021-06-01 11:21:30.1285|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 91' 
+
+
+
+2021-06-01 11:21:30.1399|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:21:30 a. m.
+
+2021-06-01 11:21:30.1399|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @0' 
+
+2021-06-01 11:21:30.2339|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 78' 
+
+
+
+2021-06-01 11:21:30.2339|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:21:30 a. m.
+
+2021-06-01 11:21:30.2339|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @1' 
+
+2021-06-01 11:21:30.3417|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 78' 
+
+
+
+2021-06-01 11:21:30.3417|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:21:30 a. m.
+
+2021-06-01 11:21:30.3417|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @2' 
+
+2021-06-01 11:21:30.4565|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 91' 
+
+
+
+2021-06-01 11:21:30.4657|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:21:30 a. m.
+
+2021-06-01 11:21:30.4657|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @3' 
+
+2021-06-01 11:21:30.5236|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 91' 
+
+
+
+2021-06-01 11:21:30.5303|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:21:30 a. m.
+
+2021-06-01 11:21:30.5303|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @4' 
+
+2021-06-01 11:21:30.5839|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 91' 
+
+
+
+2021-06-01 11:21:30.5961|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:21:30 a. m.
+
+2021-06-01 11:21:30.5961|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @5' 
+
+2021-06-01 11:21:30.6484|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 91' 
+
+
+
+2021-06-01 11:21:30.6568|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:21:30 a. m.
+
+2021-06-01 11:21:30.6568|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @6' 
+
+2021-06-01 11:21:30.7072|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 91' 
+
+
+
+2021-06-01 11:21:30.7072|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:21:30 a. m.
+
+2021-06-01 11:21:30.7177|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @7' 
+
+2021-06-01 11:21:30.7693|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 91' 
+
+
+
+2021-06-01 11:21:30.7693|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:21:30 a. m.
+
+2021-06-01 11:21:30.7813|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @8' 
+
+2021-06-01 11:21:30.8320|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 91' 
+
+
+
+2021-06-01 11:21:30.8432|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:21:30 a. m.
+
+2021-06-01 11:21:30.8432|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":null,"Fecha":"2021-06-01T02:21:28.2993702-05:00","Data":[{"SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta [[5]] @9' 
+
+2021-06-01 11:34:28.3445|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 11:34:28.4086|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 11:34:28.4086|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 11:34:32.7320|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:34:32 a. m.
+
+2021-06-01 11:34:32.7320|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @0' 
+
+2021-06-01 11:34:32.9829|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:34:33.0076|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:34:33 a. m.
+
+2021-06-01 11:34:33.0246|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @1' 
+
+2021-06-01 11:34:33.0661|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:34:33.0904|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:34:33 a. m.
+
+2021-06-01 11:34:33.1035|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @0' 
+
+2021-06-01 11:34:33.2007|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 75' 
+
+
+
+2021-06-01 11:34:33.2240|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:34:33 a. m.
+
+2021-06-01 11:34:33.2378|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @1' 
+
+2021-06-01 11:34:33.3254|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 75' 
+
+
+
+2021-06-01 11:34:33.3453|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:34:33 a. m.
+
+2021-06-01 11:34:33.3615|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @2' 
+
+2021-06-01 11:34:33.4411|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:34:33.4612|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:34:33 a. m.
+
+2021-06-01 11:34:33.4763|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @3' 
+
+2021-06-01 11:34:33.5245|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:34:33.5446|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:34:33 a. m.
+
+2021-06-01 11:34:33.5603|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @4' 
+
+2021-06-01 11:34:33.6081|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:34:33.6442|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:34:33 a. m.
+
+2021-06-01 11:34:33.6442|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @5' 
+
+2021-06-01 11:34:33.6974|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:34:33.7265|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:34:33 a. m.
+
+2021-06-01 11:34:33.7265|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @6' 
+
+2021-06-01 11:34:33.7784|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:34:33.8136|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:34:33 a. m.
+
+2021-06-01 11:34:33.8136|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @7' 
+
+2021-06-01 11:34:33.8837|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:34:33.9129|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:34:33 a. m.
+
+2021-06-01 11:34:33.9294|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @8' 
+
+2021-06-01 11:34:33.9771|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:34:33.9993|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:34:33 a. m.
+
+2021-06-01 11:34:34.0171|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":null,"Fecha":"2021-06-01T02:21:28.2993702-05:00","Data":[{"SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta [[5]] @9' 
+
+2021-06-01 11:46:31.7650|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 11:46:31.9357|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 11:46:31.9605|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 11:46:36.6438|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:46:36 a. m.
+
+2021-06-01 11:46:36.6438|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @0' 
+
+2021-06-01 11:46:37.2099|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 75' 
+
+
+
+2021-06-01 11:46:37.2748|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:46:37 a. m.
+
+2021-06-01 11:46:37.2808|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @1' 
+
+2021-06-01 11:46:37.4191|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 75' 
+
+
+
+2021-06-01 11:46:37.5677|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:46:37 a. m.
+
+2021-06-01 11:46:37.5823|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @2' 
+
+2021-06-01 11:46:37.9139|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:46:37.9696|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:46:37 a. m.
+
+2021-06-01 11:46:37.9696|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @3' 
+
+2021-06-01 11:46:38.0564|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:46:38.1316|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:46:38 a. m.
+
+2021-06-01 11:46:38.1424|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @4' 
+
+2021-06-01 11:46:38.2368|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:46:38.3022|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:46:38 a. m.
+
+2021-06-01 11:46:38.3173|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @5' 
+
+2021-06-01 11:46:38.4328|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:46:38.5448|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:46:38 a. m.
+
+2021-06-01 11:46:38.5448|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @6' 
+
+2021-06-01 11:46:38.6477|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:46:38.6825|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:46:38 a. m.
+
+2021-06-01 11:46:38.7059|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @7' 
+
+2021-06-01 11:46:38.7909|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:46:38.8456|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:46:38 a. m.
+
+2021-06-01 11:46:38.8456|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @8' 
+
+2021-06-01 11:46:39.1968|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:46:39.3480|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:46:39 a. m.
+
+2021-06-01 11:46:39.3750|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":null,"Fecha":"2021-06-01T02:21:28.2993702-05:00","Data":[{"SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta [[5]] @9' 
+
+2021-06-01 11:46:41.7098|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Hay productos no disponibles'  STACKTRACE:  '   at Inventarios.Dominio.Services.Command.InventariosServiceCmd.ProcesarVenta(EventBase`1 eventoVenta) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.Dominio\Services\Command\InventariosServiceCmd.cs:line 104
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 81' 
+
+
+
+2021-06-01 11:46:41.7643|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:46:41 a. m.
+
+2021-06-01 11:46:41.7643|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @0' 
+
+2021-06-01 11:46:41.8478|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:46:41.8938|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:46:41 a. m.
+
+2021-06-01 11:46:41.9188|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @1' 
+
+2021-06-01 11:46:42.0210|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:48:34.1423|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 11:48:34.2386|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 11:48:34.2482|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 11:48:38.3282|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:48:38 a. m.
+
+2021-06-01 11:48:38.3282|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @0' 
+
+2021-06-01 11:48:38.7793|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 75' 
+
+
+
+2021-06-01 11:48:38.8175|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:48:38 a. m.
+
+2021-06-01 11:48:38.8258|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @1' 
+
+2021-06-01 11:48:38.9379|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 75' 
+
+
+
+2021-06-01 11:48:38.9770|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:48:38 a. m.
+
+2021-06-01 11:48:38.9959|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @2' 
+
+2021-06-01 11:48:39.1680|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:48:39.2023|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:48:39 a. m.
+
+2021-06-01 11:48:39.2194|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @3' 
+
+2021-06-01 11:48:39.2792|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:48:39.3265|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:48:39 a. m.
+
+2021-06-01 11:48:39.3265|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @4' 
+
+2021-06-01 11:48:39.4004|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:48:39.4352|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:48:39 a. m.
+
+2021-06-01 11:48:39.4520|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @5' 
+
+2021-06-01 11:48:39.5160|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:48:39.5469|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:48:39 a. m.
+
+2021-06-01 11:48:39.5680|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @6' 
+
+2021-06-01 11:48:39.6495|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:48:39.6854|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:48:39 a. m.
+
+2021-06-01 11:48:39.7070|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @7' 
+
+2021-06-01 11:48:39.7785|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:48:39.8554|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:48:39 a. m.
+
+2021-06-01 11:48:39.8620|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @8' 
+
+2021-06-01 11:48:39.9251|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:48:39.9617|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:48:39 a. m.
+
+2021-06-01 11:48:39.9809|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":null,"Fecha":"2021-06-01T02:21:28.2993702-05:00","Data":[{"SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta [[5]] @9' 
+
+2021-06-01 11:50:55.3730|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 11:50:55.4568|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 11:50:55.4679|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 11:50:59.5345|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:50:59 a. m.
+
+2021-06-01 11:50:59.5345|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @0' 
+
+2021-06-01 11:50:59.9773|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:51:00.0484|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:51:00 a. m.
+
+2021-06-01 11:51:00.0484|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @1' 
+
+2021-06-01 11:51:00.1285|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:51:00.1903|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:51:00 a. m.
+
+2021-06-01 11:51:00.1903|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @0' 
+
+2021-06-01 11:51:00.3581|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 75' 
+
+
+
+2021-06-01 11:51:00.4088|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:51:00 a. m.
+
+2021-06-01 11:51:00.4088|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @1' 
+
+2021-06-01 11:51:00.5338|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 75' 
+
+
+
+2021-06-01 11:51:00.5801|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:51:00 a. m.
+
+2021-06-01 11:51:00.5801|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @2' 
+
+2021-06-01 11:51:00.6837|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:51:00.7088|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:51:00 a. m.
+
+2021-06-01 11:51:00.7298|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @3' 
+
+2021-06-01 11:51:00.7982|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:51:00.8267|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:51:00 a. m.
+
+2021-06-01 11:51:00.8455|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @4' 
+
+2021-06-01 11:51:00.9119|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:51:01.0185|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:51:00 a. m.
+
+2021-06-01 11:51:01.0343|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @5' 
+
+2021-06-01 11:51:01.1167|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:51:01.1590|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:51:01 a. m.
+
+2021-06-01 11:51:01.1832|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @6' 
+
+2021-06-01 11:51:01.2739|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:51:01.3233|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:51:01 a. m.
+
+2021-06-01 11:51:01.3290|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @7' 
+
+2021-06-01 11:51:01.3949|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:51:01.5070|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:51:01 a. m.
+
+2021-06-01 11:51:01.5135|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @8' 
+
+2021-06-01 11:51:01.5972|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:51:01.6580|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:51:01 a. m.
+
+2021-06-01 11:51:01.6580|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":null,"Fecha":"2021-06-01T02:21:28.2993702-05:00","Data":[{"SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta [[5]] @9' 
+
+2021-06-01 11:53:10.1104|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 11:53:10.2060|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 11:53:10.2238|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 11:53:14.6505|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:53:14 a. m.
+
+2021-06-01 11:53:14.6644|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @0' 
+
+2021-06-01 11:53:15.1196|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 75' 
+
+
+
+2021-06-01 11:53:15.1999|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:53:15 a. m.
+
+2021-06-01 11:53:15.2450|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @1' 
+
+2021-06-01 11:53:15.4655|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 75' 
+
+
+
+2021-06-01 11:53:15.5504|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:53:15 a. m.
+
+2021-06-01 11:53:15.5504|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @2' 
+
+2021-06-01 11:53:15.7169|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:53:15.7605|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:53:15 a. m.
+
+2021-06-01 11:53:15.7652|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @3' 
+
+2021-06-01 11:53:15.8262|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:53:15.8516|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:53:15 a. m.
+
+2021-06-01 11:53:15.8731|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @4' 
+
+2021-06-01 11:53:15.9411|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:53:15.9763|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:53:15 a. m.
+
+2021-06-01 11:53:15.9958|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @5' 
+
+2021-06-01 11:53:16.0615|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:53:16.1025|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:53:16 a. m.
+
+2021-06-01 11:53:16.1082|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @6' 
+
+2021-06-01 11:53:16.1792|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:53:16.2119|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:53:16 a. m.
+
+2021-06-01 11:53:16.2347|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @7' 
+
+2021-06-01 11:53:16.4252|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:53:16.4935|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:53:16 a. m.
+
+2021-06-01 11:53:16.4997|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @8' 
+
+2021-06-01 11:53:16.5684|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:53:16.6061|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:53:16 a. m.
+
+2021-06-01 11:53:16.6313|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":null,"Fecha":"2021-06-01T02:21:28.2993702-05:00","Data":[{"SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta [[5]] @9' 
+
+2021-06-01 11:53:32.8924|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:53:32 a. m.
+
+2021-06-01 11:53:32.9129|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @0' 
+
+2021-06-01 11:53:32.9936|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:53:33.0411|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:53:33 a. m.
+
+2021-06-01 11:53:33.0481|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @1' 
+
+2021-06-01 11:53:33.4134|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 11:54:35.1607|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 11:54:35 a. m.
+
+2021-06-01 11:54:35.1690|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T11:54:30.9465855-05:00","Data":[{"Referencia":"string","SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta [[5]] @10' 
+

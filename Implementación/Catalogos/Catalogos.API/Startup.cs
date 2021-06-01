@@ -25,6 +25,7 @@ namespace Catalogos.API
             services.ConfigureCors();
             services.ConfigureMongoDB(Configuration);
             //services.AddTokenAuthentication(Configuration);
+            services.Configureinterfaces();
             services.AddSwagger();
         }
 

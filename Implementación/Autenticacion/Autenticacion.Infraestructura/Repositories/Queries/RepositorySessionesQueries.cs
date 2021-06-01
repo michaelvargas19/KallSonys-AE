@@ -75,9 +75,9 @@ namespace Autenticacion.Infraestructura.Repositories.Queries
                     {
                         claims.Add(new Claim(ClaimTypes.NameIdentifier, user.UserName));
                         claims.Add(new Claim(ClaimTypes.UserData, (user.Identificacion == null) ? "" : user.Identificacion.Trim()));
-                        claims.Add(new Claim(ClaimTypes.Email, user.Email));
+                        claims.Add(new Claim(ClaimTypes.Email, ((user.Email != null)? user.Email.Trim() : "" ) ));
                         claims.Add(new Claim(ClaimTypes.GivenName, user.Nombres + " " + user.Apellidos));
-                        claims.Add(new Claim(ClaimTypes.Surname, user.Cargo));
+                        claims.Add(new Claim(ClaimTypes.Surname, ((user.Cargo != null)? user.Cargo.Trim() : "" ) ));
                     }
                     else
                     {

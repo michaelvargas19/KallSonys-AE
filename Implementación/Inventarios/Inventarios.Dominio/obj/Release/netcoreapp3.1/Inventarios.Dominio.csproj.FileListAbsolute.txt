@@ -1,0 +1,12 @@
+C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.Dominio\bin\Release\netcoreapp3.1\Inventarios.Dominio.deps.json
+C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.Dominio\bin\Release\netcoreapp3.1\Inventarios.Dominio.dll
+C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.Dominio\bin\Release\netcoreapp3.1\Inventarios.Dominio.pdb
+C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.Dominio\bin\Release\netcoreapp3.1\Inventarios.Infraestructura.dll
+C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.Dominio\bin\Release\netcoreapp3.1\Inventarios.Infraestructura.pdb
+C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.Dominio\obj\Release\netcoreapp3.1\Inventarios.Dominio.csprojAssemblyReference.cache
+C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.Dominio\obj\Release\netcoreapp3.1\Inventarios.Dominio.AssemblyInfoInputs.cache
+C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.Dominio\obj\Release\netcoreapp3.1\Inventarios.Dominio.AssemblyInfo.cs
+C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.Dominio\obj\Release\netcoreapp3.1\Inventarios.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.Dominio\obj\Release\netcoreapp3.1\Inventarios.Dominio.csproj.CopyComplete
+C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.Dominio\obj\Release\netcoreapp3.1\Inventarios.Dominio.dll
+C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.Dominio\obj\Release\netcoreapp3.1\Inventarios.Dominio.pdb

@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "nVS0NGRecEk2FmjhdVvnA0UnqfaMA5zzUyBQXkziyb3VHiLBG1/wMyn/ObLuzjkVMjUEhLZtr14ZE4WVuBXhCA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Inventarios\\Inventarios.Infraestructura\\Inventarios.Infraestructura.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mavargasb\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
+    "C:\\Users\\mavargasb\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\mavargasb\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\mavargasb\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
+    "C:\\Users\\mavargasb\\.nuget\\packages\\mongodb.bson\\2.12.2\\mongodb.bson.2.12.2.nupkg.sha512",
+    "C:\\Users\\mavargasb\\.nuget\\packages\\mongodb.driver\\2.12.2\\mongodb.driver.2.12.2.nupkg.sha512",
+    "C:\\Users\\mavargasb\\.nuget\\packages\\mongodb.driver.core\\2.12.2\\mongodb.driver.core.2.12.2.nupkg.sha512",
+    "C:\\Users\\mavargasb\\.nuget\\packages\\mongodb.libmongocrypt\\1.2.1\\mongodb.libmongocrypt.1.2.1.nupkg.sha512",
+    "C:\\Users\\mavargasb\\.nuget\\packages\\sharpcompress\\0.23.0\\sharpcompress.0.23.0.nupkg.sha512",
+    "C:\\Users\\mavargasb\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\mavargasb\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\mavargasb\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}

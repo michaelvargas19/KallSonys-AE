@@ -1,7 +1,7 @@
-﻿using Catalogos.Dominio.ISpecification;
-using Catalogos.Dominio.Modelo;
-using Catalogos.Dominio.Modelo.Settings;
-using Catalogos.Dominio.Repository;
+﻿using Catalogos.Infraestructura.Entities;
+using Catalogos.Infraestructura.ISpecification;
+using Catalogos.Infraestructura.Repository;
+using Catalogos.Infraestructura.SettinsDB;
 using Catalogos.Infraestructura.Specification;
 using Microsoft.Extensions.Configuration;
 using MongoDB.Bson;

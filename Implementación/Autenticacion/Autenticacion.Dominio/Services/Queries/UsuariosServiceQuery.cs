@@ -42,6 +42,7 @@ namespace Autenticacion.Dominio.Services.Queries
                 usrQ.Apellidos = usrE.Apellidos;
                 usrQ.Identificacion = usrE.Identificacion;
                 usrQ.TelefonoMovil = usrE.PhoneNumber;
+                usrQ.Email = usrE.Email;
                 usrQ.Identificacion = usrE.Identificacion;
                 usrQ.Organizacion = usrE.Organizacion;
                 usrQ.Cargo = usrE.Cargo;

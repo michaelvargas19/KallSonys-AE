@@ -3,5 +3,7 @@
   <PropertyGroup>
     <Controller_SelectedScaffolderID>ApiControllerEmptyScaffolder</Controller_SelectedScaffolderID>
     <Controller_SelectedScaffolderCategoryPath>root/Common/Api</Controller_SelectedScaffolderCategoryPath>
+    <NameOfLastUsedPublishProfile>C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.API\Properties\PublishProfiles\CatalogosAPI - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <ActiveDebugProfile>Docker</ActiveDebugProfile>
   </PropertyGroup>
 </Project>

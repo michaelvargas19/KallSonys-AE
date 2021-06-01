@@ -9,8 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Repository\" />
-    <Folder Include="Response\" />
+    <ProjectReference Include="..\Catalogos.Infraestructura\Catalogos.Infraestructura.csproj" />
   </ItemGroup>
 
 </Project>

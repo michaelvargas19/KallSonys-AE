@@ -1,4 +1,4 @@
-﻿using Catalogos.Dominio.ISpecification;
+﻿using Catalogos.Infraestructura.ISpecification;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;

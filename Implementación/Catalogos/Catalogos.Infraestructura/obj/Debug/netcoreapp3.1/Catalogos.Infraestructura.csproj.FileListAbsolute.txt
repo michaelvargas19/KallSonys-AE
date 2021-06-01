@@ -1,12 +1,9 @@
 C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.Infraestructura\bin\Debug\netcoreapp3.1\Catalogos.Infraestructura.deps.json
 C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.Infraestructura\bin\Debug\netcoreapp3.1\Catalogos.Infraestructura.dll
 C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.Infraestructura\bin\Debug\netcoreapp3.1\Catalogos.Infraestructura.pdb
-C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.Infraestructura\bin\Debug\netcoreapp3.1\Catalogos.Dominio.dll
-C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.Infraestructura\bin\Debug\netcoreapp3.1\Catalogos.Dominio.pdb
 C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.Infraestructura\obj\Debug\netcoreapp3.1\Catalogos.Infraestructura.csprojAssemblyReference.cache
 C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.Infraestructura\obj\Debug\netcoreapp3.1\Catalogos.Infraestructura.AssemblyInfoInputs.cache
 C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.Infraestructura\obj\Debug\netcoreapp3.1\Catalogos.Infraestructura.AssemblyInfo.cs
 C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.Infraestructura\obj\Debug\netcoreapp3.1\Catalogos.Infraestructura.csproj.CoreCompileInputs.cache
-C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.Infraestructura\obj\Debug\netcoreapp3.1\Catalogos.Infraestructura.csproj.CopyComplete
 C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.Infraestructura\obj\Debug\netcoreapp3.1\Catalogos.Infraestructura.dll
 C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.Infraestructura\obj\Debug\netcoreapp3.1\Catalogos.Infraestructura.pdb

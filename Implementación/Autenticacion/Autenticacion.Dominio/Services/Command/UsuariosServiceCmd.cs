@@ -61,6 +61,7 @@ namespace Autenticacion.Dominio.Services.Command
                 usrE.Apellidos = usuario.Apellidos;
                 usrE.Identificacion = usuario.Identificacion;
                 usrE.PhoneNumber = usuario.TelefonoMovil;
+                usrE.Email = usuario.Email;
                 usrE.IdTipoAuth = usuario.IdTipoAuth;
                 usrE.Organizacion = usuario.Organizacion;
                 usrE.Cargo = usuario.Cargo;
@@ -81,7 +82,9 @@ namespace Autenticacion.Dominio.Services.Command
                 usrQ.Apellidos = usrE.Apellidos;
                 usrQ.Identificacion = usrE.Identificacion;
                 usrQ.TelefonoMovil = usrE.PhoneNumber;
-                usrQ.Identificacion = usrE.Identificacion;
+                usrQ.Email = usrE.Email;
+                usrQ.IdTipoAuth = usrE.IdTipoAuth;
+                usrQ.TipoAutenticacion = (usrE.TipoAutenticacion != null) ? usrE.TipoAutenticacion.Autenticacion : "";
                 usrQ.Organizacion = usrE.Organizacion;
                 usrQ.Cargo = usrE.Cargo;
                 usrQ.Description = usrE.Description;
