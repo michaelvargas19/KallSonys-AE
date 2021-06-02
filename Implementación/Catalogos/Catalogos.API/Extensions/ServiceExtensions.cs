@@ -5,11 +5,13 @@ using Catalogos.Dominio.IUnitOfWorks;
 using Catalogos.Dominio.Services.Command;
 using Catalogos.Dominio.Services.Queries;
 using Catalogos.Dominio.Util;
+using Catalogos.Infraestructura.Integracion.Proveedores;
 using Catalogos.Infraestructura.IRepositories;
 using Catalogos.Infraestructura.Repositories;
 using Catalogos.Infraestructura.Repository;
 using Catalogos.Infraestructura.SettinsDB;
 using Catalogos.Infraestructura.UnitOfWorks;
+using Catalogos.Infraestructura.Util;
 using Confluent.Kafka;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -98,6 +100,11 @@ namespace Catalogos.API.Extensions
 
             //Utils
             services.AddScoped<IUtils, Dominio.Util.Utils>();
+            services.AddScoped<IUtilsInfra, UtilsInfra>();
+
+            //Repositorio
+            services.AddScoped<IIntegrationProveedores, IntegrationProveedores>();
+            
         }
 
 

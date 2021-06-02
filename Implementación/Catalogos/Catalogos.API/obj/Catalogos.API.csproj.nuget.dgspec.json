@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Catalogos\\Catalogos.API\\Catalogos.API.csproj": {}
+    "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Catalogos\\Catalogos.API\\Catalogos.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Catalogos\\Catalogos.API\\Catalogos.API.csproj": {
+    "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Catalogos\\Catalogos.API\\Catalogos.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Catalogos\\Catalogos.API\\Catalogos.API.csproj",
+        "projectUniqueName": "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Catalogos\\Catalogos.API\\Catalogos.API.csproj",
         "projectName": "Catalogos.API",
-        "projectPath": "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Catalogos\\Catalogos.API\\Catalogos.API.csproj",
+        "projectPath": "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Catalogos\\Catalogos.API\\Catalogos.API.csproj",
         "packagesPath": "C:\\Users\\mavargasb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Catalogos\\Catalogos.API\\obj\\",
+        "outputPath": "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Catalogos\\Catalogos.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -35,11 +35,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Catalogos\\Catalogos.Dominio\\Catalogos.Dominio.csproj": {
-                "projectPath": "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Catalogos\\Catalogos.Dominio\\Catalogos.Dominio.csproj"
+              "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Catalogos\\Catalogos.Dominio\\Catalogos.Dominio.csproj": {
+                "projectPath": "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Catalogos\\Catalogos.Dominio\\Catalogos.Dominio.csproj"
               },
-              "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Catalogos\\Catalogos.Infraestructura\\Catalogos.Infraestructura.csproj": {
-                "projectPath": "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Catalogos\\Catalogos.Infraestructura\\Catalogos.Infraestructura.csproj"
+              "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Catalogos\\Catalogos.Infraestructura\\Catalogos.Infraestructura.csproj": {
+                "projectPath": "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Catalogos\\Catalogos.Infraestructura\\Catalogos.Infraestructura.csproj"
               }
             }
           }
@@ -101,18 +101,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Catalogos\\Catalogos.Dominio\\Catalogos.Dominio.csproj": {
+    "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Catalogos\\Catalogos.Dominio\\Catalogos.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Catalogos\\Catalogos.Dominio\\Catalogos.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Catalogos\\Catalogos.Dominio\\Catalogos.Dominio.csproj",
         "projectName": "Catalogos.Dominio",
-        "projectPath": "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Catalogos\\Catalogos.Dominio\\Catalogos.Dominio.csproj",
+        "projectPath": "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Catalogos\\Catalogos.Dominio\\Catalogos.Dominio.csproj",
         "packagesPath": "C:\\Users\\mavargasb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Catalogos\\Catalogos.Dominio\\obj\\",
+        "outputPath": "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Catalogos\\Catalogos.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -136,8 +136,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Catalogos\\Catalogos.Infraestructura\\Catalogos.Infraestructura.csproj": {
-                "projectPath": "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Catalogos\\Catalogos.Infraestructura\\Catalogos.Infraestructura.csproj"
+              "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Catalogos\\Catalogos.Infraestructura\\Catalogos.Infraestructura.csproj": {
+                "projectPath": "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Catalogos\\Catalogos.Infraestructura\\Catalogos.Infraestructura.csproj"
               }
             }
           }
@@ -176,18 +176,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Catalogos\\Catalogos.Infraestructura\\Catalogos.Infraestructura.csproj": {
+    "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Catalogos\\Catalogos.Infraestructura\\Catalogos.Infraestructura.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Catalogos\\Catalogos.Infraestructura\\Catalogos.Infraestructura.csproj",
+        "projectUniqueName": "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Catalogos\\Catalogos.Infraestructura\\Catalogos.Infraestructura.csproj",
         "projectName": "Catalogos.Infraestructura",
-        "projectPath": "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Catalogos\\Catalogos.Infraestructura\\Catalogos.Infraestructura.csproj",
+        "projectPath": "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Catalogos\\Catalogos.Infraestructura\\Catalogos.Infraestructura.csproj",
         "packagesPath": "C:\\Users\\mavargasb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Catalogos\\Catalogos.Infraestructura\\obj\\",
+        "outputPath": "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Catalogos\\Catalogos.Infraestructura\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -230,6 +230,10 @@
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.12.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             }
           },
           "imports": [
@@ -247,7 +251,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

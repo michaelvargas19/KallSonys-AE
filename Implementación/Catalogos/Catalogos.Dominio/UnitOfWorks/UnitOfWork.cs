@@ -1,7 +1,10 @@
 ﻿using Catalogos.Dominio.IUnitOfWorks;
 using Catalogos.Infraestructura.Entities;
+using Catalogos.Infraestructura.Integracion.Proveedores;
 using Catalogos.Infraestructura.IRepositories;
 using Catalogos.Infraestructura.Repository;
+using Catalogos.Infraestructura.Util;
+using Microsoft.Extensions.Configuration;
 using System.Threading.Tasks;
 
 namespace Catalogos.Infraestructura.UnitOfWorks
@@ -11,11 +14,19 @@ namespace Catalogos.Infraestructura.UnitOfWorks
     {
         private readonly IMongoContext _context;
         private readonly IMongoRepository<T> _repository;
+        protected IIntegrationProveedores _integrationProveedores;
+        private readonly IConfiguration _configuration;
+        private readonly IUtilsInfra _util;
+
         public UnitOfWork(IMongoContext context,
-                          IMongoRepository<T> repository)
+                          IMongoRepository<T> repository,
+                          IConfiguration configuration,
+                          IUtilsInfra util)
         {
             _context = context;
             _repository = repository;
+            this._configuration = configuration;
+            this._util = util;
         }
 
         public IMongoRepository<T> Repository<T>() where T : IDocument
@@ -35,6 +46,14 @@ namespace Catalogos.Infraestructura.UnitOfWorks
             _context.Dispose();
         }
 
-        
+        public IIntegrationProveedores IIntegrationProveedores()
+        {
+            if(_integrationProveedores == null)
+            {
+                this._integrationProveedores = new IntegrationProveedores(this._configuration, this._util);
+            }
+            
+            return _integrationProveedores;
+        }
     }
 }

@@ -6,3 +6,12 @@ C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.Infraestructura\obj\De
 C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.Infraestructura\obj\Debug\netcoreapp3.1\Catalogos.Infraestructura.csproj.CoreCompileInputs.cache
 C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.Infraestructura\obj\Debug\netcoreapp3.1\Catalogos.Infraestructura.dll
 C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.Infraestructura\obj\Debug\netcoreapp3.1\Catalogos.Infraestructura.pdb
+C:\Users\mavargasb\Documents\GitHub\KallSonys-AE\Implementación\Catalogos\Catalogos.Infraestructura\bin\Debug\netcoreapp3.1\Catalogos.Infraestructura.deps.json
+C:\Users\mavargasb\Documents\GitHub\KallSonys-AE\Implementación\Catalogos\Catalogos.Infraestructura\bin\Debug\netcoreapp3.1\Catalogos.Infraestructura.dll
+C:\Users\mavargasb\Documents\GitHub\KallSonys-AE\Implementación\Catalogos\Catalogos.Infraestructura\bin\Debug\netcoreapp3.1\Catalogos.Infraestructura.pdb
+C:\Users\mavargasb\Documents\GitHub\KallSonys-AE\Implementación\Catalogos\Catalogos.Infraestructura\obj\Debug\netcoreapp3.1\Catalogos.Infraestructura.AssemblyInfoInputs.cache
+C:\Users\mavargasb\Documents\GitHub\KallSonys-AE\Implementación\Catalogos\Catalogos.Infraestructura\obj\Debug\netcoreapp3.1\Catalogos.Infraestructura.AssemblyInfo.cs
+C:\Users\mavargasb\Documents\GitHub\KallSonys-AE\Implementación\Catalogos\Catalogos.Infraestructura\obj\Debug\netcoreapp3.1\Catalogos.Infraestructura.csproj.CoreCompileInputs.cache
+C:\Users\mavargasb\Documents\GitHub\KallSonys-AE\Implementación\Catalogos\Catalogos.Infraestructura\obj\Debug\netcoreapp3.1\Catalogos.Infraestructura.dll
+C:\Users\mavargasb\Documents\GitHub\KallSonys-AE\Implementación\Catalogos\Catalogos.Infraestructura\obj\Debug\netcoreapp3.1\Catalogos.Infraestructura.pdb
+C:\Users\mavargasb\Documents\GitHub\KallSonys-AE\Implementación\Catalogos\Catalogos.Infraestructura\obj\Debug\netcoreapp3.1\Catalogos.Infraestructura.csproj.AssemblyReference.cache

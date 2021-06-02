@@ -8,6 +8,7 @@ namespace Inventarios.Infraestructura.Entities
     {
 
         public string CodigoCatalogo { get; set; }
+        public string NombreCatalogo { get; set; }
 
         public string Nombre { get; set; }
 

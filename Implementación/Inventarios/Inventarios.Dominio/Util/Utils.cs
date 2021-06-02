@@ -119,6 +119,7 @@ namespace Inventarios.Dominio.Util
 
             p.Id = producto.Id;
             p.CodigoCatalogo = producto.CodigoCatalogo;
+            p.NombreCatalogo = producto.NombreCatalogo;
             p.Nombre = producto.Nombre;
             p.Descripcion = producto.Descripcion;
             p.TipoProducto = producto.TipoProducto;

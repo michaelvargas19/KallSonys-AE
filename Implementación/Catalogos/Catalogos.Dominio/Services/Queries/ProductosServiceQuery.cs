@@ -15,13 +15,19 @@ namespace Catalogos.Dominio.Services.Queries
     {
 
         private readonly IUnitOfWork<Producto> _ufwProductos;
+        private readonly IUnitOfWork<_AuditoriaCatalogos> _log;
+        private readonly IUnitOfWork<Catalogo> _ufwCatalogos;
         private readonly IUtils _utils;
 
         public ProductosServiceQuery(IUnitOfWork<Producto> ufwProductos,
+                                     IUnitOfWork<_AuditoriaCatalogos> log,
+                                     IUnitOfWork<Catalogo> ufwCatalogos,
                                      IUtils utils)
         {
             this._ufwProductos = ufwProductos;
+            this._log = log;
             this._utils = utils;
+            this._ufwCatalogos = ufwCatalogos;
         }
 
         public IEnumerable<ProductoQuery> verPaginacion(int skip, int take)
@@ -82,6 +88,17 @@ namespace Catalogos.Dominio.Services.Queries
                 if (producto != null)
                 {
                     productoQ = this._utils.Convert_Producto_To_Query(producto);
+
+                    if (producto.IndExterno)
+                    {
+                        Producto p = this._ufwProductos.IIntegrationProveedores().consultarProducto(sku);
+
+                        if (p != null)
+                        {
+                            productoQ = this._utils.Convert_Producto_To_Query(p);
+                        }
+                    }
+
                 }
                 else
                 {
@@ -91,7 +108,8 @@ namespace Catalogos.Dominio.Services.Queries
             }
             catch (Exception e)
             {
-                throw e;
+                _AuditoriaCatalogos log = new _AuditoriaCatalogos("INTEGRACIÓN REQUEST EXCEPTION", "", true, "", "", this.ToString(), e.Message, e.StackTrace, "", "");
+                _log.Repository<_AuditoriaCatalogos>().InsertOne(log);
             }
 
             return productoQ;
@@ -101,7 +119,7 @@ namespace Catalogos.Dominio.Services.Queries
         {
             if (take <= 0) { throw new Exception("La variable take debe tener valor positivo"); }
 
-            IEnumerable<ProductoQuery> productosQ = null;
+            IEnumerable<ProductoQuery> productosQ = new List<ProductoQuery>();
 
             try
             {
@@ -111,10 +129,25 @@ namespace Catalogos.Dominio.Services.Queries
 
                 productosQ = this._utils.ConvertList_Producto_To_Query(productos);
 
+                Catalogo catalogo = _ufwCatalogos.Repository<Catalogo>().Find(new CatalogoSpecification(codigoCatalogo)).FirstOrDefault();
+
+
+                if ( (catalogo != null) && (catalogo.IndExterno) && (catalogo.Proveedor != null) )
+                {
+                    List<Producto> ps = this._ufwProductos.IIntegrationProveedores().consultarProductosProveedor(catalogo.Proveedor.IdProveedor).ToList();
+
+                    if (ps != null)
+                    {
+                        productosQ = this._utils.ConvertList_Producto_To_Query(ps);
+                    }
+                }
+
+
             }
             catch (Exception e)
             {
-                throw e;
+                _AuditoriaCatalogos log = new _AuditoriaCatalogos("INTEGRACIÓN REQUEST EXCEPTION", "", true, "", "", this.ToString(), e.Message, e.StackTrace, "", "");
+                _log.Repository<_AuditoriaCatalogos>().InsertOne(log);
             }
 
             return productosQ;

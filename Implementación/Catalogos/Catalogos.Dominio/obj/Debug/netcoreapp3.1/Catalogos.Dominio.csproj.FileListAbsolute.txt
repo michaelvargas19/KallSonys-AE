@@ -10,3 +10,15 @@ C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.Dominio\obj\Debug\netc
 C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.Dominio\bin\Debug\netcoreapp3.1\Catalogos.Infraestructura.dll
 C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.Dominio\bin\Debug\netcoreapp3.1\Catalogos.Infraestructura.pdb
 C:\Users\mavargasb\Documents\Auxiliar\Catalogos\Catalogos.Dominio\obj\Debug\netcoreapp3.1\Catalogos.Dominio.csproj.CopyComplete
+C:\Users\mavargasb\Documents\GitHub\KallSonys-AE\Implementación\Catalogos\Catalogos.Dominio\bin\Debug\netcoreapp3.1\Catalogos.Dominio.deps.json
+C:\Users\mavargasb\Documents\GitHub\KallSonys-AE\Implementación\Catalogos\Catalogos.Dominio\bin\Debug\netcoreapp3.1\Catalogos.Dominio.dll
+C:\Users\mavargasb\Documents\GitHub\KallSonys-AE\Implementación\Catalogos\Catalogos.Dominio\bin\Debug\netcoreapp3.1\Catalogos.Dominio.pdb
+C:\Users\mavargasb\Documents\GitHub\KallSonys-AE\Implementación\Catalogos\Catalogos.Dominio\bin\Debug\netcoreapp3.1\Catalogos.Infraestructura.dll
+C:\Users\mavargasb\Documents\GitHub\KallSonys-AE\Implementación\Catalogos\Catalogos.Dominio\bin\Debug\netcoreapp3.1\Catalogos.Infraestructura.pdb
+C:\Users\mavargasb\Documents\GitHub\KallSonys-AE\Implementación\Catalogos\Catalogos.Dominio\obj\Debug\netcoreapp3.1\Catalogos.Dominio.AssemblyInfoInputs.cache
+C:\Users\mavargasb\Documents\GitHub\KallSonys-AE\Implementación\Catalogos\Catalogos.Dominio\obj\Debug\netcoreapp3.1\Catalogos.Dominio.AssemblyInfo.cs
+C:\Users\mavargasb\Documents\GitHub\KallSonys-AE\Implementación\Catalogos\Catalogos.Dominio\obj\Debug\netcoreapp3.1\Catalogos.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\mavargasb\Documents\GitHub\KallSonys-AE\Implementación\Catalogos\Catalogos.Dominio\obj\Debug\netcoreapp3.1\Catalogos.Dominio.csproj.CopyComplete
+C:\Users\mavargasb\Documents\GitHub\KallSonys-AE\Implementación\Catalogos\Catalogos.Dominio\obj\Debug\netcoreapp3.1\Catalogos.Dominio.dll
+C:\Users\mavargasb\Documents\GitHub\KallSonys-AE\Implementación\Catalogos\Catalogos.Dominio\obj\Debug\netcoreapp3.1\Catalogos.Dominio.pdb
+C:\Users\mavargasb\Documents\GitHub\KallSonys-AE\Implementación\Catalogos\Catalogos.Dominio\obj\Debug\netcoreapp3.1\Catalogos.Dominio.csproj.AssemblyReference.cache

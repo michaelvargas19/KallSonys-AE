@@ -7,6 +7,7 @@ namespace Catalogos.Dominio.Modelo.Queries
         public string Id { get; set; }
 
         public string CodigoCatalogo { get; set; }
+        public string NombreCatalogo { get; set; }
 
         public string Nombre { get; set; }
 

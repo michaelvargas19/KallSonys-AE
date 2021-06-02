@@ -94,7 +94,7 @@ namespace Inventarios.API.Events
                                         
                                         switch (cr.Key)
                                         {
-                                            case "VentaProductos":
+                                            case "er la integración con":
 
                                                 EventBase<List<VentaCmd>> eventoVenta = JsonConvert.DeserializeObject<EventBase<List<VentaCmd>>>(cr.Value);
                                                 this._inventariosServiceCmd.ProcesarVenta(eventoVenta);

@@ -7,6 +7,8 @@ namespace Catalogos.Infraestructura.Entities
     public class Producto : Document
     {
 
+        public string NombreCatalogo { get; set; }
+
         public string CodigoCatalogo { get; set; }
 
         public string Nombre { get; set; }

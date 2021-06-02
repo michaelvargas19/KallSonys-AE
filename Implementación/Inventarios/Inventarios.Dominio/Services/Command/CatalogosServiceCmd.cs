@@ -74,6 +74,7 @@ namespace Inventarios.Dominio.Services.Command
                     foreach( Producto p in _ufwProductos.Repository<Producto>().Find(new ProductoSpecification(catalogo.CodigoCatalogo) ))
                     {
                         p.Proveedor = catalogo.Proveedor;
+                        p.NombreCatalogo = catalogo.Nombre;
                         _ufwProductos.Repository<Producto>().ReplaceOne(p);
                     }
 

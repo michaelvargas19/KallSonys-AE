@@ -45,6 +45,7 @@ namespace Inventarios.Dominio.Services.Command
                     Producto producto = this._utils.Convert_ProductoCmd_To_Producto(productoCmd);
                     producto.IndExterno = catalogo.IndExterno;
                     producto.Proveedor = catalogo.Proveedor;
+                    producto.NombreCatalogo = catalogo.Nombre;
                     producto.CodigoProducto = this.GenerarCodigoProducto(producto.IndExterno);
                     _ufwProductos.Repository<Producto>().InsertOne(producto);
                     productoQ = this._utils.Convert_Producto_To_Query(producto);
@@ -85,6 +86,7 @@ namespace Inventarios.Dominio.Services.Command
                         producto.Id = doc.Id;
                         producto.IndExterno = catalogo.IndExterno;
                         producto.Proveedor = catalogo.Proveedor;
+                        producto.NombreCatalogo = catalogo.Nombre;
                         _ufwProductos.Repository<Producto>().ReplaceOne(producto);
                         productoQ = this._utils.Convert_Producto_To_Query(producto);
 
