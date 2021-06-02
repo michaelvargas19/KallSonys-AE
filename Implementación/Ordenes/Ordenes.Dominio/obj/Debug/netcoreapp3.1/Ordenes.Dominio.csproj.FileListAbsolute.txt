@@ -15,3 +15,12 @@ C:\Users\Developer\source\repos\Version2\Ordenes\Ordenes.Dominio\obj\Debug\netco
 C:\Users\Developer\source\repos\Version2\Ordenes\Ordenes.Dominio\obj\Debug\netcoreapp3.1\Ordenes.Dominio.csproj.CoreCompileInputs.cache
 C:\Users\Developer\source\repos\Version2\Ordenes\Ordenes.Dominio\obj\Debug\netcoreapp3.1\Ordenes.Dominio.dll
 C:\Users\Developer\source\repos\Version2\Ordenes\Ordenes.Dominio\obj\Debug\netcoreapp3.1\Ordenes.Dominio.pdb
+C:\Users\Developer\source\repos\KallSonys-AE\Implementación\Ordenes\Ordenes.Dominio\bin\Debug\netcoreapp3.1\Ordenes.Dominio.deps.json
+C:\Users\Developer\source\repos\KallSonys-AE\Implementación\Ordenes\Ordenes.Dominio\bin\Debug\netcoreapp3.1\Ordenes.Dominio.dll
+C:\Users\Developer\source\repos\KallSonys-AE\Implementación\Ordenes\Ordenes.Dominio\bin\Debug\netcoreapp3.1\Ordenes.Dominio.pdb
+C:\Users\Developer\source\repos\KallSonys-AE\Implementación\Ordenes\Ordenes.Dominio\obj\Debug\netcoreapp3.1\Ordenes.Dominio.csprojAssemblyReference.cache
+C:\Users\Developer\source\repos\KallSonys-AE\Implementación\Ordenes\Ordenes.Dominio\obj\Debug\netcoreapp3.1\Ordenes.Dominio.AssemblyInfoInputs.cache
+C:\Users\Developer\source\repos\KallSonys-AE\Implementación\Ordenes\Ordenes.Dominio\obj\Debug\netcoreapp3.1\Ordenes.Dominio.AssemblyInfo.cs
+C:\Users\Developer\source\repos\KallSonys-AE\Implementación\Ordenes\Ordenes.Dominio\obj\Debug\netcoreapp3.1\Ordenes.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Developer\source\repos\KallSonys-AE\Implementación\Ordenes\Ordenes.Dominio\obj\Debug\netcoreapp3.1\Ordenes.Dominio.dll
+C:\Users\Developer\source\repos\KallSonys-AE\Implementación\Ordenes\Ordenes.Dominio\obj\Debug\netcoreapp3.1\Ordenes.Dominio.pdb

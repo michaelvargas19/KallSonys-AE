@@ -19,7 +19,7 @@ namespace ApiOrdenes.Controllers
         private readonly IUnitOfWork<Pedido> _unitOfWork_pedido;
         private readonly IUnitOfWork<Orden> _unitOfWork_orden;
 
-        private readonly IProducer<Null, string> _producer;
+        private readonly IProducer<string, string> _producer;
         EventBase<ProductoResponse> _evento = new EventBase<ProductoResponse>();
         ServicePago_command pago_cmd = new ServicePago_command();
 
@@ -30,7 +30,8 @@ namespace ApiOrdenes.Controllers
         {
             _unitOfWork = unitOfWork;
             _unitOfWork_pedido = unitOfWork_pedido;
-            _producer = new ProducerBuilder<Null, string>(producerConfig).Build();
+            
+            _producer = new ProducerBuilder<string, string>(producerConfig).Build();
             _unitOfWork_orden = unitOfWork_orden;
         }
 
@@ -43,7 +44,8 @@ namespace ApiOrdenes.Controllers
                 {
                     var listaData = await pago_cmd.AgregarPago(pago,_unitOfWork,_unitOfWork_pedido,_unitOfWork_orden);
                     _evento.Data = listaData;
-                    _evento.Evento = "PagoAgregado";
+                    _evento.Evento = "VentaProductos";
+
                     _evento.Producir(_evento, _producer);
                 }
             }

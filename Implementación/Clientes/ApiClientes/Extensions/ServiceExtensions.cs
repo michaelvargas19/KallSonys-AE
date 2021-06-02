@@ -14,6 +14,7 @@ using Clientes.Dominio.IServices;
 using Clientes.Infraestructura.Services;
 using Confluent.Kafka;
 using ApiClientes.Extensions;
+using Inventarios.API.Events;
 
 namespace Clientes.API.Extensions
 {
@@ -65,7 +66,7 @@ namespace Clientes.API.Extensions
 
 
             // ------ Consumer --------
-            services.AddHostedService<EventKafka>();
+            //services.AddHostedService<EventsKafka>();
             var consumerConfig = new ConsumerConfig();
             configuration.Bind("KafkaSettings", consumerConfig);
             consumerConfig.SaslMechanism = SaslMechanism.Plain;

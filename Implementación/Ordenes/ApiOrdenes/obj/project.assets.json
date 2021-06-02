@@ -6732,11 +6732,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Developer\\Source\\Repos\\KallSonys-AE\\Implementación\\Ordenes\\ApiOrdenes\\ApiOrdenes.csproj",
+      "projectUniqueName": "C:\\Users\\Developer\\source\\repos\\KallSonys-AE\\Implementación\\Ordenes\\ApiOrdenes\\ApiOrdenes.csproj",
       "projectName": "ApiOrdenes",
-      "projectPath": "C:\\Users\\Developer\\Source\\Repos\\KallSonys-AE\\Implementación\\Ordenes\\ApiOrdenes\\ApiOrdenes.csproj",
+      "projectPath": "C:\\Users\\Developer\\source\\repos\\KallSonys-AE\\Implementación\\Ordenes\\ApiOrdenes\\ApiOrdenes.csproj",
       "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Developer\\Source\\Repos\\KallSonys-AE\\Implementación\\Ordenes\\ApiOrdenes\\obj\\",
+      "outputPath": "C:\\Users\\Developer\\source\\repos\\KallSonys-AE\\Implementación\\Ordenes\\ApiOrdenes\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -6757,11 +6757,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Developer\\Source\\Repos\\KallSonys-AE\\Implementación\\Ordenes\\Ordenes.Dominio\\Ordenes.Dominio.csproj": {
-              "projectPath": "C:\\Users\\Developer\\Source\\Repos\\KallSonys-AE\\Implementación\\Ordenes\\Ordenes.Dominio\\Ordenes.Dominio.csproj"
+            "C:\\Users\\Developer\\source\\repos\\KallSonys-AE\\Implementación\\Ordenes\\Ordenes.Dominio\\Ordenes.Dominio.csproj": {
+              "projectPath": "C:\\Users\\Developer\\source\\repos\\KallSonys-AE\\Implementación\\Ordenes\\Ordenes.Dominio\\Ordenes.Dominio.csproj"
             },
-            "C:\\Users\\Developer\\Source\\Repos\\KallSonys-AE\\Implementación\\Ordenes\\Ordenes.Infraestructura\\Ordenes.Infraestructura.csproj": {
-              "projectPath": "C:\\Users\\Developer\\Source\\Repos\\KallSonys-AE\\Implementación\\Ordenes\\Ordenes.Infraestructura\\Ordenes.Infraestructura.csproj"
+            "C:\\Users\\Developer\\source\\repos\\KallSonys-AE\\Implementación\\Ordenes\\Ordenes.Infraestructura\\Ordenes.Infraestructura.csproj": {
+              "projectPath": "C:\\Users\\Developer\\source\\repos\\KallSonys-AE\\Implementación\\Ordenes\\Ordenes.Infraestructura\\Ordenes.Infraestructura.csproj"
             }
           }
         }

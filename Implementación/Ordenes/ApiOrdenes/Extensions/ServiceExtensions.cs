@@ -13,6 +13,7 @@ using Ordenes.Infraestructura.UnitOfWork;
 using Catalogos.Infraestructura.Repositories;
 using Ordenes.Dominio.IServices;
 using Ordenes.Infraestructura.Services;
+using Confluent.Kafka;
 
 namespace Ordenes.API.Extensions
 {
@@ -52,7 +53,29 @@ namespace Ordenes.API.Extensions
             services.AddScoped<IMongoContext, MongoContext>();
             services.AddScoped(typeof(IUnitOfWork<>), typeof(UnitOfWorkI<>));
         }
+        public static void ConfigureKafka(this IServiceCollection services, IConfiguration configuration)
+        {
+            var producerConfig = new ProducerConfig();
+            configuration.Bind("KafkaSettings", producerConfig);
+            producerConfig.SaslMechanism = SaslMechanism.Plain;
+            producerConfig.SecurityProtocol = SecurityProtocol.SaslSsl;
 
+            services.AddSingleton<ProducerConfig>(producerConfig);
+
+
+            // ------ Consumer --------
+            //services.AddHostedService<EventsKafka>();
+            var consumerConfig = new ConsumerConfig();
+            configuration.Bind("KafkaSettings", consumerConfig);
+            consumerConfig.SaslMechanism = SaslMechanism.Plain;
+            consumerConfig.SecurityProtocol = SecurityProtocol.SaslSsl;
+            consumerConfig.GroupId = Guid.NewGuid().ToString();
+            consumerConfig.AutoOffsetReset = AutoOffsetReset.Earliest;
+
+            services.AddSingleton<ConsumerConfig>(consumerConfig);
+
+
+        }
 
         public static void AddSwagger(this IServiceCollection services)
         {

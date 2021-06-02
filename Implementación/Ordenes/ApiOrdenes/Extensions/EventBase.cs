@@ -21,7 +21,7 @@ namespace ApiOrdenes.Extensions
 
         public List<T> Data { set; get; }
 
-        public void Producir(EventBase<T> evento, IProducer<Null, string> _producer)
+        public void Producir(EventBase<T> evento, IProducer<string, string> _producer)
         {
             try
             {
@@ -31,7 +31,7 @@ namespace ApiOrdenes.Extensions
                 evento.Evento = evento.Evento;
                 evento.Data = evento.Data;
                 var json = JsonConvert.SerializeObject(evento);
-                _producer.Produce("TP_Venta", new Message<Null, string> { Value = json });
+                _producer.Produce("TP_Venta", new Message<string, string> {Key=evento.Evento, Value = json });
             }
             catch (Exception error)
             {

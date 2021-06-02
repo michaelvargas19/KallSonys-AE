@@ -6614,11 +6614,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Developer\\Desktop\\Especializacion Javeriana\\PICA\\APIS\\Clientes\\ApiClientes\\ApiClientes.csproj",
+      "projectUniqueName": "C:\\Users\\Developer\\source\\repos\\KallSonys-AE\\Implementación\\Clientes\\ApiClientes\\ApiClientes.csproj",
       "projectName": "ApiClientes",
-      "projectPath": "C:\\Users\\Developer\\Desktop\\Especializacion Javeriana\\PICA\\APIS\\Clientes\\ApiClientes\\ApiClientes.csproj",
+      "projectPath": "C:\\Users\\Developer\\source\\repos\\KallSonys-AE\\Implementación\\Clientes\\ApiClientes\\ApiClientes.csproj",
       "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Developer\\Desktop\\Especializacion Javeriana\\PICA\\APIS\\Clientes\\ApiClientes\\obj\\",
+      "outputPath": "C:\\Users\\Developer\\source\\repos\\KallSonys-AE\\Implementación\\Clientes\\ApiClientes\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -6639,11 +6639,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Developer\\Desktop\\Especializacion Javeriana\\PICA\\APIS\\Clientes\\Clientes.Dominio\\Clientes.Dominio.csproj": {
-              "projectPath": "C:\\Users\\Developer\\Desktop\\Especializacion Javeriana\\PICA\\APIS\\Clientes\\Clientes.Dominio\\Clientes.Dominio.csproj"
+            "C:\\Users\\Developer\\source\\repos\\KallSonys-AE\\Implementación\\Clientes\\Clientes.Dominio\\Clientes.Dominio.csproj": {
+              "projectPath": "C:\\Users\\Developer\\source\\repos\\KallSonys-AE\\Implementación\\Clientes\\Clientes.Dominio\\Clientes.Dominio.csproj"
             },
-            "C:\\Users\\Developer\\Desktop\\Especializacion Javeriana\\PICA\\APIS\\Clientes\\Clientes.Infraestructura\\Clientes.Infraestructura.csproj": {
-              "projectPath": "C:\\Users\\Developer\\Desktop\\Especializacion Javeriana\\PICA\\APIS\\Clientes\\Clientes.Infraestructura\\Clientes.Infraestructura.csproj"
+            "C:\\Users\\Developer\\source\\repos\\KallSonys-AE\\Implementación\\Clientes\\Clientes.Infraestructura\\Clientes.Infraestructura.csproj": {
+              "projectPath": "C:\\Users\\Developer\\source\\repos\\KallSonys-AE\\Implementación\\Clientes\\Clientes.Infraestructura\\Clientes.Infraestructura.csproj"
             }
           }
         }

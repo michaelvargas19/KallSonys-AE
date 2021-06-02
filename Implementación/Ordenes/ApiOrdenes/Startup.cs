@@ -31,6 +31,7 @@ namespace ApiOrdenes
         public void ConfigureServices(IServiceCollection services)
         {
             services.ConfigureCors();
+            services.ConfigureKafka(Configuration);
             services.ConfigureMongoDB(Configuration);
             services.AddControllers();
 

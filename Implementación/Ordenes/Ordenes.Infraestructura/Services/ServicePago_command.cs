@@ -50,7 +50,7 @@ namespace Ordenes.Infraestructura.Services
                     {
                         ProductoResponse objResponse = new ProductoResponse();
                         objResponse.Referencia = pago.numero_pedido;
-                        objResponse.SKU = producto.Id;
+                        objResponse.SKU = producto.id_producto;
                         objResponse.Unidades = producto.cantidad;
                         respuesta.Add(objResponse);
                     }

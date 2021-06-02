@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zaxgs5XA7Wmk1Q6Qzv7z3HzGOSQdh0ZdWmoXLHXq4q3anTYSvxfRhLEtKW8ohNSELI4IV6Lw74uoZAuvbKGUrQ==",
+  "dgSpecHash": "T8Ph1R1befDGJ4X6/LrmY0lB47EcaGh17JOlZNMYxt4AFa0k20SCg6ILHKY1U/as2WxqEs/LKeW/UFzgWsYkUA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Developer\\Desktop\\Especializacion Javeriana\\PICA\\APIS\\Clientes\\ApiClientes\\ApiClientes.csproj",
+  "projectFilePath": "C:\\Users\\Developer\\source\\repos\\KallSonys-AE\\Implementación\\Clientes\\ApiClientes\\ApiClientes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Developer\\.nuget\\packages\\confluent.kafka\\1.7.0\\confluent.kafka.1.7.0.nupkg.sha512",
     "C:\\Users\\Developer\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",

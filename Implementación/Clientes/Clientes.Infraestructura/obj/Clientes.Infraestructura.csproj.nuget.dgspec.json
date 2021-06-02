@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Developer\\Desktop\\Especializacion Javeriana\\PICA\\APIS\\Clientes\\Clientes.Infraestructura\\Clientes.Infraestructura.csproj": {}
+    "C:\\Users\\Developer\\source\\repos\\KallSonys-AE\\Implementación\\Clientes\\Clientes.Infraestructura\\Clientes.Infraestructura.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Developer\\Desktop\\Especializacion Javeriana\\PICA\\APIS\\Clientes\\Clientes.Dominio\\Clientes.Dominio.csproj": {
+    "C:\\Users\\Developer\\source\\repos\\KallSonys-AE\\Implementación\\Clientes\\Clientes.Dominio\\Clientes.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Developer\\Desktop\\Especializacion Javeriana\\PICA\\APIS\\Clientes\\Clientes.Dominio\\Clientes.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\Developer\\source\\repos\\KallSonys-AE\\Implementación\\Clientes\\Clientes.Dominio\\Clientes.Dominio.csproj",
         "projectName": "Clientes.Dominio",
-        "projectPath": "C:\\Users\\Developer\\Desktop\\Especializacion Javeriana\\PICA\\APIS\\Clientes\\Clientes.Dominio\\Clientes.Dominio.csproj",
+        "projectPath": "C:\\Users\\Developer\\source\\repos\\KallSonys-AE\\Implementación\\Clientes\\Clientes.Dominio\\Clientes.Dominio.csproj",
         "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Developer\\Desktop\\Especializacion Javeriana\\PICA\\APIS\\Clientes\\Clientes.Dominio\\obj\\",
+        "outputPath": "C:\\Users\\Developer\\source\\repos\\KallSonys-AE\\Implementación\\Clientes\\Clientes.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -67,14 +67,14 @@
         }
       }
     },
-    "C:\\Users\\Developer\\Desktop\\Especializacion Javeriana\\PICA\\APIS\\Clientes\\Clientes.Infraestructura\\Clientes.Infraestructura.csproj": {
+    "C:\\Users\\Developer\\source\\repos\\KallSonys-AE\\Implementación\\Clientes\\Clientes.Infraestructura\\Clientes.Infraestructura.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Developer\\Desktop\\Especializacion Javeriana\\PICA\\APIS\\Clientes\\Clientes.Infraestructura\\Clientes.Infraestructura.csproj",
+        "projectUniqueName": "C:\\Users\\Developer\\source\\repos\\KallSonys-AE\\Implementación\\Clientes\\Clientes.Infraestructura\\Clientes.Infraestructura.csproj",
         "projectName": "Clientes.Infraestructura",
-        "projectPath": "C:\\Users\\Developer\\Desktop\\Especializacion Javeriana\\PICA\\APIS\\Clientes\\Clientes.Infraestructura\\Clientes.Infraestructura.csproj",
+        "projectPath": "C:\\Users\\Developer\\source\\repos\\KallSonys-AE\\Implementación\\Clientes\\Clientes.Infraestructura\\Clientes.Infraestructura.csproj",
         "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Developer\\Desktop\\Especializacion Javeriana\\PICA\\APIS\\Clientes\\Clientes.Infraestructura\\obj\\",
+        "outputPath": "C:\\Users\\Developer\\source\\repos\\KallSonys-AE\\Implementación\\Clientes\\Clientes.Infraestructura\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -95,8 +95,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Developer\\Desktop\\Especializacion Javeriana\\PICA\\APIS\\Clientes\\Clientes.Dominio\\Clientes.Dominio.csproj": {
-                "projectPath": "C:\\Users\\Developer\\Desktop\\Especializacion Javeriana\\PICA\\APIS\\Clientes\\Clientes.Dominio\\Clientes.Dominio.csproj"
+              "C:\\Users\\Developer\\source\\repos\\KallSonys-AE\\Implementación\\Clientes\\Clientes.Dominio\\Clientes.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Developer\\source\\repos\\KallSonys-AE\\Implementación\\Clientes\\Clientes.Dominio\\Clientes.Dominio.csproj"
               }
             }
           }

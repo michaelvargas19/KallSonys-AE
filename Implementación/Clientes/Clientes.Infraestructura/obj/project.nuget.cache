@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rph1D3+Fp6APLh1IcKYK6z58YynGR6+M3+q3sP61vPaZG4RHU5hXDcKkr9K3upm9YXvmmduLXpm3cwSOma01Qg==",
+  "dgSpecHash": "UOsoAzGf32d+S+agFonpLOktz9itBf4MWISlkxjDk1BYlhcuxzlgv1ex3uvmaJZrqdy/yACivWdM0SW2OSUv8g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Developer\\Desktop\\Especializacion Javeriana\\PICA\\APIS\\Clientes\\Clientes.Infraestructura\\Clientes.Infraestructura.csproj",
+  "projectFilePath": "C:\\Users\\Developer\\source\\repos\\KallSonys-AE\\Implementación\\Clientes\\Clientes.Infraestructura\\Clientes.Infraestructura.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Developer\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\Developer\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",

@@ -7,3 +7,12 @@ C:\Users\Developer\Desktop\Especializacion Javeriana\PICA\APIS\Clientes\Clientes
 C:\Users\Developer\Desktop\Especializacion Javeriana\PICA\APIS\Clientes\Clientes.Dominio\obj\Debug\netcoreapp3.1\Clientes.Dominio.dll
 C:\Users\Developer\Desktop\Especializacion Javeriana\PICA\APIS\Clientes\Clientes.Dominio\obj\Debug\netcoreapp3.1\Clientes.Dominio.pdb
 C:\Users\Developer\Desktop\Especializacion Javeriana\PICA\APIS\Clientes\Clientes.Dominio\obj\Debug\netcoreapp3.1\Clientes.Dominio.csprojAssemblyReference.cache
+C:\Users\Developer\source\repos\KallSonys-AE\Implementación\Clientes\Clientes.Dominio\bin\Debug\netcoreapp3.1\Clientes.Dominio.deps.json
+C:\Users\Developer\source\repos\KallSonys-AE\Implementación\Clientes\Clientes.Dominio\bin\Debug\netcoreapp3.1\Clientes.Dominio.dll
+C:\Users\Developer\source\repos\KallSonys-AE\Implementación\Clientes\Clientes.Dominio\bin\Debug\netcoreapp3.1\Clientes.Dominio.pdb
+C:\Users\Developer\source\repos\KallSonys-AE\Implementación\Clientes\Clientes.Dominio\obj\Debug\netcoreapp3.1\Clientes.Dominio.csprojAssemblyReference.cache
+C:\Users\Developer\source\repos\KallSonys-AE\Implementación\Clientes\Clientes.Dominio\obj\Debug\netcoreapp3.1\Clientes.Dominio.AssemblyInfoInputs.cache
+C:\Users\Developer\source\repos\KallSonys-AE\Implementación\Clientes\Clientes.Dominio\obj\Debug\netcoreapp3.1\Clientes.Dominio.AssemblyInfo.cs
+C:\Users\Developer\source\repos\KallSonys-AE\Implementación\Clientes\Clientes.Dominio\obj\Debug\netcoreapp3.1\Clientes.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Developer\source\repos\KallSonys-AE\Implementación\Clientes\Clientes.Dominio\obj\Debug\netcoreapp3.1\Clientes.Dominio.dll
+C:\Users\Developer\source\repos\KallSonys-AE\Implementación\Clientes\Clientes.Dominio\obj\Debug\netcoreapp3.1\Clientes.Dominio.pdb

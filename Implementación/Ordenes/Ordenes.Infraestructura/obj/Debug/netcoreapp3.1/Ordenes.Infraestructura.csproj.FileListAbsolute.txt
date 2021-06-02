@@ -22,3 +22,15 @@ C:\Users\Developer\source\repos\Version2\Ordenes\Ordenes.Infraestructura\obj\Deb
 C:\Users\Developer\source\repos\Version2\Ordenes\Ordenes.Infraestructura\obj\Debug\netcoreapp3.1\Ordenes.Infraestructura.dll
 C:\Users\Developer\source\repos\Version2\Ordenes\Ordenes.Infraestructura\obj\Debug\netcoreapp3.1\Ordenes.Infraestructura.pdb
 C:\Users\Developer\source\repos\Version2\Ordenes\Ordenes.Infraestructura\obj\Debug\netcoreapp3.1\Ordenes.Infraestructura.csproj.CoreCompileInputs.cache
+C:\Users\Developer\source\repos\KallSonys-AE\Implementación\Ordenes\Ordenes.Infraestructura\bin\Debug\netcoreapp3.1\Ordenes.Infraestructura.deps.json
+C:\Users\Developer\source\repos\KallSonys-AE\Implementación\Ordenes\Ordenes.Infraestructura\bin\Debug\netcoreapp3.1\Ordenes.Infraestructura.dll
+C:\Users\Developer\source\repos\KallSonys-AE\Implementación\Ordenes\Ordenes.Infraestructura\bin\Debug\netcoreapp3.1\Ordenes.Infraestructura.pdb
+C:\Users\Developer\source\repos\KallSonys-AE\Implementación\Ordenes\Ordenes.Infraestructura\bin\Debug\netcoreapp3.1\Ordenes.Dominio.dll
+C:\Users\Developer\source\repos\KallSonys-AE\Implementación\Ordenes\Ordenes.Infraestructura\bin\Debug\netcoreapp3.1\Ordenes.Dominio.pdb
+C:\Users\Developer\source\repos\KallSonys-AE\Implementación\Ordenes\Ordenes.Infraestructura\obj\Debug\netcoreapp3.1\Ordenes.Infraestructura.csprojAssemblyReference.cache
+C:\Users\Developer\source\repos\KallSonys-AE\Implementación\Ordenes\Ordenes.Infraestructura\obj\Debug\netcoreapp3.1\Ordenes.Infraestructura.AssemblyInfoInputs.cache
+C:\Users\Developer\source\repos\KallSonys-AE\Implementación\Ordenes\Ordenes.Infraestructura\obj\Debug\netcoreapp3.1\Ordenes.Infraestructura.AssemblyInfo.cs
+C:\Users\Developer\source\repos\KallSonys-AE\Implementación\Ordenes\Ordenes.Infraestructura\obj\Debug\netcoreapp3.1\Ordenes.Infraestructura.csproj.CoreCompileInputs.cache
+C:\Users\Developer\source\repos\KallSonys-AE\Implementación\Ordenes\Ordenes.Infraestructura\obj\Debug\netcoreapp3.1\Ordenes.Infraestructura.csproj.CopyComplete
+C:\Users\Developer\source\repos\KallSonys-AE\Implementación\Ordenes\Ordenes.Infraestructura\obj\Debug\netcoreapp3.1\Ordenes.Infraestructura.dll
+C:\Users\Developer\source\repos\KallSonys-AE\Implementación\Ordenes\Ordenes.Infraestructura\obj\Debug\netcoreapp3.1\Ordenes.Infraestructura.pdb

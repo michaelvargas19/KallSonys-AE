@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HRRyVFRNvz1c/3sNdFvo9IRykSKre9gFOq9CQY9GKit5xQnCjjhHpFuHwgn+lfoH7CuWKB2js8/kjm424cnlQA==",
+  "dgSpecHash": "MMsfsdFVyH7B2b9222jDV8Qxkihz1rJIMcuMh10x4nQEcSZQXa92Di9rhVaFY+MEjtHyiM5qcTBxB+TaN0Hiyw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Developer\\Desktop\\Especializacion Javeriana\\PICA\\APIS\\Clientes\\Clientes.Dominio\\Clientes.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\Developer\\source\\repos\\KallSonys-AE\\Implementación\\Clientes\\Clientes.Dominio\\Clientes.Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Developer\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\Developer\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
