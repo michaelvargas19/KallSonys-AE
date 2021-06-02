@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y8KKxUjDgRiaEOczxgVyQnJ2zlJzR3jjREBBICKJszDqFA8GHfCIwINsaszJl/FYNGfcOOOJEYhTgJ6RAi2/dQ==",
+  "dgSpecHash": "p/7mkwT2/1cdT7XDJmlFoP+Cz+pvKEWgpyZDCVrNzr0/rBzT/wCz0v6kMVfACQ8TEa2AFuSGbTufW2DYlgrQ+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Inventarios\\Inventarios.Dominio\\Inventarios.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Inventarios\\Inventarios.Dominio\\Inventarios.Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mavargasb\\.nuget\\packages\\confluent.kafka\\1.7.0\\confluent.kafka.1.7.0.nupkg.sha512",
     "C:\\Users\\mavargasb\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",

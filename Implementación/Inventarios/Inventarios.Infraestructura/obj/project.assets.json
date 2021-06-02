@@ -521,11 +521,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Inventarios\\Inventarios.Infraestructura\\Inventarios.Infraestructura.csproj",
+      "projectUniqueName": "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Inventarios\\Inventarios.Infraestructura\\Inventarios.Infraestructura.csproj",
       "projectName": "Inventarios.Infraestructura",
-      "projectPath": "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Inventarios\\Inventarios.Infraestructura\\Inventarios.Infraestructura.csproj",
+      "projectPath": "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Inventarios\\Inventarios.Infraestructura\\Inventarios.Infraestructura.csproj",
       "packagesPath": "C:\\Users\\mavargasb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Inventarios\\Inventarios.Infraestructura\\obj\\",
+      "outputPath": "C:\\Users\\mavargasb\\Documents\\GitHub\\KallSonys-AE\\Implementación\\Inventarios\\Inventarios.Infraestructura\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

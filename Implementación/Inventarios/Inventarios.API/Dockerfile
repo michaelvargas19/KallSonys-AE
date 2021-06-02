@@ -2,8 +2,8 @@
 
 FROM mcr.microsoft.com/dotnet/aspnet:3.1 AS base
 WORKDIR /app
-EXPOSE 8500
-EXPOSE 5430
+EXPOSE 80
+EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
 WORKDIR /src
@@ -17,6 +17,8 @@ RUN dotnet build "Inventarios.API.csproj" -c Release -o /app/build
 
 FROM build AS publish
 RUN dotnet publish "Inventarios.API.csproj" -c Release -o /app/publish
- IR /app
+
+FROM base AS final
+WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "Inventarios.API.dll"]
