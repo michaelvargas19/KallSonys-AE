@@ -53,6 +53,8 @@ namespace Inventarios.API.Extensions
 
         public static void ConfigureKafka(this IServiceCollection services, IConfiguration configuration)
         {
+            // ------ Producer --------
+
             var producerConfig = new ProducerConfig();
             configuration.Bind("KafkaSettings", producerConfig);
             producerConfig.SaslMechanism = SaslMechanism.Plain;
@@ -62,16 +64,17 @@ namespace Inventarios.API.Extensions
 
 
             // ------ Consumer --------
-            services.AddHostedService<EventsKafka>();
+            
             var consumerConfig = new ConsumerConfig();
             configuration.Bind("KafkaSettings", consumerConfig);
             consumerConfig.SaslMechanism = SaslMechanism.Plain;
             consumerConfig.SecurityProtocol = SecurityProtocol.SaslSsl;
             consumerConfig.GroupId = Guid.NewGuid().ToString();
-            consumerConfig.AutoOffsetReset = AutoOffsetReset.Earliest; 
+            //consumerConfig.AutoOffsetReset = AutoOffsetReset.Earliest; 
+            //consumerConfig.EnableAutoCommit = false; 
             
             services.AddSingleton<ConsumerConfig>(consumerConfig);
-
+            services.AddHostedService<EventsKafka>();
 
         }
 
@@ -124,7 +127,7 @@ namespace Inventarios.API.Extensions
                         Url = new Uri("https://puj.org.co/politica-privacidad/"),
                     }
 
-                });
+                }); 
 
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {

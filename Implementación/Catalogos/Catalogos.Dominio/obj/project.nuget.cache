@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MMYTHTrKHK5fgw21mDj6bjR7qEVOyg5CsNwGRWaFTZMvkPdebOQbqIBYRI1munkZNws2yl+BmXkDSdoWxbG1Gg==",
+  "dgSpecHash": "GUWRitjMPbGqxmsWv2BaFNKLhOJ2Og9DuAU4l1By75QheyZ52aoxIQ0t9HmtExGCHXQ8DqsJF7KsFWQ3xtHLIg==",
   "success": true,
   "projectFilePath": "C:\\Users\\mavargasb\\Documents\\Auxiliar\\Catalogos\\Catalogos.Dominio\\Catalogos.Dominio.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\mavargasb\\.nuget\\packages\\mongodb.driver\\2.12.2\\mongodb.driver.2.12.2.nupkg.sha512",
     "C:\\Users\\mavargasb\\.nuget\\packages\\mongodb.driver.core\\2.12.2\\mongodb.driver.core.2.12.2.nupkg.sha512",
     "C:\\Users\\mavargasb\\.nuget\\packages\\mongodb.libmongocrypt\\1.2.1\\mongodb.libmongocrypt.1.2.1.nupkg.sha512",
+    "C:\\Users\\mavargasb\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\mavargasb\\.nuget\\packages\\sharpcompress\\0.23.0\\sharpcompress.0.23.0.nupkg.sha512",
     "C:\\Users\\mavargasb\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\mavargasb\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",

@@ -1,4 +1,4 @@
-﻿using Newtonsoft.Json;
+﻿using Confluent.Kafka;
 using Inventarios.Dominio.IServices.Command;
 using Inventarios.Dominio.IServices.Queries;
 using Inventarios.Dominio.IUnitOfWorks;
@@ -8,12 +8,11 @@ using Inventarios.Dominio.Modelo.Queries;
 using Inventarios.Dominio.Util;
 using Inventarios.Infraestructura.Entities;
 using Inventarios.Infraestructura.Specification;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using System.Threading.Tasks;
-using Confluent.Kafka;
 
 namespace Inventarios.Dominio.Services.Command
 {
@@ -22,7 +21,7 @@ namespace Inventarios.Dominio.Services.Command
         private readonly IUnitOfWork<Producto> _ufwProductos;
         private readonly IUnitOfWork<_AuditoriaInventarios> _ufwLog;
         private readonly IInventariosServiceQuery _inventariosServiceQ;
-        private readonly IProducer<Null, string> _producer;
+        private readonly IProducer<string, string> _producer;
         private readonly IUtils _utils;
 
         public InventariosServiceCmd(IInventariosServiceQuery inventariosServiceQ,
@@ -33,7 +32,7 @@ namespace Inventarios.Dominio.Services.Command
         {
             this._inventariosServiceQ = inventariosServiceQ;
             this._ufwProductos = ufwProductos;
-            this._producer = new ProducerBuilder<Null, string>(producerConfig).Build();
+            this._producer = new ProducerBuilder<string, string>(producerConfig).Build();
             this._ufwLog = ufwLog;
             this._utils = utils;
         }
@@ -112,6 +111,61 @@ namespace Inventarios.Dominio.Services.Command
 
 
 
+
+        public void ProcesarEstadoProducto(EventBase<EstadoProductoCmd> EventoEstado)
+        {
+            bool EsError = true;
+            var jrq = JsonConvert.SerializeObject(EventoEstado);
+            var jrp = "";
+
+            if (!(_ufwLog.Repository<_AuditoriaInventarios>().Contains(new LogInventarioSpecification(EventoEstado.Data.SKU, jrq))))
+            {
+                try
+                {
+                
+                    Producto producto = _ufwProductos.Repository<Producto>().Find(new ProductoSKUSpecification(EventoEstado.Data.SKU)).FirstOrDefault();
+
+                    if( (producto != null))
+                    {
+                        producto.Estado = EventoEstado.Data.Estado;
+                        producto.EnAlmacen = EventoEstado.Data.EnAlmacen;
+                        producto.NivelInventario = EventoEstado.Data.NivelInventario;
+
+                        //Persistencia
+                        _ufwProductos.Repository<Producto>().ReplaceOne(producto);
+                        EsError = false;
+                    
+                        jrp = JsonConvert.SerializeObject(producto);
+                    }
+                    else
+                    {
+                        throw new Exception("No se ha encontrado el producto");
+                    }
+
+                }
+                catch (Exception e)
+                {
+                    jrp = JsonConvert.SerializeObject(e);
+                }
+
+
+                //Auditoría
+            
+            
+                _AuditoriaInventarios log = new _AuditoriaInventarios("CambioEstadoProducto", EventoEstado.Data.SKU, EsError, EventoEstado.Usuario, MethodInfo.GetCurrentMethod().Name, this.ToString(), jrq, jrp, "", "SKU: " + EventoEstado.Data.SKU + "   NivelInventario: " + EventoEstado.Data.NivelInventario.ToString() + "");
+
+                _ufwLog.Repository<_AuditoriaInventarios>().InsertOne(log);
+
+            }
+            else
+            {
+                //Ya fue ejecutada
+            }
+
+        }
+
+
+
         private Producto HacerSeguimiento(Producto producto)
         {
             try
@@ -178,7 +232,7 @@ namespace Inventarios.Dominio.Services.Command
 
                 var json = JsonConvert.SerializeObject(evento);
 
-                this._producer.Produce("TP_Inventario", new Message<Null, string> { Value = json });
+                this._producer.Produce("TP_Inventario", new Message<string, string> { Key= "EstadoActualizado", Value = json });
 
             }
             catch (Exception e)

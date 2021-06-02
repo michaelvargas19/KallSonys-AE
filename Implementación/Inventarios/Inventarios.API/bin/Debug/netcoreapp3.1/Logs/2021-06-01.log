@@ -2680,3 +2680,1240 @@ TOPIC:  'TP_Venta [[4]] @1'
 2021-06-01 11:54:35.1690|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T11:54:30.9465855-05:00","Data":[{"Referencia":"string","SKU":"string1","Unidades":1}]}'  
 TOPIC:  'TP_Venta [[5]] @10' 
 
+2021-06-01 12:08:29.1247|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 12:08:29.2167|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 12:08:29.2167|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 12:08:33.8177|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 12:08:33 p. m.
+
+2021-06-01 12:08:33.8261|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @0' 
+
+2021-06-01 12:08:34.2368|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 75' 
+
+
+
+2021-06-01 12:08:34.2662|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 12:08:34 p. m.
+
+2021-06-01 12:08:34.2841|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @1' 
+
+2021-06-01 12:08:34.4058|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 75' 
+
+
+
+2021-06-01 12:08:34.4446|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 12:08:34 p. m.
+
+2021-06-01 12:08:34.4629|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @2' 
+
+2021-06-01 12:08:34.5982|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 12:08:34.6258|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 12:08:34 p. m.
+
+2021-06-01 12:08:34.6453|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @3' 
+
+2021-06-01 12:08:34.6989|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 12:08:34.7400|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 12:08:34 p. m.
+
+2021-06-01 12:08:34.7400|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @4' 
+
+2021-06-01 12:08:34.8007|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 12:08:34.8413|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 12:08:34 p. m.
+
+2021-06-01 12:08:34.8413|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @5' 
+
+2021-06-01 12:08:34.9037|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 12:08:34.9517|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 12:08:34 p. m.
+
+2021-06-01 12:08:34.9517|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @6' 
+
+2021-06-01 12:08:35.0146|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 12:08:35.0759|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 12:08:35 p. m.
+
+2021-06-01 12:08:35.0759|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @7' 
+
+2021-06-01 12:08:35.1479|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 12:08:35.2051|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 12:08:35 p. m.
+
+2021-06-01 12:08:35.2051|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @8' 
+
+2021-06-01 12:08:35.2980|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 12:08:35.3348|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 12:08:35 p. m.
+
+2021-06-01 12:08:35.3599|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":null,"Fecha":"2021-06-01T02:21:28.2993702-05:00","Data":[{"SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta [[5]] @9' 
+
+2021-06-01 12:08:38.0797|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 12:08:38 p. m.
+
+2021-06-01 12:08:38.1051|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T11:54:30.9465855-05:00","Data":[{"Referencia":"string","SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta [[5]] @10' 
+
+2021-06-01 12:08:38.6703|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 12:08:38 p. m.
+
+2021-06-01 12:08:38.6904|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @0' 
+
+2021-06-01 12:08:38.7634|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 12:08:38.7914|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 12:08:38 p. m.
+
+2021-06-01 12:08:38.8115|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @1' 
+
+2021-06-01 12:08:38.8712|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 88' 
+
+
+
+2021-06-01 12:08:43.1442|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 12:08:43 p. m.
+
+2021-06-01 12:08:43.1442|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T12:08:41.573793-05:00","Data":[{"Referencia":"string","SKU":"string1","Unidades":2}]}'  
+TOPIC:  'TP_Venta [[5]] @11' 
+
+2021-06-01 12:30:20.3176|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 12:30:20.4026|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 12:30:20.4144|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 13:02:23.8172|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 13:02:24.0240|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 13:02:24.0619|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 13:02:28.8766|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 1:02:28 p. m.
+
+2021-06-01 13:02:28.8975|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @0' 
+
+2021-06-01 13:02:31.2419|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 76' 
+
+
+
+2021-06-01 13:02:31.3226|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 1:02:31 p. m.
+
+2021-06-01 13:02:31.4050|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @1' 
+
+2021-06-01 13:02:31.6021|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 76' 
+
+
+
+2021-06-01 13:02:31.6820|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 1:02:31 p. m.
+
+2021-06-01 13:02:31.7117|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @2' 
+
+2021-06-01 13:13:02.8355|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 13:13:03.0810|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 13:13:03.1333|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 13:13:07.6206|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 1:13:07 p. m.
+
+2021-06-01 13:13:07.6707|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @0' 
+
+2021-06-01 13:29:33.2521|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 13:29:33.3938|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 13:29:33.4137|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 13:29:40.1427|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 1:29:40 p. m.
+
+2021-06-01 13:29:40.1427|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @0' 
+
+2021-06-01 13:29:40.5242|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 98' 
+
+
+
+2021-06-01 13:30:30.1957|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 13:30:30.4700|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 13:30:30.5063|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 13:38:41.9859|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 13:38:42.0988|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 13:38:42.1277|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 13:38:49.8294|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 1:38:49 p. m.
+
+2021-06-01 13:38:50.6143|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"data":{"id":1,"tipoDocumento":"CC","codigo":"15878783","razonSocial":"MAURICIO F. ORTIZ S.","correo":"mauriort@gmail.com","celular":"3016075810"}}'  
+TOPIC:  'TP_Proveedores [[5]] @0' 
+
+2021-06-01 13:39:03.7271|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[Inventarios.Dominio.Modelo.Command.VentaCmd]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'data.id', line 1, position 14.'  STACKTRACE:  '   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 84' 
+
+
+
+2021-06-01 13:43:09.2272|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 13:43:09.4053|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 13:43:09.4308|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 13:43:22.2419|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 1:43:22 p. m.
+
+2021-06-01 13:43:22.2911|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"data":{"id":1,"tipoDocumento":"CC","codigo":"15878783","razonSocial":"MAURICIO F. ORTIZ S.","correo":"mauriort@gmail.com","celular":"3016075810"}}'  
+TOPIC:  'TP_Proveedores [[5]] @0' 
+
+2021-06-01 13:43:35.5252|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[Inventarios.Dominio.Modelo.Command.VentaCmd]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'data.id', line 1, position 14.'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken)' 
+
+
+
+2021-06-01 16:37:14.4150|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 16:37:14.7952|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 16:37:14.8090|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 16:37:25.5422|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:37:25 p. m.
+
+2021-06-01 16:37:25.5565|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @0' 
+
+2021-06-01 16:37:28.0443|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 107' 
+
+
+
+2021-06-01 16:38:06.3380|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 16:38:06.4281|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 16:38:06.4357|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 16:38:14.3012|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:38:14 p. m.
+
+2021-06-01 16:38:14.3165|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @0' 
+
+2021-06-01 16:38:19.3608|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:38:19 p. m.
+
+2021-06-01 16:38:19.3787|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @1' 
+
+2021-06-01 16:38:23.6308|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:38:23 p. m.
+
+2021-06-01 16:38:23.6507|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @0' 
+
+2021-06-01 16:38:24.2916|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:38:24 p. m.
+
+2021-06-01 16:38:24.3002|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @1' 
+
+2021-06-01 16:38:24.7068|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:38:24 p. m.
+
+2021-06-01 16:38:24.7251|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @2' 
+
+2021-06-01 16:38:25.1856|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:38:25 p. m.
+
+2021-06-01 16:38:25.1856|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @3' 
+
+2021-06-01 16:38:25.6025|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:38:25 p. m.
+
+2021-06-01 16:38:25.6405|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @4' 
+
+2021-06-01 16:38:26.0242|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:38:26 p. m.
+
+2021-06-01 16:38:26.0419|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @5' 
+
+2021-06-01 16:38:26.5114|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:38:26 p. m.
+
+2021-06-01 16:38:26.5556|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @6' 
+
+2021-06-01 16:38:26.9696|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:38:26 p. m.
+
+2021-06-01 16:38:26.9885|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @7' 
+
+2021-06-01 16:38:30.0058|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:38:29 p. m.
+
+2021-06-01 16:38:30.0268|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @8' 
+
+2021-06-01 16:38:30.5366|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:38:30 p. m.
+
+2021-06-01 16:38:30.5438|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":null,"Fecha":"2021-06-01T02:21:28.2993702-05:00","Data":[{"SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta [[5]] @9' 
+
+2021-06-01 16:38:31.6083|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:38:31 p. m.
+
+2021-06-01 16:38:31.6250|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T11:54:30.9465855-05:00","Data":[{"Referencia":"string","SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta [[5]] @10' 
+
+2021-06-01 16:38:32.2566|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:38:32 p. m.
+
+2021-06-01 16:38:32.2642|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T12:08:41.573793-05:00","Data":[{"Referencia":"string","SKU":"string1","Unidades":2}]}'  
+TOPIC:  'TP_Venta [[5]] @11' 
+
+2021-06-01 16:38:32.9754|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:38:32 p. m.
+
+2021-06-01 16:38:32.9882|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T15:32:35.7275807-05:00","Data":[{"Referencia":"string","SKU":"string","Unidades":0}]}'  
+TOPIC:  'TP_Venta [[5]] @12' 
+
+2021-06-01 16:38:33.6828|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:38:33 p. m.
+
+2021-06-01 16:38:33.7013|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"ObtenerClientePorCorreo","Topico":"T_VENTAS","Origen":"API Clientes","Usuario":"Pruebas","Fecha":"2021-06-01T15:58:38.4617522-05:00","Data":{"correo_cliente":"ecortes@hotmail.com","nombres_cliente":"yesid cortes ins","nombre_usuario":"ecortes","password_cliente":"123","direccion_cliente":"cra 22 a n 44 a ","telefono_cliente":"3163670845","ciudad_cliente":"Bogota","pais_cliente":"Colombia","metodo_pago":{"codigo_metodo_pago":"TC","numero_tarjeta_credito":"45646","detalles_metodo_pago":"YANO","Id":null,"FechaCreacion":"2021-06-01T15:58:49.5006291-05:00"},"Id":"60b5cb656c6014cec7308639","FechaCreacion":"2021-06-01T15:58:49.5204398-05:00"}}'  
+TOPIC:  'TP_Venta [[5]] @13' 
+
+2021-06-01 16:38:34.2309|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:38:34 p. m.
+
+2021-06-01 16:38:34.2309|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"ObtenerClientePorCorreo","Topico":"T_VENTAS","Origen":"API Clientes","Usuario":"Pruebas","Fecha":"2021-06-01T16:00:28.1339944-05:00","Data":{"correo_cliente":"ecortes@hotmail.com","nombres_cliente":"yesid cortes ins","nombre_usuario":"ecortes","password_cliente":"123","direccion_cliente":"cra 22 a n 44 a ","telefono_cliente":"3163670845","ciudad_cliente":"Bogota","pais_cliente":"Colombia","metodo_pago":{"codigo_metodo_pago":"TC","numero_tarjeta_credito":"45646","detalles_metodo_pago":"YANO","Id":null,"FechaCreacion":"2021-06-01T16:00:59.4431773-05:00"},"Id":"60b5cb656c6014cec7308639","FechaCreacion":"2021-06-01T16:00:59.4432898-05:00"}}'  
+TOPIC:  'TP_Venta [[5]] @14' 
+
+2021-06-01 16:38:38.3292|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:38:38 p. m.
+
+2021-06-01 16:38:38.3292|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"ObtenerClientePorCorreo","Topico":"T_VENTAS","Origen":"API Clientes","Usuario":"Pruebas","Fecha":"2021-06-01T16:06:44.3611527-05:00","Data":{"correo_cliente":"yescor16@hotmail.com","nombres_cliente":"yesid cortes ins","nombre_usuario":"yescor16","password_cliente":"123","direccion_cliente":"cra 22 a n 44 a ","telefono_cliente":"3163670845","ciudad_cliente":"Bogota","pais_cliente":"Colombia","metodo_pago":{"codigo_metodo_pago":"TC","numero_tarjeta_credito":"3333333","detalles_metodo_pago":"Bancolombia","Id":null,"FechaCreacion":"2021-06-01T16:07:27.906021-05:00"},"Id":"60b5c5edce0dc84e67385d18","FechaCreacion":"2021-06-01T16:07:27.9198018-05:00"}}'  
+TOPIC:  'TP_Venta [[5]] @15' 
+
+2021-06-01 16:38:39.0157|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:38:39 p. m.
+
+2021-06-01 16:38:39.0513|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"TP_Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T16:32:17.126822-05:00","Data":[{"Referencia":"string","SKU":"string","Unidades":0}]}'  
+TOPIC:  'TP_Venta [[5]] @16' 
+
+2021-06-01 16:38:39.6884|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:38:39 p. m.
+
+2021-06-01 16:38:39.6884|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"TP_Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T16:36:40.832753-05:00","Data":[{"Referencia":"string","SKU":"string","Unidades":0}]}'  
+TOPIC:  'TP_Venta [[5]] @17' 
+
+2021-06-01 16:42:18.2299|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 16:42:18.3258|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 16:42:18.3258|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 16:42:41.2706|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:42:41 p. m.
+
+2021-06-01 16:42:41.3047|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @0' 
+
+2021-06-01 16:42:49.9272|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:42:49 p. m.
+
+2021-06-01 16:42:49.9484|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @1' 
+
+2021-06-01 16:42:53.1981|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:42:53 p. m.
+
+2021-06-01 16:42:53.2044|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @0' 
+
+2021-06-01 16:42:56.2271|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:42:56 p. m.
+
+2021-06-01 16:42:56.2440|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @1' 
+
+2021-06-01 16:42:58.7622|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:42:58 p. m.
+
+2021-06-01 16:42:58.8202|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @2' 
+
+2021-06-01 16:43:05.2114|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:43:05 p. m.
+
+2021-06-01 16:43:05.2658|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @3' 
+
+2021-06-01 16:43:09.2274|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:43:09 p. m.
+
+2021-06-01 16:43:09.2454|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @4' 
+
+2021-06-01 16:43:12.4497|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:43:12 p. m.
+
+2021-06-01 16:43:12.4767|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @5' 
+
+2021-06-01 16:43:14.5379|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:43:14 p. m.
+
+2021-06-01 16:43:14.5540|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @6' 
+
+2021-06-01 16:43:16.6883|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:43:16 p. m.
+
+2021-06-01 16:43:16.7057|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @7' 
+
+2021-06-01 16:43:21.3182|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:43:21 p. m.
+
+2021-06-01 16:43:21.3388|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @8' 
+
+2021-06-01 16:43:23.4078|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:43:23 p. m.
+
+2021-06-01 16:43:23.4838|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":null,"Fecha":"2021-06-01T02:21:28.2993702-05:00","Data":[{"SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta [[5]] @9' 
+
+2021-06-01 16:44:37.2144|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:44:37 p. m.
+
+2021-06-01 16:44:37.2247|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T11:54:30.9465855-05:00","Data":[{"Referencia":"string","SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta [[5]] @10' 
+
+2021-06-01 16:44:46.4325|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:44:46 p. m.
+
+2021-06-01 16:44:46.4488|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T12:08:41.573793-05:00","Data":[{"Referencia":"string","SKU":"string1","Unidades":2}]}'  
+TOPIC:  'TP_Venta [[5]] @11' 
+
+2021-06-01 16:44:48.9134|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:44:48 p. m.
+
+2021-06-01 16:44:48.9629|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T15:32:35.7275807-05:00","Data":[{"Referencia":"string","SKU":"string","Unidades":0}]}'  
+TOPIC:  'TP_Venta [[5]] @12' 
+
+2021-06-01 16:44:50.5612|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:44:50 p. m.
+
+2021-06-01 16:44:50.5612|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"ObtenerClientePorCorreo","Topico":"T_VENTAS","Origen":"API Clientes","Usuario":"Pruebas","Fecha":"2021-06-01T15:58:38.4617522-05:00","Data":{"correo_cliente":"ecortes@hotmail.com","nombres_cliente":"yesid cortes ins","nombre_usuario":"ecortes","password_cliente":"123","direccion_cliente":"cra 22 a n 44 a ","telefono_cliente":"3163670845","ciudad_cliente":"Bogota","pais_cliente":"Colombia","metodo_pago":{"codigo_metodo_pago":"TC","numero_tarjeta_credito":"45646","detalles_metodo_pago":"YANO","Id":null,"FechaCreacion":"2021-06-01T15:58:49.5006291-05:00"},"Id":"60b5cb656c6014cec7308639","FechaCreacion":"2021-06-01T15:58:49.5204398-05:00"}}'  
+TOPIC:  'TP_Venta [[5]] @13' 
+
+2021-06-01 16:46:33.4027|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:46:33 p. m.
+
+2021-06-01 16:46:33.4192|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"ObtenerClientePorCorreo","Topico":"T_VENTAS","Origen":"API Clientes","Usuario":"Pruebas","Fecha":"2021-06-01T16:00:28.1339944-05:00","Data":{"correo_cliente":"ecortes@hotmail.com","nombres_cliente":"yesid cortes ins","nombre_usuario":"ecortes","password_cliente":"123","direccion_cliente":"cra 22 a n 44 a ","telefono_cliente":"3163670845","ciudad_cliente":"Bogota","pais_cliente":"Colombia","metodo_pago":{"codigo_metodo_pago":"TC","numero_tarjeta_credito":"45646","detalles_metodo_pago":"YANO","Id":null,"FechaCreacion":"2021-06-01T16:00:59.4431773-05:00"},"Id":"60b5cb656c6014cec7308639","FechaCreacion":"2021-06-01T16:00:59.4432898-05:00"}}'  
+TOPIC:  'TP_Venta [[5]] @14' 
+
+2021-06-01 16:46:38.1867|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:46:38 p. m.
+
+2021-06-01 16:46:38.2063|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"ObtenerClientePorCorreo","Topico":"T_VENTAS","Origen":"API Clientes","Usuario":"Pruebas","Fecha":"2021-06-01T16:06:44.3611527-05:00","Data":{"correo_cliente":"yescor16@hotmail.com","nombres_cliente":"yesid cortes ins","nombre_usuario":"yescor16","password_cliente":"123","direccion_cliente":"cra 22 a n 44 a ","telefono_cliente":"3163670845","ciudad_cliente":"Bogota","pais_cliente":"Colombia","metodo_pago":{"codigo_metodo_pago":"TC","numero_tarjeta_credito":"3333333","detalles_metodo_pago":"Bancolombia","Id":null,"FechaCreacion":"2021-06-01T16:07:27.906021-05:00"},"Id":"60b5c5edce0dc84e67385d18","FechaCreacion":"2021-06-01T16:07:27.9198018-05:00"}}'  
+TOPIC:  'TP_Venta [[5]] @15' 
+
+2021-06-01 16:46:38.9567|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:46:38 p. m.
+
+2021-06-01 16:46:38.9655|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"TP_Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T16:32:17.126822-05:00","Data":[{"Referencia":"string","SKU":"string","Unidades":0}]}'  
+TOPIC:  'TP_Venta [[5]] @16' 
+
+2021-06-01 16:46:39.6599|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:46:39 p. m.
+
+2021-06-01 16:46:39.6837|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"TP_Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T16:36:40.832753-05:00","Data":[{"Referencia":"string","SKU":"string","Unidades":0}]}'  
+TOPIC:  'TP_Venta [[5]] @17' 
+
+2021-06-01 16:56:30.9996|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 16:56:31.0903|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 16:56:31.0903|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 16:56:36.1669|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:56:36 p. m.
+
+2021-06-01 16:56:36.1809|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @0' 
+
+2021-06-01 16:56:40.7246|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:56:40 p. m.
+
+2021-06-01 16:56:40.7441|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @1' 
+
+2021-06-01 16:56:41.2837|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:56:41 p. m.
+
+2021-06-01 16:56:41.3313|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @0' 
+
+2021-06-01 16:56:42.0176|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:56:41 p. m.
+
+2021-06-01 16:56:42.0678|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @1' 
+
+2021-06-01 16:56:42.6436|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:56:42 p. m.
+
+2021-06-01 16:56:42.6573|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @2' 
+
+2021-06-01 16:56:43.3046|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:56:43 p. m.
+
+2021-06-01 16:56:43.3164|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @3' 
+
+2021-06-01 16:56:43.7123|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:56:43 p. m.
+
+2021-06-01 16:56:43.7225|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @4' 
+
+2021-06-01 16:56:44.2233|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:56:44 p. m.
+
+2021-06-01 16:56:44.2380|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @5' 
+
+2021-06-01 16:56:44.7715|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:56:44 p. m.
+
+2021-06-01 16:56:44.7850|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @6' 
+
+2021-06-01 16:56:45.2786|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:56:45 p. m.
+
+2021-06-01 16:56:45.2786|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @7' 
+
+2021-06-01 16:56:45.7564|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:56:45 p. m.
+
+2021-06-01 16:56:45.7680|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta [[5]] @8' 
+
+2021-06-01 16:56:46.2247|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:56:46 p. m.
+
+2021-06-01 16:56:46.2347|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":null,"Fecha":"2021-06-01T02:21:28.2993702-05:00","Data":[{"SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta [[5]] @9' 
+
+2021-06-01 16:56:47.8608|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:56:47 p. m.
+
+2021-06-01 16:56:47.8787|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T11:54:30.9465855-05:00","Data":[{"Referencia":"string","SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta [[5]] @10' 
+
+2021-06-01 16:56:48.6627|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:56:48 p. m.
+
+2021-06-01 16:56:48.6720|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T12:08:41.573793-05:00","Data":[{"Referencia":"string","SKU":"string1","Unidades":2}]}'  
+TOPIC:  'TP_Venta [[5]] @11' 
+
+2021-06-01 16:56:49.7561|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:56:49 p. m.
+
+2021-06-01 16:56:49.7753|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T15:32:35.7275807-05:00","Data":[{"Referencia":"string","SKU":"string","Unidades":0}]}'  
+TOPIC:  'TP_Venta [[5]] @12' 
+
+2021-06-01 16:56:50.5673|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:56:50 p. m.
+
+2021-06-01 16:56:50.6097|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"ObtenerClientePorCorreo","Topico":"T_VENTAS","Origen":"API Clientes","Usuario":"Pruebas","Fecha":"2021-06-01T15:58:38.4617522-05:00","Data":{"correo_cliente":"ecortes@hotmail.com","nombres_cliente":"yesid cortes ins","nombre_usuario":"ecortes","password_cliente":"123","direccion_cliente":"cra 22 a n 44 a ","telefono_cliente":"3163670845","ciudad_cliente":"Bogota","pais_cliente":"Colombia","metodo_pago":{"codigo_metodo_pago":"TC","numero_tarjeta_credito":"45646","detalles_metodo_pago":"YANO","Id":null,"FechaCreacion":"2021-06-01T15:58:49.5006291-05:00"},"Id":"60b5cb656c6014cec7308639","FechaCreacion":"2021-06-01T15:58:49.5204398-05:00"}}'  
+TOPIC:  'TP_Venta [[5]] @13' 
+
+2021-06-01 16:56:51.3718|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:56:51 p. m.
+
+2021-06-01 16:56:51.3907|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"ObtenerClientePorCorreo","Topico":"T_VENTAS","Origen":"API Clientes","Usuario":"Pruebas","Fecha":"2021-06-01T16:00:28.1339944-05:00","Data":{"correo_cliente":"ecortes@hotmail.com","nombres_cliente":"yesid cortes ins","nombre_usuario":"ecortes","password_cliente":"123","direccion_cliente":"cra 22 a n 44 a ","telefono_cliente":"3163670845","ciudad_cliente":"Bogota","pais_cliente":"Colombia","metodo_pago":{"codigo_metodo_pago":"TC","numero_tarjeta_credito":"45646","detalles_metodo_pago":"YANO","Id":null,"FechaCreacion":"2021-06-01T16:00:59.4431773-05:00"},"Id":"60b5cb656c6014cec7308639","FechaCreacion":"2021-06-01T16:00:59.4432898-05:00"}}'  
+TOPIC:  'TP_Venta [[5]] @14' 
+
+2021-06-01 16:56:52.0536|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:56:51 p. m.
+
+2021-06-01 16:56:52.0716|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"ObtenerClientePorCorreo","Topico":"T_VENTAS","Origen":"API Clientes","Usuario":"Pruebas","Fecha":"2021-06-01T16:06:44.3611527-05:00","Data":{"correo_cliente":"yescor16@hotmail.com","nombres_cliente":"yesid cortes ins","nombre_usuario":"yescor16","password_cliente":"123","direccion_cliente":"cra 22 a n 44 a ","telefono_cliente":"3163670845","ciudad_cliente":"Bogota","pais_cliente":"Colombia","metodo_pago":{"codigo_metodo_pago":"TC","numero_tarjeta_credito":"3333333","detalles_metodo_pago":"Bancolombia","Id":null,"FechaCreacion":"2021-06-01T16:07:27.906021-05:00"},"Id":"60b5c5edce0dc84e67385d18","FechaCreacion":"2021-06-01T16:07:27.9198018-05:00"}}'  
+TOPIC:  'TP_Venta [[5]] @15' 
+
+2021-06-01 16:56:52.7839|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:56:52 p. m.
+
+2021-06-01 16:56:52.7839|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"TP_Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T16:32:17.126822-05:00","Data":[{"Referencia":"string","SKU":"string","Unidades":0}]}'  
+TOPIC:  'TP_Venta [[5]] @16' 
+
+2021-06-01 16:56:53.6589|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:56:53 p. m.
+
+2021-06-01 16:56:53.7007|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"TP_Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T16:36:40.832753-05:00","Data":[{"Referencia":"string","SKU":"string","Unidades":0}]}'  
+TOPIC:  'TP_Venta [[5]] @17' 
+
+2021-06-01 17:05:27.2701|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 17:05:27.3686|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 17:05:27.3814|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 17:05:32.1566|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 5:05:32 p. m.
+
+2021-06-01 17:05:32.1566|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:05:35.2327|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 5:05:35 p. m.
+
+2021-06-01 17:05:35.2327|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:05:35.5820|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 5:05:35 p. m.
+
+2021-06-01 17:05:35.5820|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:05:35.9782|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 5:05:35 p. m.
+
+2021-06-01 17:05:35.9949|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:05:36.4165|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 5:05:36 p. m.
+
+2021-06-01 17:05:36.4290|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:05:36.7847|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 5:05:36 p. m.
+
+2021-06-01 17:05:36.8060|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:05:37.1469|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 5:05:37 p. m.
+
+2021-06-01 17:05:37.1525|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:05:37.4794|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 5:05:37 p. m.
+
+2021-06-01 17:05:37.4999|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:05:37.8592|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 5:05:37 p. m.
+
+2021-06-01 17:05:37.8592|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:05:38.2364|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 5:05:38 p. m.
+
+2021-06-01 17:05:38.2364|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:05:38.5719|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 5:05:38 p. m.
+
+2021-06-01 17:05:38.5788|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:05:38.9186|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 5:05:38 p. m.
+
+2021-06-01 17:05:38.9186|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":null,"Fecha":"2021-06-01T02:21:28.2993702-05:00","Data":[{"SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:05:39.7641|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 5:05:39 p. m.
+
+2021-06-01 17:05:39.7833|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T11:54:30.9465855-05:00","Data":[{"Referencia":"string","SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:05:40.3117|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 5:05:40 p. m.
+
+2021-06-01 17:05:40.3117|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T12:08:41.573793-05:00","Data":[{"Referencia":"string","SKU":"string1","Unidades":2}]}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:05:40.8721|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 5:05:40 p. m.
+
+2021-06-01 17:05:40.8721|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T15:32:35.7275807-05:00","Data":[{"Referencia":"string","SKU":"string","Unidades":0}]}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:05:41.4805|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 5:05:41 p. m.
+
+2021-06-01 17:05:41.4805|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"ObtenerClientePorCorreo","Topico":"T_VENTAS","Origen":"API Clientes","Usuario":"Pruebas","Fecha":"2021-06-01T15:58:38.4617522-05:00","Data":{"correo_cliente":"ecortes@hotmail.com","nombres_cliente":"yesid cortes ins","nombre_usuario":"ecortes","password_cliente":"123","direccion_cliente":"cra 22 a n 44 a ","telefono_cliente":"3163670845","ciudad_cliente":"Bogota","pais_cliente":"Colombia","metodo_pago":{"codigo_metodo_pago":"TC","numero_tarjeta_credito":"45646","detalles_metodo_pago":"YANO","Id":null,"FechaCreacion":"2021-06-01T15:58:49.5006291-05:00"},"Id":"60b5cb656c6014cec7308639","FechaCreacion":"2021-06-01T15:58:49.5204398-05:00"}}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:05:42.4712|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 5:05:42 p. m.
+
+2021-06-01 17:05:42.4934|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"ObtenerClientePorCorreo","Topico":"T_VENTAS","Origen":"API Clientes","Usuario":"Pruebas","Fecha":"2021-06-01T16:00:28.1339944-05:00","Data":{"correo_cliente":"ecortes@hotmail.com","nombres_cliente":"yesid cortes ins","nombre_usuario":"ecortes","password_cliente":"123","direccion_cliente":"cra 22 a n 44 a ","telefono_cliente":"3163670845","ciudad_cliente":"Bogota","pais_cliente":"Colombia","metodo_pago":{"codigo_metodo_pago":"TC","numero_tarjeta_credito":"45646","detalles_metodo_pago":"YANO","Id":null,"FechaCreacion":"2021-06-01T16:00:59.4431773-05:00"},"Id":"60b5cb656c6014cec7308639","FechaCreacion":"2021-06-01T16:00:59.4432898-05:00"}}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:05:43.0217|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 5:05:42 p. m.
+
+2021-06-01 17:05:43.0284|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"ObtenerClientePorCorreo","Topico":"T_VENTAS","Origen":"API Clientes","Usuario":"Pruebas","Fecha":"2021-06-01T16:06:44.3611527-05:00","Data":{"correo_cliente":"yescor16@hotmail.com","nombres_cliente":"yesid cortes ins","nombre_usuario":"yescor16","password_cliente":"123","direccion_cliente":"cra 22 a n 44 a ","telefono_cliente":"3163670845","ciudad_cliente":"Bogota","pais_cliente":"Colombia","metodo_pago":{"codigo_metodo_pago":"TC","numero_tarjeta_credito":"3333333","detalles_metodo_pago":"Bancolombia","Id":null,"FechaCreacion":"2021-06-01T16:07:27.906021-05:00"},"Id":"60b5c5edce0dc84e67385d18","FechaCreacion":"2021-06-01T16:07:27.9198018-05:00"}}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:05:43.6787|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 5:05:43 p. m.
+
+2021-06-01 17:05:43.6902|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"TP_Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T16:32:17.126822-05:00","Data":[{"Referencia":"string","SKU":"string","Unidades":0}]}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:05:44.2220|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 5:05:44 p. m.
+
+2021-06-01 17:05:44.2220|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"TP_Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T16:36:40.832753-05:00","Data":[{"Referencia":"string","SKU":"string","Unidades":0}]}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:07:15.9830|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 17:07:16.2195|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 17:07:16.2195|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 17:07:20.3195|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:07:20.3319|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:07:20 p. m.
+
+2021-06-01 17:07:20.3399|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:07:22.3408|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:07:22.3408|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:07:22 p. m.
+
+2021-06-01 17:07:22.3408|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:07:22.6749|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:07:22.6749|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:07:22 p. m.
+
+2021-06-01 17:07:22.6844|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:07:23.0475|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:07:23.0649|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:07:23 p. m.
+
+2021-06-01 17:07:23.0649|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:07:23.4146|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:07:23.4315|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:07:23 p. m.
+
+2021-06-01 17:07:23.4362|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:07:23.7938|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:07:23.8102|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:07:23 p. m.
+
+2021-06-01 17:07:23.8102|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:07:24.1530|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:07:24.1697|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:07:24 p. m.
+
+2021-06-01 17:07:24.1697|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:07:24.5244|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:07:24.5287|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:07:24 p. m.
+
+2021-06-01 17:07:24.5287|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:07:24.8663|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:07:24.8839|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:07:24 p. m.
+
+2021-06-01 17:07:24.8889|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:07:25.2303|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:07:25.2502|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:07:25 p. m.
+
+2021-06-01 17:07:25.2502|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:07:25.7662|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:07:25.7820|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:07:25 p. m.
+
+2021-06-01 17:07:25.7820|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:07:26.1402|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:07:26.1402|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:07:26 p. m.
+
+2021-06-01 17:07:26.1402|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":null,"Fecha":"2021-06-01T02:21:28.2993702-05:00","Data":[{"SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:07:26.9861|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:07:26.9861|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:07:26 p. m.
+
+2021-06-01 17:07:26.9963|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T11:54:30.9465855-05:00","Data":[{"Referencia":"string","SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:07:27.5196|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:07:27.5342|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:07:27 p. m.
+
+2021-06-01 17:07:27.5342|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T12:08:41.573793-05:00","Data":[{"Referencia":"string","SKU":"string1","Unidades":2}]}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:07:28.0476|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:07:28.0476|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:07:28 p. m.
+
+2021-06-01 17:07:28.0581|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T15:32:35.7275807-05:00","Data":[{"Referencia":"string","SKU":"string","Unidades":0}]}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:07:28.5839|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:07:28.6024|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:07:28 p. m.
+
+2021-06-01 17:07:28.6088|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"ObtenerClientePorCorreo","Topico":"T_VENTAS","Origen":"API Clientes","Usuario":"Pruebas","Fecha":"2021-06-01T15:58:38.4617522-05:00","Data":{"correo_cliente":"ecortes@hotmail.com","nombres_cliente":"yesid cortes ins","nombre_usuario":"ecortes","password_cliente":"123","direccion_cliente":"cra 22 a n 44 a ","telefono_cliente":"3163670845","ciudad_cliente":"Bogota","pais_cliente":"Colombia","metodo_pago":{"codigo_metodo_pago":"TC","numero_tarjeta_credito":"45646","detalles_metodo_pago":"YANO","Id":null,"FechaCreacion":"2021-06-01T15:58:49.5006291-05:00"},"Id":"60b5cb656c6014cec7308639","FechaCreacion":"2021-06-01T15:58:49.5204398-05:00"}}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:07:29.0529|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:07:29.0581|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:07:29 p. m.
+
+2021-06-01 17:07:29.0581|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"ObtenerClientePorCorreo","Topico":"T_VENTAS","Origen":"API Clientes","Usuario":"Pruebas","Fecha":"2021-06-01T16:00:28.1339944-05:00","Data":{"correo_cliente":"ecortes@hotmail.com","nombres_cliente":"yesid cortes ins","nombre_usuario":"ecortes","password_cliente":"123","direccion_cliente":"cra 22 a n 44 a ","telefono_cliente":"3163670845","ciudad_cliente":"Bogota","pais_cliente":"Colombia","metodo_pago":{"codigo_metodo_pago":"TC","numero_tarjeta_credito":"45646","detalles_metodo_pago":"YANO","Id":null,"FechaCreacion":"2021-06-01T16:00:59.4431773-05:00"},"Id":"60b5cb656c6014cec7308639","FechaCreacion":"2021-06-01T16:00:59.4432898-05:00"}}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:07:29.6844|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:07:29.6844|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:07:29 p. m.
+
+2021-06-01 17:07:29.6844|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"ObtenerClientePorCorreo","Topico":"T_VENTAS","Origen":"API Clientes","Usuario":"Pruebas","Fecha":"2021-06-01T16:06:44.3611527-05:00","Data":{"correo_cliente":"yescor16@hotmail.com","nombres_cliente":"yesid cortes ins","nombre_usuario":"yescor16","password_cliente":"123","direccion_cliente":"cra 22 a n 44 a ","telefono_cliente":"3163670845","ciudad_cliente":"Bogota","pais_cliente":"Colombia","metodo_pago":{"codigo_metodo_pago":"TC","numero_tarjeta_credito":"3333333","detalles_metodo_pago":"Bancolombia","Id":null,"FechaCreacion":"2021-06-01T16:07:27.906021-05:00"},"Id":"60b5c5edce0dc84e67385d18","FechaCreacion":"2021-06-01T16:07:27.9198018-05:00"}}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:07:30.1067|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:07:30.1405|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:07:30 p. m.
+
+2021-06-01 17:07:30.1405|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"TP_Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T16:32:17.126822-05:00","Data":[{"Referencia":"string","SKU":"string","Unidades":0}]}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:07:30.6945|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:07:30.7196|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:07:30 p. m.
+
+2021-06-01 17:07:30.7196|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"TP_Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T16:36:40.832753-05:00","Data":[{"Referencia":"string","SKU":"string","Unidades":0}]}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:07:51.4622|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:07:51.4795|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:07:51 p. m.
+
+2021-06-01 17:07:51.5067|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"TP_Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T17:07:49.6491833-05:00","Data":[{"Referencia":"string","SKU":"string","Unidades":0}]}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:08:49.7888|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:08:49.8006|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:08:49 p. m.
+
+2021-06-01 17:08:49.8231|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"TP_Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T17:08:45.5419919-05:00","Data":[{"Referencia":"string","SKU":"string","Unidades":0}]}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:21:23.5400|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 17:21:23.6412|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 17:21:23.6412|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 17:21:32.0708|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:21:32.0802|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:21:32 p. m.
+
+2021-06-01 17:21:32.0802|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:21:41.3429|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:21:41.3429|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:21:41 p. m.
+
+2021-06-01 17:21:41.3696|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:21:41.6981|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:21:41.7171|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:21:41 p. m.
+
+2021-06-01 17:21:41.7171|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:21:42.2905|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:21:42.2966|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:21:42 p. m.
+
+2021-06-01 17:21:42.2966|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:21:42.8557|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:21:42.8664|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:21:42 p. m.
+
+2021-06-01 17:21:42.8784|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:21:43.6174|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:21:43.6342|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:21:43 p. m.
+
+2021-06-01 17:21:43.6402|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:21:43.9686|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:21:43.9882|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:21:43 p. m.
+
+2021-06-01 17:21:43.9882|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:21:44.3341|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:21:44.3341|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:21:44 p. m.
+
+2021-06-01 17:21:44.3442|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:21:44.8998|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:21:44.9175|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:21:44 p. m.
+
+2021-06-01 17:21:44.9228|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:21:45.2656|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:21:45.2656|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:21:45 p. m.
+
+2021-06-01 17:21:45.2656|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:21:45.6097|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:21:45.6296|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:21:45 p. m.
+
+2021-06-01 17:21:45.6296|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":null,"Topico":null,"Origen":null,"Usuario":null,"Fecha":"0001-01-01T00:00:00","data":null}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:21:46.0135|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:21:46.0295|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:21:46 p. m.
+
+2021-06-01 17:21:46.0486|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":null,"Fecha":"2021-06-01T02:21:28.2993702-05:00","Data":[{"SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:21:47.0160|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:21:47.0160|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:21:47 p. m.
+
+2021-06-01 17:21:47.0160|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T11:54:30.9465855-05:00","Data":[{"Referencia":"string","SKU":"string1","Unidades":1}]}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:21:47.5742|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:21:47.5803|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:21:47 p. m.
+
+2021-06-01 17:21:47.5937|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T12:08:41.573793-05:00","Data":[{"Referencia":"string","SKU":"string1","Unidades":2}]}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:21:48.0953|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:21:48.1132|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:21:48 p. m.
+
+2021-06-01 17:21:48.1132|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"T-Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T15:32:35.7275807-05:00","Data":[{"Referencia":"string","SKU":"string","Unidades":0}]}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:21:48.6541|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:21:48.6541|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:21:48 p. m.
+
+2021-06-01 17:21:48.6541|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"ObtenerClientePorCorreo","Topico":"T_VENTAS","Origen":"API Clientes","Usuario":"Pruebas","Fecha":"2021-06-01T15:58:38.4617522-05:00","Data":{"correo_cliente":"ecortes@hotmail.com","nombres_cliente":"yesid cortes ins","nombre_usuario":"ecortes","password_cliente":"123","direccion_cliente":"cra 22 a n 44 a ","telefono_cliente":"3163670845","ciudad_cliente":"Bogota","pais_cliente":"Colombia","metodo_pago":{"codigo_metodo_pago":"TC","numero_tarjeta_credito":"45646","detalles_metodo_pago":"YANO","Id":null,"FechaCreacion":"2021-06-01T15:58:49.5006291-05:00"},"Id":"60b5cb656c6014cec7308639","FechaCreacion":"2021-06-01T15:58:49.5204398-05:00"}}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:21:49.1088|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:21:49.1273|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:21:49 p. m.
+
+2021-06-01 17:21:49.1273|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"ObtenerClientePorCorreo","Topico":"T_VENTAS","Origen":"API Clientes","Usuario":"Pruebas","Fecha":"2021-06-01T16:00:28.1339944-05:00","Data":{"correo_cliente":"ecortes@hotmail.com","nombres_cliente":"yesid cortes ins","nombre_usuario":"ecortes","password_cliente":"123","direccion_cliente":"cra 22 a n 44 a ","telefono_cliente":"3163670845","ciudad_cliente":"Bogota","pais_cliente":"Colombia","metodo_pago":{"codigo_metodo_pago":"TC","numero_tarjeta_credito":"45646","detalles_metodo_pago":"YANO","Id":null,"FechaCreacion":"2021-06-01T16:00:59.4431773-05:00"},"Id":"60b5cb656c6014cec7308639","FechaCreacion":"2021-06-01T16:00:59.4432898-05:00"}}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:21:49.5829|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:21:49.5829|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:21:49 p. m.
+
+2021-06-01 17:21:49.5986|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"ObtenerClientePorCorreo","Topico":"T_VENTAS","Origen":"API Clientes","Usuario":"Pruebas","Fecha":"2021-06-01T16:06:44.3611527-05:00","Data":{"correo_cliente":"yescor16@hotmail.com","nombres_cliente":"yesid cortes ins","nombre_usuario":"yescor16","password_cliente":"123","direccion_cliente":"cra 22 a n 44 a ","telefono_cliente":"3163670845","ciudad_cliente":"Bogota","pais_cliente":"Colombia","metodo_pago":{"codigo_metodo_pago":"TC","numero_tarjeta_credito":"3333333","detalles_metodo_pago":"Bancolombia","Id":null,"FechaCreacion":"2021-06-01T16:07:27.906021-05:00"},"Id":"60b5c5edce0dc84e67385d18","FechaCreacion":"2021-06-01T16:07:27.9198018-05:00"}}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:21:50.0415|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:21:50.0610|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:21:50 p. m.
+
+2021-06-01 17:21:50.0610|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"TP_Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T16:32:17.126822-05:00","Data":[{"Referencia":"string","SKU":"string","Unidades":0}]}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:21:50.5865|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:21:50.5922|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:21:50 p. m.
+
+2021-06-01 17:21:50.5922|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"TP_Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T16:36:40.832753-05:00","Data":[{"Referencia":"string","SKU":"string","Unidades":0}]}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:21:51.1271|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:21:51.1450|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:21:51 p. m.
+
+2021-06-01 17:21:51.1450|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"TP_Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T17:07:49.6491833-05:00","Data":[{"Referencia":"string","SKU":"string","Unidades":0}]}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:21:51.9797|INFO|Inventarios.API.Events.EventsKafka|
+
+
+2021-06-01 17:21:51.9860|INFO|Inventarios.API.Events.EventsKafka|--------------------------------------------------1/06/2021 5:21:51 p. m.
+
+2021-06-01 17:21:51.9860|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"Evento":"VentaProductos","Topico":"TP_Venta","Origen":"api-inventarios","Usuario":"string","Fecha":"2021-06-01T17:08:45.5419919-05:00","Data":[{"Referencia":"string","SKU":"string","Unidades":0}]}'  
+TOPIC:  'TP_Venta' 
+
+2021-06-01 17:24:02.3540|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 17:24:02.4602|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 17:24:02.4710|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 18:47:18.5980|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 18:47:18.7216|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 18:47:18.7216|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API

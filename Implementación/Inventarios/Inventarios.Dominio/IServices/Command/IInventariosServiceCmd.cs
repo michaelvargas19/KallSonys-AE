@@ -7,5 +7,8 @@ namespace Inventarios.Dominio.IServices.Command
     public interface IInventariosServiceCmd
     {
         void ProcesarVenta(EventBase<List<VentaCmd>> EventoVenta);
+        
+        void ProcesarEstadoProducto(EventBase<EstadoProductoCmd> EventoEstado);
+
     }
 }

@@ -1,25 +1,31 @@
 ﻿using Catalogos.Dominio.IServices.Command;
 using Catalogos.Dominio.IUnitOfWorks;
+using Catalogos.Dominio.Modelo;
 using Catalogos.Dominio.Modelo.Command;
 using Catalogos.Dominio.Modelo.Queries;
 using Catalogos.Dominio.Util;
 using Catalogos.Infraestructura.Entities;
 using Catalogos.Infraestructura.Specification;
+using Inventarios.Infraestructura.Specification;
+using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Linq;
+using System.Reflection;
 
 namespace Catalogos.Dominio.Services.Command
 {
     public class ProductosServiceCmd : IProductosServiceCmd
     {
         private readonly IUnitOfWork<Producto> _ufwProductos;
+        private readonly IUnitOfWork<_AuditoriaCatalogos> _ufwLog;
         private readonly IUtils _utils;
 
         public ProductosServiceCmd(IUnitOfWork<Producto> ufwProductos,
+                                     IUnitOfWork<_AuditoriaCatalogos> ufwLog,
                                      IUtils utils)
         {
             this._ufwProductos = ufwProductos;
+            this._ufwLog = ufwLog;
             this._utils = utils;
         }
 
@@ -44,6 +50,61 @@ namespace Catalogos.Dominio.Services.Command
 
             return productoQ;
         }
+
+
+
+        public void ProcesarEstadoProducto(EventBase<EstadoProductoCmd> EventoEstado)
+        {
+            bool EsError = true;
+            var jrq = JsonConvert.SerializeObject(EventoEstado);
+            var jrp = "";
+
+            if (!(_ufwLog.Repository<_AuditoriaCatalogos>().Contains(new LogCatalogosSpecification(EventoEstado.Data.SKU, jrq))))
+            {
+                try
+                {
+
+                    Producto producto = _ufwProductos.Repository<Producto>().Find(new ProductoSKUSpecification(EventoEstado.Data.SKU)).FirstOrDefault();
+
+                    if ((producto != null))
+                    {
+                        producto.Estado = EventoEstado.Data.Estado;
+                        producto.EnAlmacen = EventoEstado.Data.EnAlmacen;
+                        producto.NivelInventario = EventoEstado.Data.NivelInventario;
+
+                        //Persistencia
+                        _ufwProductos.Repository<Producto>().ReplaceOne(producto);
+                        EsError = false;
+
+                        jrp = JsonConvert.SerializeObject(producto);
+                    }
+                    else
+                    {
+                        throw new Exception("No se ha encontrado el producto");
+                    }
+
+                }
+                catch (Exception e)
+                {
+                    jrp = JsonConvert.SerializeObject(e);
+                }
+
+
+                //Auditoría
+
+
+                _AuditoriaCatalogos log = new _AuditoriaCatalogos("CambioEstadoProducto", EventoEstado.Data.SKU, EsError, EventoEstado.Usuario, MethodInfo.GetCurrentMethod().Name, this.ToString(), jrq, jrp, "", "SKU: " + EventoEstado.Data.SKU + "   NivelInventario: " + EventoEstado.Data.NivelInventario.ToString() + "");
+
+                _ufwLog.Repository<_AuditoriaCatalogos>().InsertOne(log);
+
+            }
+            else
+            {
+                //Ya fue ejecutada
+            }
+
+        }
+
 
 
 

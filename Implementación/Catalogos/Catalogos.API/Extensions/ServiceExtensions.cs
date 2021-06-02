@@ -1,4 +1,5 @@
-﻿using Catalogos.Dominio.IServices.Command;
+﻿using Catalogos.API.Events;
+using Catalogos.Dominio.IServices.Command;
 using Catalogos.Dominio.IServices.Queries;
 using Catalogos.Dominio.IUnitOfWorks;
 using Catalogos.Dominio.Services.Command;
@@ -9,6 +10,7 @@ using Catalogos.Infraestructura.Repositories;
 using Catalogos.Infraestructura.Repository;
 using Catalogos.Infraestructura.SettinsDB;
 using Catalogos.Infraestructura.UnitOfWorks;
+using Confluent.Kafka;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
@@ -48,6 +50,34 @@ namespace Catalogos.API.Extensions
             serviceProvider.GetRequiredService<IOptions<MongoDbSettings>>().Value);
 
         }
+
+        public static void ConfigureKafka(this IServiceCollection services, IConfiguration configuration)
+        {
+            // ------ Producer --------
+
+            var producerConfig = new ProducerConfig();
+            configuration.Bind("KafkaSettings", producerConfig);
+            producerConfig.SaslMechanism = SaslMechanism.Plain;
+            producerConfig.SecurityProtocol = SecurityProtocol.SaslSsl;
+
+            services.AddSingleton<ProducerConfig>(producerConfig);
+
+
+            // ------ Consumer --------
+
+            var consumerConfig = new ConsumerConfig();
+            configuration.Bind("KafkaSettings", consumerConfig);
+            consumerConfig.SaslMechanism = SaslMechanism.Plain;
+            consumerConfig.SecurityProtocol = SecurityProtocol.SaslSsl;
+            consumerConfig.GroupId = Guid.NewGuid().ToString();
+            //consumerConfig.AutoOffsetReset = AutoOffsetReset.Earliest; 
+            //consumerConfig.EnableAutoCommit = false; 
+
+            services.AddSingleton<ConsumerConfig>(consumerConfig);
+            services.AddHostedService<EventsKafka>();
+
+        }
+
 
         public static void Configureinterfaces(this IServiceCollection services)
         {

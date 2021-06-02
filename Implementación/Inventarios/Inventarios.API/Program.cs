@@ -7,6 +7,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using NLog.Extensions.Logging;
+using Confluent.Kafka;
+using Inventarios.Infraestructura.Entities;
+using Inventarios.Dominio.IServices.Command;
+using Inventarios.Dominio.IUnitOfWorks;
+using System.Threading;
 
 namespace Inventarios.API
 {
@@ -19,18 +24,18 @@ namespace Inventarios.API
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)                
-                .ConfigureLogging((hostingContext, logging) =>
-                {
-                    // Remove all the default logging providers
-                    logging.ClearProviders();
-                    logging.AddConfiguration(hostingContext.Configuration.GetSection("Logging"));
-                    logging.AddConsole();
-                    logging.AddDebug();
-                    logging.AddEventSourceLogger();
-                    logging.AddEventLog();
-                    // Add NLog as the Logging Provider
-                    logging.AddNLog();
-                })
+                //.ConfigureLogging((hostingContext, logging) =>
+                //{
+                //    // Remove all the default logging providers
+                //    logging.ClearProviders();
+                //    logging.AddConfiguration(hostingContext.Configuration.GetSection("Logging"));
+                //    logging.AddConsole();
+                //    logging.AddDebug();
+                //    logging.AddEventSourceLogger();
+                //    logging.AddEventLog();
+                //    // Add NLog as the Logging Provider
+                //    logging.AddNLog();
+                //})
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();

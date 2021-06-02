@@ -27,12 +27,10 @@ namespace Catalogos.Dominio.Services.Command
 
             try
             {
-
                 Catalogo catalogo = this._utils.Convert_CatalogoCmd_To_Catalogo(catalogoCmd);
                 catalogo.CodigoCatalogo = this.GenerarCodigoCatalogo(catalogo.IndExterno);
                 _ufwCatalogos.Repository<Catalogo>().InsertOne(catalogo);
                 catalogoQ = this._utils.Convert_Catalogo_To_Query(catalogo);
-
             }
             catch (Exception e)
             {

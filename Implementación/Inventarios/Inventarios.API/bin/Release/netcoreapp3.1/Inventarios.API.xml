@@ -51,6 +51,16 @@
             <response code="400">Problemas con la solicitud</response>
             <response code="401">Falta de permisos</response>
         </member>
+        <member name="M:Inventarios.API.Controllers.KafkaController.ProbarKafka(Inventarios.Dominio.Modelo.EventBase{System.Collections.Generic.List{Inventarios.Dominio.Modelo.Command.VentaCmd}})">
+            <summary>Crear un catálogo</summary>
+            <param name="evento">Datos de la solicitud</param>
+            <returns>Catalogo Creado</returns>
+            <response code="200">Solicitud procesada</response>
+            <response code="202">Solicitud no procesada</response>
+            <response code="400">Problemas con la solicitud</response>
+            <response code="401">Falta de permisos</response>
+            <response code="500">Error Interno</response>
+        </member>
         <member name="M:Inventarios.API.Controllers.ProductosController.verPaginacion(System.Int32,System.Int32)">
             <summary>Consultar productos paginandos</summary>
             <param name="skip">Cantidad de datos a omitir</param>

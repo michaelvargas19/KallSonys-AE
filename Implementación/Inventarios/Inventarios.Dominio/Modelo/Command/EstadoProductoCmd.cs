@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Inventarios.Dominio.Modelo.Command
+﻿namespace Inventarios.Dominio.Modelo.Command
 {
     public class EstadoProductoCmd
     {

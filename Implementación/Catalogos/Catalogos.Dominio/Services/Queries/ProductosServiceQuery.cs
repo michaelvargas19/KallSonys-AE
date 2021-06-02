@@ -32,7 +32,7 @@ namespace Catalogos.Dominio.Services.Queries
 
             try
             {
-                IEnumerable<Producto> productos = _ufwProductos.Repository<Producto>().Find(new PagingSpecification<Producto>(skip, take)).AsEnumerable();
+                IEnumerable<Producto> productos = _ufwProductos.Repository<Producto>().Find(new ProductoSpecification(skip, take)).AsEnumerable();
 
                 productosQ = this._utils.ConvertList_Producto_To_Query(productos);
 

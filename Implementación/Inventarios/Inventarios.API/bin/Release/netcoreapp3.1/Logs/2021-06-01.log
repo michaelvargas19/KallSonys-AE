@@ -1,0 +1,62 @@
+2021-06-01 15:53:33.4877|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 15:53:33.7619|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 15:53:33.8147|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 15:53:37.7826|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 3:53:37 p. m.
+
+2021-06-01 15:53:37.7978|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @0' 
+
+2021-06-01 15:53:48.9454|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 107' 
+
+
+
+2021-06-01 16:10:10.5984|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 16:10:10.6739|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 16:10:10.6820|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 16:10:15.0980|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:10:15 p. m.
+
+2021-06-01 16:10:15.1176|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  'sad'  
+TOPIC:  'TP_Venta [[5]] @0' 
+
+2021-06-01 16:10:17.8934|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Unexpected character encountered while parsing value: s. Path '', line 0, position 0.'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 107' 
+
+
+
+2021-06-01 16:12:28.9351|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 16:12:29.0385|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 16:12:29.0529|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 16:13:07.0077|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 16:13:07.0404|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 16:13:07.0404|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 16:31:27.7764|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 16:31:28.1717|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 16:31:28.1717|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 16:31:46.9829|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:31:46 p. m.
+
+2021-06-01 16:31:46.9978|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @0' 
+
+2021-06-01 16:31:49.6927|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 107' 
+
+
+
+2021-06-01 16:33:28.1010|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-06-01 16:33:28.4279|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-06-01 16:33:28.4354|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API
+2021-06-01 16:34:15.4513|INFO|Inventarios.API.Events.EventsKafka|
+
+--------------------------------------------------1/06/2021 4:34:15 p. m.
+
+2021-06-01 16:34:17.8173|INFO|Inventarios.API.Events.EventsKafka|MENSAJE CONSUMIDO:  '{"ordertime":1497014222380,"orderid":18,"itemid":"Item_184","address":{"city":"Mountain View","state":"CA","zipcode":94041}}'  
+TOPIC:  'TP_Venta [[4]] @0' 
+
+2021-06-01 16:35:59.6002|ERROR|Inventarios.API.Events.EventsKafka|MENSAJE:  'Evento no identificado'  STACKTRACE:  '   at Inventarios.API.Events.EventsKafka.Start(CancellationToken stoppingToken) in C:\Users\mavargasb\Documents\Auxiliar\Inventarios\Inventarios.API\Events\EventsKafka.cs:line 107' 
+
+
+

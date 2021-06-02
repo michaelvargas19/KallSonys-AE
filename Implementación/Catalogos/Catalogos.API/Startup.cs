@@ -26,6 +26,8 @@ namespace Catalogos.API
             services.ConfigureMongoDB(Configuration);
             //services.AddTokenAuthentication(Configuration);
             services.Configureinterfaces();
+            services.ConfigureKafka(Configuration);
+
             services.AddSwagger();
         }
 

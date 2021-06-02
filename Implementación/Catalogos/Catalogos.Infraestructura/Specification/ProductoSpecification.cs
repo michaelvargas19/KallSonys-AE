@@ -14,6 +14,10 @@ namespace Catalogos.Infraestructura.Specification
         public ProductoSpecification(bool estado ) : base(c=> c.Estado == estado )
         {
         }
+        public ProductoSpecification(int skip, int take) : base(c => c.Estado == true && c.EnAlmacen == true)
+        {
+            ApplyPaging(skip, take);
+        }
 
         public ProductoSpecification(string codigoCatalogo) : base(c => c.CodigoCatalogo.ToUpper() == codigoCatalogo.ToUpper())
         {
