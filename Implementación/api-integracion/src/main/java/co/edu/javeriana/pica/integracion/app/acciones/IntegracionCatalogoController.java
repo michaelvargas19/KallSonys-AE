@@ -20,9 +20,9 @@ public class IntegracionCatalogoController {
     @GET
     @Path("query")
     @Produces(MediaType.APPLICATION_JSON)
-    public String buscarProductoPorTexto(@QueryParam("idProveedor") Long idProveedor, @QueryParam("texto") String texto) {
+    public String obtenerTodos(@QueryParam("idProveedor") Long idProveedor) {
 
-        String catalogo = servicioQueryProductos.obtenerProductosProveedorPorTexto(idProveedor, texto);
+        String catalogo = servicioQueryProductos.obtenerTodos(idProveedor);
 
         return catalogo;
 

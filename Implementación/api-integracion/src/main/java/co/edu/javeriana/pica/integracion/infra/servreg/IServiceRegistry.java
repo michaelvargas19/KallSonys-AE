@@ -13,5 +13,5 @@ public interface IServiceRegistry {
 
     @GET
     @Path("/query")
-    public List<CapacidadServicio> obtenerCapacidadServicio(@QueryParam("idProveedor") String idProveedor, @QueryParam("nombreCapacidad") String nombreCapacidad);
+    public CapacidadServicio obtenerCapacidadServicio(@QueryParam("idProveedor") String idProveedor, @QueryParam("nombreCapacidad") String nombreCapacidad);
 }

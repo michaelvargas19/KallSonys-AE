@@ -11,6 +11,7 @@ import javax.ws.rs.core.MediaType;
 
 import co.edu.javeriana.pica.servreg.core.modelo.cmd.ServiceCapability;
 import co.edu.javeriana.pica.servreg.core.modelo.cmd.ServiceRegistry;
+import co.edu.javeriana.pica.servreg.core.modelo.query.ServiceRegistryCapability;
 import co.edu.javeriana.pica.servreg.core.servicio.ComandoServicioRegistry;
 import co.edu.javeriana.pica.servreg.core.servicio.QueryServicioRegistry;
 
@@ -29,7 +30,7 @@ public class ServiceRegistryController {
     @Consumes(MediaType.APPLICATION_JSON)
     public JsonObject obtenerTodos() {
         LOGGER.info("Antes de ejecutar servicio");
-        List<ServiceRegistry> result = queryServicioRegistry.obtenerServicios();
+        List<ServiceRegistryCapability> result = queryServicioRegistry.obtenerServicios();
         JsonObject dto = ModeloToDTO.obtenerTodosToPayload(result);
         LOGGER.info("Retorna: " + dto.toString());
         return dto;
@@ -47,12 +48,12 @@ public class ServiceRegistryController {
     @Path("query")
     @Produces(MediaType.APPLICATION_JSON)
     @Consumes(MediaType.APPLICATION_JSON)
-    public JsonArray buscarPorNombreCapacidad(@QueryParam("idProveedor") String idProveedor, @QueryParam("nombreCapacidad") String nombreCapacidad) {
+    public JsonObject buscarPorNombreCapacidad(@QueryParam("idProveedor") String idProveedor, @QueryParam("nombreCapacidad") String nombreCapacidad) {
         
-        ServiceRegistry result = queryServicioRegistry.obtenerServicioPorCapacidad(idProveedor, nombreCapacidad);
+        ServiceRegistryCapability result = queryServicioRegistry.obtenerServicioPorCapacidad(idProveedor, nombreCapacidad);
         
         
-        return ModeloToDTO.buscarPorIdToPayload(result);
+        return ModeloToDTO.buscarPorNombreCapacidadToPayload(result);
     }
 
     @POST

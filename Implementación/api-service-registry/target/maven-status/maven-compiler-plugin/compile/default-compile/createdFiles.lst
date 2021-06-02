@@ -1,0 +1,11 @@
+co/edu/javeriana/pica/servreg/app/acciones/ServiceRegistryController.class
+co/edu/javeriana/pica/servreg/core/servicio/QueryServicioRegistry.class
+co/edu/javeriana/pica/servreg/infra/repository/ServiceCapabilityRepository.class
+co/edu/javeriana/pica/servreg/infra/repository/ServiceRegistryRepository.class
+co/edu/javeriana/pica/servreg/core/servicio/ComandoServicioRegistry.class
+co/edu/javeriana/pica/servreg/core/modelo/cmd/ServiceRegistry.class
+co/edu/javeriana/pica/servreg/core/modelo/cmd/ServiceCapability.class
+co/edu/javeriana/pica/servreg/app/acciones/ModeloToDTO.class
+META-INF/panache-archive.marker
+co/edu/javeriana/pica/servreg/infra/repository/ServiceRegistryEntity.class
+co/edu/javeriana/pica/servreg/infra/repository/ServiceCapabilityEntity.class

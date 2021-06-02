@@ -46,7 +46,11 @@ public class ComandoServicioRegistry {
     }
 
     public boolean adicionarCapacidad(ServiceCapability model){
-        ServiceCapabilityEntity entity = new ServiceCapabilityEntity(model.getIdServicio(), 
+
+        //buscar por servicio por ID
+        ServiceRegistryEntity serviceRegistryEntity = serviceRegistryRepository.encontrarPorId(model.getIdServicio());
+
+        ServiceCapabilityEntity entity = new ServiceCapabilityEntity(serviceRegistryEntity,
         model.getNombre(), 
         model.getDescripcion(), 
         model.getMetodoHTTP(), 
@@ -57,8 +61,12 @@ public class ComandoServicioRegistry {
     }    
 
     public boolean actualizarCapacidad(ServiceCapability model){
-        ServiceCapabilityEntity entity = new ServiceCapabilityEntity(model.getId(), 
-        model.getIdServicio(),
+
+        //buscar por servicio por ID
+        ServiceRegistryEntity serviceRegistryEntity = serviceRegistryRepository.encontrarPorId(model.getIdServicio());
+
+        ServiceCapabilityEntity entity = new ServiceCapabilityEntity(model.getId(),
+                serviceRegistryEntity,
         model.getNombre(), 
         model.getDescripcion(), 
         model.getMetodoHTTP(), 

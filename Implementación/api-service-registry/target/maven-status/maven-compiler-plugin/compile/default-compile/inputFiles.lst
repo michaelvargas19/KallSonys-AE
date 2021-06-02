@@ -1,0 +1,10 @@
+/home/mauricio/Proyects/pica/api-service-registry/src/main/java/co/edu/javeriana/pica/servreg/core/servicio/ComandoServicioRegistry.java
+/home/mauricio/Proyects/pica/api-service-registry/src/main/java/co/edu/javeriana/pica/servreg/infra/repository/ServiceCapabilityRepository.java
+/home/mauricio/Proyects/pica/api-service-registry/src/main/java/co/edu/javeriana/pica/servreg/infra/repository/ServiceRegistryRepository.java
+/home/mauricio/Proyects/pica/api-service-registry/src/main/java/co/edu/javeriana/pica/servreg/app/acciones/ServiceRegistryController.java
+/home/mauricio/Proyects/pica/api-service-registry/src/main/java/co/edu/javeriana/pica/servreg/core/modelo/cmd/ServiceCapability.java
+/home/mauricio/Proyects/pica/api-service-registry/src/main/java/co/edu/javeriana/pica/servreg/core/servicio/QueryServicioRegistry.java
+/home/mauricio/Proyects/pica/api-service-registry/src/main/java/co/edu/javeriana/pica/servreg/app/acciones/ModeloToDTO.java
+/home/mauricio/Proyects/pica/api-service-registry/src/main/java/co/edu/javeriana/pica/servreg/infra/repository/ServiceCapabilityEntity.java
+/home/mauricio/Proyects/pica/api-service-registry/src/main/java/co/edu/javeriana/pica/servreg/infra/repository/ServiceRegistryEntity.java
+/home/mauricio/Proyects/pica/api-service-registry/src/main/java/co/edu/javeriana/pica/servreg/core/modelo/cmd/ServiceRegistry.java

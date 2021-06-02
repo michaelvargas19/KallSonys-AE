@@ -46,5 +46,29 @@ public class ClienteRest {
         return result;
     }
 
+    public Object invocarServicio(CapacidadServicio capacidad, Class tipoDato){
+        Object result= null;
+        Client client = ClientBuilder.newBuilder().newClient();
+        WebTarget target = client.target(capacidad.getRuta());
+        try{
+            target = target.path(capacidad.getPath());
+        }catch(Exception ex){
+            LOGGER.info("Error convirtiendo parametros: "  + ex.getMessage());
+        }
+
+        //target = target.path(capacidad.getPath()).queryParam("idProveedor", idProveedor).queryParam("nombreCapacidad", capacidad);
+
+        LOGGER.info("Target: " + target.getUri());
+        Invocation.Builder builder = target.request();
+        //Response response = builder.get();
+
+
+        result = builder.get(tipoDato);
+        LOGGER.info("Response 2: " + result.toString());
+
+
+        return result;
+    }
+
 
 }

@@ -16,6 +16,99 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library name="Quarkus (deployment)">
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-vertx-core-deployment/1.13.6.Final/quarkus-vertx-core-deployment-1.13.6.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.1-android/guava-25.1-android.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/smallrye/common/smallrye-common-expression/1.6.0/smallrye-common-expression-1.6.0.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/smallrye/common/smallrye-common-function/1.6.0/smallrye-common-function-1.6.0.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/smallrye/common/smallrye-common-constraint/1.6.0/smallrye-common-constraint-1.6.0.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/smallrye/common/smallrye-common-classloader/1.6.0/smallrye-common-classloader-1.6.0.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.11.3/jackson-core-2.11.3.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-netty-deployment/1.13.6.Final/quarkus-netty-deployment-1.13.6.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-common-deployment/1.13.6.Final/quarkus-resteasy-common-deployment-1.13.6.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-common-spi/1.13.6.Final/quarkus-resteasy-common-spi-1.13.6.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-rest-client-deployment/1.13.6.Final/quarkus-rest-client-deployment-1.13.6.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore-nio/4.4.10/httpcore-nio-4.4.10.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-deployment/1.13.6.Final/quarkus-resteasy-deployment-1.13.6.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-server-common-deployment/1.13.6.Final/quarkus-resteasy-server-common-deployment-1.13.6.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-server-common-spi/1.13.6.Final/quarkus-resteasy-server-common-spi-1.13.6.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-undertow-spi/1.13.6.Final/quarkus-undertow-spi-1.13.6.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/http/quarkus-http-servlet/3.1.1.Final/quarkus-http-servlet-3.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/http/quarkus-http-core/3.1.1.Final/quarkus-http-core-3.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/http/quarkus-http-http-core/3.1.1.Final/quarkus-http-http-core-3.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/jboss/spec/javax/annotation/jboss-annotations-api_1.2_spec/1.0.2.Final/jboss-annotations-api_1.2_spec-1.0.2.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/jakarta/servlet/jakarta.servlet-api/4.0.3/jakarta.servlet-api-4.0.3.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/jboss/metadata/jboss-metadata-web/11.0.0.Final/jboss-metadata-web-11.0.0.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/jboss/metadata/jboss-metadata-common/11.0.0.Final/jboss-metadata-common-11.0.0.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-vertx-http-deployment/1.13.6.Final/quarkus-vertx-http-deployment-1.13.6.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-kubernetes-spi/1.13.6.Final/quarkus-kubernetes-spi-1.13.6.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/qute/qute-core/1.13.6.Final/qute-core-1.13.6.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-security-spi/1.13.6.Final/quarkus-security-spi-1.13.6.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/webjars/bootstrap/4.6.0/bootstrap-4.6.0.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/webjars/popper.js/2.5.4/popper.js-2.5.4.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/webjars/font-awesome/5.15.2/font-awesome-5.15.2.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/webjars/jquery/3.5.1/jquery-3.5.1.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-jackson-deployment/1.13.6.Final/quarkus-jackson-deployment-1.13.6.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-jackson-spi/1.13.6.Final/quarkus-jackson-spi-1.13.6.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-rest-client-jackson-deployment/1.13.6.Final/quarkus-rest-client-jackson-deployment-1.13.6.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.11.4/jackson-jaxrs-json-provider-2.11.4.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.11.4/jackson-jaxrs-base-2.11.4.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.11.4/jackson-module-jaxb-annotations-2.11.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-vertx-core-deployment/1.13.6.Final/quarkus-vertx-core-deployment-1.13.6.Final-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-rest-client-deployment/1.13.6.Final/quarkus-rest-client-deployment-1.13.6.Final-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/jakarta/servlet/jakarta.servlet-api/4.0.3/jakarta.servlet-api-4.0.3-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/jboss/metadata/jboss-metadata-web/11.0.0.Final/jboss-metadata-web-11.0.0.Final-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/http/quarkus-http-core/3.1.1.Final/quarkus-http-core-3.1.1.Final-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.28/snakeyaml-1.28-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-jackson-deployment/1.13.6.Final/quarkus-jackson-deployment-1.13.6.Final-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/jboss/spec/javax/annotation/jboss-annotations-api_1.2_spec/1.0.2.Final/jboss-annotations-api_1.2_spec-1.0.2.Final-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/webjars/bootstrap/4.6.0/bootstrap-4.6.0-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-rest-client-jackson-deployment/1.13.6.Final/quarkus-rest-client-jackson-deployment-1.13.6.Final-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-kubernetes-spi/1.13.6.Final/quarkus-kubernetes-spi-1.13.6.Final-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/smallrye/common/smallrye-common-constraint/1.6.0/smallrye-common-constraint-1.6.0-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-netty-deployment/1.13.6.Final/quarkus-netty-deployment-1.13.6.Final-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-common-deployment/1.13.6.Final/quarkus-resteasy-common-deployment-1.13.6.Final-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-security-spi/1.13.6.Final/quarkus-security-spi-1.13.6.Final-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/jboss/metadata/jboss-metadata-common/11.0.0.Final/jboss-metadata-common-11.0.0.Final-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.11.3/jackson-core-2.11.3-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-undertow-spi/1.13.6.Final/quarkus-undertow-spi-1.13.6.Final-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-common-spi/1.13.6.Final/quarkus-resteasy-common-spi-1.13.6.Final-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore-nio/4.4.10/httpcore-nio-4.4.10-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/smallrye/common/smallrye-common-function/1.6.0/smallrye-common-function-1.6.0-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.11.4/jackson-module-jaxb-annotations-2.11.4-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/webjars/jquery/3.5.1/jquery-3.5.1-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/http/quarkus-http-servlet/3.1.1.Final/quarkus-http-servlet-3.1.1.Final-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/smallrye/common/smallrye-common-expression/1.6.0/smallrye-common-expression-1.6.0-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-jackson-spi/1.13.6.Final/quarkus-jackson-spi-1.13.6.Final-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.1-android/guava-25.1-android-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/http/quarkus-http-http-core/3.1.1.Final/quarkus-http-http-core-3.1.1.Final-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-server-common-spi/1.13.6.Final/quarkus-resteasy-server-common-spi-1.13.6.Final-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/qute/qute-core/1.13.6.Final/qute-core-1.13.6.Final-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-vertx-http-deployment/1.13.6.Final/quarkus-vertx-http-deployment-1.13.6.Final-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/smallrye/common/smallrye-common-classloader/1.6.0/smallrye-common-classloader-1.6.0-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.11.4/jackson-jaxrs-json-provider-2.11.4-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-server-common-deployment/1.13.6.Final/quarkus-resteasy-server-common-deployment-1.13.6.Final-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-deployment/1.13.6.Final/quarkus-resteasy-deployment-1.13.6.Final-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.11.4/jackson-jaxrs-base-2.11.4-sources.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-resteasy:1.13.6.Final" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-vertx-http:1.13.6.Final" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-security-runtime-spi:1.13.6.Final" level="project" />
@@ -216,99 +309,6 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.jvnet.staxex:stax-ex:1.8.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.jboss.spec.javax.rmi:jboss-rmi-api_1.0_spec:1.0.6.Final" level="project" />
-    <orderEntry type="module-library" scope="PROVIDED">
-      <library name="Quarkus (deployment)">
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-vertx-core-deployment/1.13.6.Final/quarkus-vertx-core-deployment-1.13.6.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.1-android/guava-25.1-android.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/smallrye/common/smallrye-common-expression/1.6.0/smallrye-common-expression-1.6.0.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/smallrye/common/smallrye-common-function/1.6.0/smallrye-common-function-1.6.0.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/smallrye/common/smallrye-common-constraint/1.6.0/smallrye-common-constraint-1.6.0.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/smallrye/common/smallrye-common-classloader/1.6.0/smallrye-common-classloader-1.6.0.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.11.3/jackson-core-2.11.3.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-netty-deployment/1.13.6.Final/quarkus-netty-deployment-1.13.6.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-common-deployment/1.13.6.Final/quarkus-resteasy-common-deployment-1.13.6.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-common-spi/1.13.6.Final/quarkus-resteasy-common-spi-1.13.6.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-rest-client-deployment/1.13.6.Final/quarkus-rest-client-deployment-1.13.6.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore-nio/4.4.10/httpcore-nio-4.4.10.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-deployment/1.13.6.Final/quarkus-resteasy-deployment-1.13.6.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-server-common-deployment/1.13.6.Final/quarkus-resteasy-server-common-deployment-1.13.6.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-server-common-spi/1.13.6.Final/quarkus-resteasy-server-common-spi-1.13.6.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-undertow-spi/1.13.6.Final/quarkus-undertow-spi-1.13.6.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/http/quarkus-http-servlet/3.1.1.Final/quarkus-http-servlet-3.1.1.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/http/quarkus-http-core/3.1.1.Final/quarkus-http-core-3.1.1.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/http/quarkus-http-http-core/3.1.1.Final/quarkus-http-http-core-3.1.1.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/jboss/spec/javax/annotation/jboss-annotations-api_1.2_spec/1.0.2.Final/jboss-annotations-api_1.2_spec-1.0.2.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/jakarta/servlet/jakarta.servlet-api/4.0.3/jakarta.servlet-api-4.0.3.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/jboss/metadata/jboss-metadata-web/11.0.0.Final/jboss-metadata-web-11.0.0.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/jboss/metadata/jboss-metadata-common/11.0.0.Final/jboss-metadata-common-11.0.0.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-vertx-http-deployment/1.13.6.Final/quarkus-vertx-http-deployment-1.13.6.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-kubernetes-spi/1.13.6.Final/quarkus-kubernetes-spi-1.13.6.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/qute/qute-core/1.13.6.Final/qute-core-1.13.6.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-security-spi/1.13.6.Final/quarkus-security-spi-1.13.6.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/webjars/bootstrap/4.6.0/bootstrap-4.6.0.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/webjars/popper.js/2.5.4/popper.js-2.5.4.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/webjars/font-awesome/5.15.2/font-awesome-5.15.2.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/webjars/jquery/3.5.1/jquery-3.5.1.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-jackson-deployment/1.13.6.Final/quarkus-jackson-deployment-1.13.6.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-jackson-spi/1.13.6.Final/quarkus-jackson-spi-1.13.6.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-rest-client-jackson-deployment/1.13.6.Final/quarkus-rest-client-jackson-deployment-1.13.6.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.11.4/jackson-jaxrs-json-provider-2.11.4.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.11.4/jackson-jaxrs-base-2.11.4.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.11.4/jackson-module-jaxb-annotations-2.11.4.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-vertx-core-deployment/1.13.6.Final/quarkus-vertx-core-deployment-1.13.6.Final-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-rest-client-deployment/1.13.6.Final/quarkus-rest-client-deployment-1.13.6.Final-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/jakarta/servlet/jakarta.servlet-api/4.0.3/jakarta.servlet-api-4.0.3-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/jboss/metadata/jboss-metadata-web/11.0.0.Final/jboss-metadata-web-11.0.0.Final-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/http/quarkus-http-core/3.1.1.Final/quarkus-http-core-3.1.1.Final-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.28/snakeyaml-1.28-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-jackson-deployment/1.13.6.Final/quarkus-jackson-deployment-1.13.6.Final-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/jboss/spec/javax/annotation/jboss-annotations-api_1.2_spec/1.0.2.Final/jboss-annotations-api_1.2_spec-1.0.2.Final-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/webjars/bootstrap/4.6.0/bootstrap-4.6.0-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-rest-client-jackson-deployment/1.13.6.Final/quarkus-rest-client-jackson-deployment-1.13.6.Final-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-kubernetes-spi/1.13.6.Final/quarkus-kubernetes-spi-1.13.6.Final-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/smallrye/common/smallrye-common-constraint/1.6.0/smallrye-common-constraint-1.6.0-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-netty-deployment/1.13.6.Final/quarkus-netty-deployment-1.13.6.Final-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-common-deployment/1.13.6.Final/quarkus-resteasy-common-deployment-1.13.6.Final-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-security-spi/1.13.6.Final/quarkus-security-spi-1.13.6.Final-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/jboss/metadata/jboss-metadata-common/11.0.0.Final/jboss-metadata-common-11.0.0.Final-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.11.3/jackson-core-2.11.3-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-undertow-spi/1.13.6.Final/quarkus-undertow-spi-1.13.6.Final-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-common-spi/1.13.6.Final/quarkus-resteasy-common-spi-1.13.6.Final-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore-nio/4.4.10/httpcore-nio-4.4.10-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/smallrye/common/smallrye-common-function/1.6.0/smallrye-common-function-1.6.0-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.11.4/jackson-module-jaxb-annotations-2.11.4-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/webjars/jquery/3.5.1/jquery-3.5.1-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/http/quarkus-http-servlet/3.1.1.Final/quarkus-http-servlet-3.1.1.Final-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/smallrye/common/smallrye-common-expression/1.6.0/smallrye-common-expression-1.6.0-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-jackson-spi/1.13.6.Final/quarkus-jackson-spi-1.13.6.Final-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.1-android/guava-25.1-android-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/http/quarkus-http-http-core/3.1.1.Final/quarkus-http-http-core-3.1.1.Final-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-server-common-spi/1.13.6.Final/quarkus-resteasy-server-common-spi-1.13.6.Final-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/qute/qute-core/1.13.6.Final/qute-core-1.13.6.Final-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-vertx-http-deployment/1.13.6.Final/quarkus-vertx-http-deployment-1.13.6.Final-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/smallrye/common/smallrye-common-classloader/1.6.0/smallrye-common-classloader-1.6.0-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.11.4/jackson-jaxrs-json-provider-2.11.4-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-server-common-deployment/1.13.6.Final/quarkus-resteasy-server-common-deployment-1.13.6.Final-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-deployment/1.13.6.Final/quarkus-resteasy-deployment-1.13.6.Final-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.11.4/jackson-jaxrs-base-2.11.4-sources.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
   </component>
   <component name="Quarkus Tools">
     <option name="hash" value="1562306736" />

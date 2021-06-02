@@ -32,7 +32,7 @@ public class ServiceRegistryEntity {
     private String estado;
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "id")
-    private List<ServiceCapabilityEntity> capacidades;
+    private List<ServiceCapabilityEntity> serviceCapabilityEntities;
 
 
     public ServiceRegistryEntity(){
@@ -119,16 +119,11 @@ public class ServiceRegistryEntity {
         this.estado = estado;
     }
 
-
-    public List<ServiceCapabilityEntity> getCapacidades() {
-        return capacidades;
+    public List<ServiceCapabilityEntity> getServiceCapabilityEntities() {
+        return serviceCapabilityEntities;
     }
 
-
-    public void setCapacidades(List<ServiceCapabilityEntity> capacidades) {
-        this.capacidades = capacidades;
+    public void setServiceCapabilityEntities(List<ServiceCapabilityEntity> serviceCapabilityEntities) {
+        this.serviceCapabilityEntities = serviceCapabilityEntities;
     }
-
-    
-    
 }

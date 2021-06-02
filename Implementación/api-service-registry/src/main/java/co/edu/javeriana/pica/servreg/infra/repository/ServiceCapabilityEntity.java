@@ -11,11 +11,8 @@ public class ServiceCapabilityEntity {
     @Column(name = "id")
     private Long id;
 
-    /*@ManyToOne
-    @Column(name = "id_servicio")
-    private Long idServicio;*/
-
     @ManyToOne
+    @JoinColumn(name = "id_servicio", referencedColumnName = "id")
     private ServiceRegistryEntity servicio;
 
     @Column(name = "nombre")
@@ -44,9 +41,8 @@ public class ServiceCapabilityEntity {
 
     }
 
-    public ServiceCapabilityEntity(Long idServicio, String nombre, String descripcion, String metodoHTTP, String plantillaRequest,
-            String plantillaResponse, String estado, String path) {
-                this.idServicio = idServicio;
+    public ServiceCapabilityEntity(ServiceRegistryEntity servicio, String nombre, String descripcion, String metodoHTTP, String plantillaRequest, String plantillaResponse, String estado, String path) {
+        this.servicio = servicio;
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.metodoHTTP = metodoHTTP;
@@ -56,10 +52,9 @@ public class ServiceCapabilityEntity {
         this.path = path;
     }
 
-    public ServiceCapabilityEntity(Long id, Long idServicio, String nombre, String descripcion, String metodoHTTP,
-            String plantillaRequest, String plantillaResponse, String estado, String path) {
+    public ServiceCapabilityEntity(Long id, ServiceRegistryEntity servicio, String nombre, String descripcion, String metodoHTTP, String plantillaRequest, String plantillaResponse, String estado, String path) {
         this.id = id;
-        this.idServicio = idServicio;
+        this.servicio = servicio;
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.metodoHTTP = metodoHTTP;
@@ -68,7 +63,6 @@ public class ServiceCapabilityEntity {
         this.estado = estado;
         this.path = path;
     }
-
 
     public Long getId() {
         return id;
@@ -78,13 +72,13 @@ public class ServiceCapabilityEntity {
         this.id = id;
     }
 
-    /*public Long getIdServicio() {
-        return idServicio;
+    public ServiceRegistryEntity getServicio() {
+        return servicio;
     }
 
-    public void setIdServicio(Long idServicio) {
-        this.idServicio = idServicio;
-    }*/
+    public void setServicio(ServiceRegistryEntity servicio) {
+        this.servicio = servicio;
+    }
 
     public String getNombre() {
         return nombre;

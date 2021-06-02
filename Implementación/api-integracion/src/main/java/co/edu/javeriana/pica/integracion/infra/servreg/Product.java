@@ -18,7 +18,26 @@ public class Product {
     private String idProveedor;
 
     public Product(){
+        super();
+    }
 
+    public Product(String code, String SKU, String name, String availability, String brand_id, String brand_name, String condition, String description, String order_quantity_maximum, String order_quantity_minimum, Double price, Double sale_price, String type, Boolean is_free_shipping, String idProveedor) {
+        this();
+        this.code = code;
+        this.SKU = SKU;
+        this.name = name;
+        this.availability = availability;
+        this.brand_id = brand_id;
+        this.brand_name = brand_name;
+        this.condition = condition;
+        this.description = description;
+        this.order_quantity_maximum = order_quantity_maximum;
+        this.order_quantity_minimum = order_quantity_minimum;
+        this.price = price;
+        this.sale_price = sale_price;
+        this.type = type;
+        this.is_free_shipping = is_free_shipping;
+        this.idProveedor = idProveedor;
     }
 
     public String getCode() {

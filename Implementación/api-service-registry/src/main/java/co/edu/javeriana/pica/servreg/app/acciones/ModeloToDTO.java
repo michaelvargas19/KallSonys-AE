@@ -7,19 +7,20 @@ import javax.json.*;
 
 import co.edu.javeriana.pica.servreg.core.modelo.cmd.ServiceCapability;
 import co.edu.javeriana.pica.servreg.core.modelo.cmd.ServiceRegistry;
+import co.edu.javeriana.pica.servreg.core.modelo.query.ServiceRegistryCapability;
 
 public class ModeloToDTO {
 
     private static Logger LOGGER = Logger.getLogger(ModeloToDTO.class.getName());
 
-    public static JsonObject obtenerTodosToPayload(List<ServiceRegistry> model) {
+    public static JsonObject obtenerTodosToPayload(List<ServiceRegistryCapability> model) {
         LOGGER.info("Inicio metodo obtenerTodosToPayload, registros: " + model.size());
         JsonObjectBuilder response = Json.createObjectBuilder();        
              
         if(model != null && model.size() > 0){
             JsonArrayBuilder arrayB = Json.createArrayBuilder();
-            for (ServiceRegistry servicio : model) {            
-                arrayB.add(modelServicioToJSON(servicio));
+            for (ServiceRegistryCapability servicio : model) {
+                arrayB.add(modelServiceRegistryCapabilityToJSON(servicio));
             }   
             response.add("status", "OK");
             response.add("payload", arrayB);
@@ -42,6 +43,20 @@ public class ModeloToDTO {
             //response.add("payload", "no se encontro el servicio.");
         }
         
+        return response.build();
+    }
+
+    public static JsonObject buscarPorNombreCapacidadToPayload(ServiceRegistryCapability model) {
+        JsonObjectBuilder response = Json.createObjectBuilder();
+        if(model != null ){
+            //response.add("status", "OK");
+            //response.add("payload", modelServicioToJSON(model));
+            response =  modelServiceRegistryCapabilityToJSON(model);
+        }else{
+            //response.add("status", "WARNING");
+            //response.add("payload", "no se encontro el servicio.");
+        }
+
         return response.build();
     }
 
@@ -69,6 +84,29 @@ public class ModeloToDTO {
             }
         }
         return arrayCapabilility;
+    }
+
+    private static JsonObjectBuilder modelServiceRegistryCapabilityToJSON(ServiceRegistryCapability model){
+        JsonObjectBuilder objServicio = Json.createObjectBuilder();
+
+        if(model != null){
+            objServicio.add("idServicio", model.getIdServicio());
+            objServicio.add("nombreServicio", model.getNombreServicio());
+            objServicio.add("descripcionServicio", model.getDescripcionServicio());
+            objServicio.add("ruta", model.getRuta());
+            objServicio.add("protocolo", model.getProtocolo());
+            objServicio.add("idProveedor", model.getIdProveedor());
+            objServicio.add("estadoServicio", model.getEstadoServicio());
+            objServicio.add("idCapacidad", model.getIdCapacidad());
+            objServicio.add("nombreCapacidad", model.getNombreCapacidad());
+            objServicio.add("descripcionCapacidad", model.getDescripcionCapacidad());
+            objServicio.add("metodoHTTP", model.getMetodoHTTP());
+            objServicio.add("plantillaRequest", model.getPlantillaRequest());
+            objServicio.add("plantillaResponse", model.getPlantillaResponse());
+            objServicio.add("estadoCapacidad", model.getEstadoCapacidad());
+            objServicio.add("path", model.getPath());
+        }
+        return objServicio;
     }
     
 

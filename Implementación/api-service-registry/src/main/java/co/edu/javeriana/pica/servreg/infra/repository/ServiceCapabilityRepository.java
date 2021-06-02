@@ -27,7 +27,7 @@ public class ServiceCapabilityRepository implements PanacheRepository<ServiceCap
     public boolean actualizarServiceCapability(ServiceCapabilityEntity entity){
         boolean result = false;
         Map<String, Object> params = new HashMap<>();
-        params.put("idServicio", entity.getIdServicio());
+        params.put("idServicio", entity.getServicio().getId());
         params.put("nombre", entity.getNombre());
         params.put("descripcion", entity.getDescripcion());
         params.put("metodoHTTP", entity.getMetodoHTTP());
@@ -45,6 +45,23 @@ public class ServiceCapabilityRepository implements PanacheRepository<ServiceCap
             result = false;
             LOGGER.warning("No actualizo la capacidad del servicio: " + ex.getMessage());
         }    
+        return result;
+    }
+
+    public ServiceCapabilityEntity encontrarPorNombre(String idProveedor, String nombre){
+        ServiceCapabilityEntity result = null;
+        Map<String, Object> params = new HashMap<>();
+        params.put("nombre", nombre);
+        params.put("idProveedor", idProveedor);
+        try{
+            result = find("select sc from ServiceRegistryEntity sr, ServiceCapabilityEntity sc " +
+                    "where sc.servicio.id = sr.id and sc.nombre = :nombre and sr.idProveedor = :idProveedor", params).firstResult();
+
+
+        }catch(Exception ex){
+            result = null;
+            LOGGER.warning("No se encontro el servicio: " + ex.getMessage());
+        }
         return result;
     }
 }

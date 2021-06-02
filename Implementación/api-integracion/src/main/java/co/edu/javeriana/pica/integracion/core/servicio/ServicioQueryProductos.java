@@ -1,11 +1,13 @@
 package co.edu.javeriana.pica.integracion.core.servicio;
 
 import co.edu.javeriana.pica.integracion.infra.adapter.ClienteRest;
+import co.edu.javeriana.pica.integracion.infra.adapter.ClienteRestAdaptado;
 import co.edu.javeriana.pica.integracion.infra.servreg.ClienteServiceRegistry;
 import co.edu.javeriana.pica.integracion.infra.servreg.Product;
 import co.edu.javeriana.pica.integracion.core.modelo.query.CapacidadServicio;
 import org.apache.velocity.VelocityContext;
 import org.apache.velocity.app.Velocity;
+import org.apache.velocity.runtime.log.NullLogChute;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
@@ -20,22 +22,32 @@ public class ServicioQueryProductos {
     ClienteServiceRegistry clienteServiceRegistry;
 
     @Inject
-    ClienteRest clienteRest;
+    ClienteRestAdaptado clienteRest;
 
     private static Logger LOGGER = Logger.getLogger(ServicioQueryProductos.class.getName());
 
-    public String obtenerProductosProveedorPorTexto(Long idProveedor, String texto){
+    static {
+        try {
+            java.util.Properties props = new java.util.Properties();
+            props.setProperty(Velocity.RUNTIME_LOG_LOGSYSTEM_CLASS,    NullLogChute.class.getName());
+            Velocity.init(props);
+        } catch (Exception e) {
+            System.out.println("Error Inicializando velocity: " + e.getMessage());
+        }
+    }
+
+    public String obtenerTodos(Long idProveedor){
         //buscar configuracion del servicio
         LOGGER.info("Antes de buscar el servicio");
         CapacidadServicio serviceRegistry = clienteServiceRegistry.obtenerServicioProveedor(idProveedor, "BUSCAR");
         LOGGER.info("Despues de buscar el servicio: " + serviceRegistry.getNombreServicio() + " - " + serviceRegistry.getNombreCapacidad());
         //mapear el request
-        String request = mapearRequestBuscarPorTexto("texto", texto,serviceRegistry.getPlantillaRequest());
+        //String request = mapearRequestBuscarPorTexto("texto", texto,serviceRegistry.getPlantillaRequest());
 
         //hacer llamado
-        ArrayList<Product> productos = new ArrayList<>();
+        List<Product> productos = new ArrayList<>();
         LOGGER.info("Antes de buscar productos y setear al Canonico");
-        productos = (ArrayList<Product>) clienteRest.invocarServicio(serviceRegistry, request, productos.getClass());
+        productos = clienteRest.invocarServicio(serviceRegistry);
 
         LOGGER.info("Despues de buscar productos: " + productos.size());
 
@@ -59,18 +71,19 @@ public class ServicioQueryProductos {
     private String mapearResponseBuscarPorTexto(Long idProveedor, List<Product> arregloProducto, String plantilla){
         VelocityContext context = new VelocityContext();
         context.put("arregloProducto", arregloProducto);
+        context.put("idProveedor", idProveedor);
 
         StringWriter output = new StringWriter();
         LOGGER.info("Productos: " + arregloProducto.getClass() + " - Plantilla: " + plantilla);
         // evaluate the template string and merge them together
         Velocity.evaluate(context, output, "log or null", plantilla);
 
-        context.put("idProveedor", idProveedor);
+        /*context.put("idProveedor", idProveedor);
         StringWriter output2 = new StringWriter();
         Velocity.evaluate(context, output2, "log or null", output.toString());
-
-        LOGGER.info("mapearResponseBuscarPorTexto: " + output2);
-        return output2.toString();
+*/
+        LOGGER.info("mapearResponseBuscarPorTexto: " + output);
+        return output.toString();
     }
 
 
@@ -83,12 +96,12 @@ public class ServicioQueryProductos {
 
             LOGGER.info("Despues de buscar producto en el servicio: " + serviceRegistry.getNombreServicio()+ " - " + serviceRegistry.getNombreCapacidad());
             //mapear el request
-            String request = mapearRequestBuscarPorTexto("code" ,codigo, serviceRegistry.getPlantillaRequest());
+            String request = mapearRequestBuscarcodigo(codigo, serviceRegistry.getPlantillaRequest());
 
             //hacer llamado
-            Product producto = new Product();
+            Product producto = null;
             LOGGER.info("Antes de buscar productos y setear al Canonico");
-            producto = (Product) clienteRest.invocarServicio(serviceRegistry, request, producto.getClass());
+            producto = clienteRest.invocarServicio(serviceRegistry, request);
 
             LOGGER.info("Despues de buscar productos: " + producto.getName());
 
@@ -100,21 +113,35 @@ public class ServicioQueryProductos {
         return response;
     }
 
-    private String mapearResponseObjetoProducto(Long idProveedor, Product product, String plantilla){
+    private String mapearRequestBuscarcodigo(String codigo, String plantilla){
         VelocityContext context = new VelocityContext();
-        context.put("product", product);
+        context.put("codigo", codigo);
+
+        StringWriter output = new StringWriter();
+        LOGGER.info("Parametro: " + codigo + " - Plantilla: " + plantilla);
+        // evaluate the template string and merge them together
+        Velocity.evaluate(context, output, "log or null", plantilla);
+
+        LOGGER.info("mapearRequestBuscarcodigo: " + output);
+        return output.toString();
+    }
+
+    private String mapearResponseObjetoProducto(Long idProveedor, Product product, String plantilla){
+        VelocityContext contextResponseObjetoProducto = new VelocityContext();
+        contextResponseObjetoProducto.put("product", product);
+        contextResponseObjetoProducto.put("idProveedor", idProveedor);
 
         StringWriter output = new StringWriter();
         LOGGER.info("Producto: " + product.getName() + " - Plantilla: " + plantilla);
         // evaluate the template string and merge them together
-        Velocity.evaluate(context, output, "log or null", plantilla);
+        Velocity.evaluate(contextResponseObjetoProducto, output, "log or null", plantilla);
 
-        context.put("idProveedor", idProveedor);
+        /*context.put("idProveedor", idProveedor);
         StringWriter output2 = new StringWriter();
         Velocity.evaluate(context, output2, "log or null", output.toString());
-
-        LOGGER.info("mapearResponseObjetoProducto: " + output2);
-        return output2.toString();
+*/
+        LOGGER.info("mapearResponseObjetoProducto: " + output);
+        return output.toString();
     }
 
 }
