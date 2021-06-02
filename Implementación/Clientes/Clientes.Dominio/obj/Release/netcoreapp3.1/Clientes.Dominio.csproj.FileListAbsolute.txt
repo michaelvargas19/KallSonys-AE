@@ -1,0 +1,9 @@
+C:\Users\Developer\Desktop\Especializacion Javeriana\PICA\APIS\Clientes\Clientes.Dominio\bin\Release\netcoreapp3.1\Clientes.Dominio.deps.json
+C:\Users\Developer\Desktop\Especializacion Javeriana\PICA\APIS\Clientes\Clientes.Dominio\bin\Release\netcoreapp3.1\Clientes.Dominio.dll
+C:\Users\Developer\Desktop\Especializacion Javeriana\PICA\APIS\Clientes\Clientes.Dominio\bin\Release\netcoreapp3.1\Clientes.Dominio.pdb
+C:\Users\Developer\Desktop\Especializacion Javeriana\PICA\APIS\Clientes\Clientes.Dominio\obj\Release\netcoreapp3.1\Clientes.Dominio.csprojAssemblyReference.cache
+C:\Users\Developer\Desktop\Especializacion Javeriana\PICA\APIS\Clientes\Clientes.Dominio\obj\Release\netcoreapp3.1\Clientes.Dominio.AssemblyInfoInputs.cache
+C:\Users\Developer\Desktop\Especializacion Javeriana\PICA\APIS\Clientes\Clientes.Dominio\obj\Release\netcoreapp3.1\Clientes.Dominio.AssemblyInfo.cs
+C:\Users\Developer\Desktop\Especializacion Javeriana\PICA\APIS\Clientes\Clientes.Dominio\obj\Release\netcoreapp3.1\Clientes.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Developer\Desktop\Especializacion Javeriana\PICA\APIS\Clientes\Clientes.Dominio\obj\Release\netcoreapp3.1\Clientes.Dominio.dll
+C:\Users\Developer\Desktop\Especializacion Javeriana\PICA\APIS\Clientes\Clientes.Dominio\obj\Release\netcoreapp3.1\Clientes.Dominio.pdb

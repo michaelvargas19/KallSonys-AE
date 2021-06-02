@@ -1,0 +1,9 @@
+C:\Users\Developer\source\repos\Version2\Ordenes\Ordenes.Dominio\bin\Release\netcoreapp3.1\Ordenes.Dominio.deps.json
+C:\Users\Developer\source\repos\Version2\Ordenes\Ordenes.Dominio\bin\Release\netcoreapp3.1\Ordenes.Dominio.dll
+C:\Users\Developer\source\repos\Version2\Ordenes\Ordenes.Dominio\bin\Release\netcoreapp3.1\Ordenes.Dominio.pdb
+C:\Users\Developer\source\repos\Version2\Ordenes\Ordenes.Dominio\obj\Release\netcoreapp3.1\Ordenes.Dominio.csprojAssemblyReference.cache
+C:\Users\Developer\source\repos\Version2\Ordenes\Ordenes.Dominio\obj\Release\netcoreapp3.1\Ordenes.Dominio.AssemblyInfoInputs.cache
+C:\Users\Developer\source\repos\Version2\Ordenes\Ordenes.Dominio\obj\Release\netcoreapp3.1\Ordenes.Dominio.AssemblyInfo.cs
+C:\Users\Developer\source\repos\Version2\Ordenes\Ordenes.Dominio\obj\Release\netcoreapp3.1\Ordenes.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Developer\source\repos\Version2\Ordenes\Ordenes.Dominio\obj\Release\netcoreapp3.1\Ordenes.Dominio.dll
+C:\Users\Developer\source\repos\Version2\Ordenes\Ordenes.Dominio\obj\Release\netcoreapp3.1\Ordenes.Dominio.pdb
