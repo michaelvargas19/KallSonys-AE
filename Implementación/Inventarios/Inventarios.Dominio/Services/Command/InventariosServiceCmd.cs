@@ -152,7 +152,7 @@ namespace Inventarios.Dominio.Services.Command
                 //Auditoría
             
             
-                _AuditoriaInventarios log = new _AuditoriaInventarios("CambioEstadoProducto", EventoEstado.Data.SKU, EsError, EventoEstado.Usuario, MethodInfo.GetCurrentMethod().Name, this.ToString(), jrq, jrp, "", "SKU: " + EventoEstado.Data.SKU + "   NivelInventario: " + EventoEstado.Data.NivelInventario.ToString() + "");
+                _AuditoriaInventarios log = new _AuditoriaInventarios("EstadoActualizado", EventoEstado.Data.SKU, EsError, EventoEstado.Usuario, MethodInfo.GetCurrentMethod().Name, this.ToString(), jrq, jrp, "", "SKU: " + EventoEstado.Data.SKU + "   NivelInventario: " + EventoEstado.Data.NivelInventario.ToString() + "");
 
                 _ufwLog.Repository<_AuditoriaInventarios>().InsertOne(log);
 
