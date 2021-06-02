@@ -1,0 +1,114 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+	<%- include('header'); %>
+</head>
+
+<body>
+	<!-- header-section-starts -->
+	<%- include('header_bar'); %>
+	<!-- header-section-ends -->
+	<%- include('banner_top'); %>
+	<!-- content-section-starts -->
+	<div class="container">
+		<div class="products-page">
+			<div class="products">
+				<div class="product-listy">
+					<h2>Nuestro catálogo</h2>
+					<ul class="product-list">
+						<%- catalogs %>
+					</ul>
+				</div>
+
+			</div>
+			<div class="new-product">
+				<div class="col-md-5 zoom-grid">
+					<div class="flexslider">
+						<ul class="slides">
+							<li data-thumb="<%= product_image %>">
+								<div class="thumb-image"> <img src="/assets/<%= product_sku %>.jpg" data-imagezoom="true"
+										class="img-responsive" alt="" /> </div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="col-md-7 dress-info simpleCart_shelfItem">
+					<div class="dress-name">
+						<h3><%= product_name %></h3>
+						<span class="item_price">$<%= product_price %></span>
+						<div class="clearfix"></div>
+						<p><%= product_description %></p>
+					</div>
+					<div class="span span1">
+						<p class="left">MARCA</p>
+						<p class="right"><%= product_brand %></p>
+						<div class="clearfix"></div>
+					</div>
+					<div class="span span1">
+						<p class="left">CALIFICACIÓN</p>
+						<p class="right"><%- product_rating %></p>
+						<div class="clearfix"></div>
+					</div>
+					<div class="purchase">
+						
+						<p><a class="item_add" href="javascript:;">Agregar al carrito</a></p>
+						
+						<div class="clearfix"></div>
+					</div>
+					<script src="/js/imagezoom.js"></script>
+					<!-- FlexSlider -->
+					<script defer src="/js/jquery.flexslider.js"></script>
+					<script>
+						// Can also be used with $(document).ready()
+						$(window).load(function () {
+							$('.flexslider').flexslider({
+								animation: "slide",
+								controlNav: "thumbnails"
+							});
+						});
+					</script>
+				</div>
+				<!-- <div class="clearfix"></div> -->
+				
+			</div>
+			<!-- <div class="clearfix"></div> -->
+		</div>
+	</div>
+	<!-- content-section-ends -->
+
+	
+	<%- include('footer'); %>
+
+	<script src="/js/responsive-tabs.js"></script>
+	<script type="text/javascript">
+		$('#myTab a').click(function (e) {
+			e.preventDefault();
+			$(this).tab('show');
+		});
+
+		$('#moreTabs a').click(function (e) {
+			e.preventDefault();
+			$(this).tab('show');
+		});
+
+		(function ($) {
+			// Test for making sure event are maintained
+			$('.js-alert-test').click(function () {
+				alert('Button Clicked: Event was maintained');
+			});
+			fakewaffle.responsiveTabs(['xs', 'sm']);
+		})(jQuery);
+
+	</script>
+
+</body>
+
+</html>

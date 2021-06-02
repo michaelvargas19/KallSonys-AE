@@ -1,0 +1,47 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+	
+<head>
+	<%- include('header'); %>
+</head>
+
+<body>
+	<!-- header-section-starts -->
+	<%- include('header_bar'); %>
+	<!-- header-section-ends -->
+	<%- include('banner_top'); %>
+	<!-- content-section-starts-here -->
+	<% if(flashData && flashData.length >0) {%>
+		<div class="container">
+			<div class="alert alert-info" role="alert">
+				<%= flashData %>
+			</div>
+		</div>
+	<% }%>
+	<div class="container">
+		<div class="main-content">
+			<div class="online-strip">
+				
+			</div>
+			<div class="products-grid">
+
+				<div id="products"><%- htmlCatalogos %></div>
+
+				<div class="clearfix"></div>
+			</div>
+		</div>
+
+	</div>
+	
+	<!-- content-section-ends-here -->
+	
+	<%- include('footer'); %>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+	<%- include('header'); %>
+</head>
+
+<body>
+	<!-- header-section-starts -->
+	<%- include('header_bar'); %>
+	<!-- header-section-ends -->
+	<%- include('banner_top'); %>
+	<!-- checkout -->
+	<!-- <a href="javascript:;" class="simpleCart_total">Checkout</a> -->
+	<div class="cart-items">
+		<div class="container">
+			<h2>Mi carrito de compras</h2>
+			<div id="shopping-list" class="cart-gd"></div>
+			<div>
+				
+				<a href="/pago" class="btn btn-info">Pagar</a>
+				<form action="/pagar">
+			
+					<input type="hidden" name="userId" value="<%= userId %>">
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!-- //checkout -->
+	<%- include('footer'); %>
+</body>
+
+
+
+<script>
+	console.log(JSON.parse(window.localStorage.getItem('simpleCart_items')));
+	let products = JSON.parse(window.localStorage.getItem('simpleCart_items'));
+	console.log(products)
+	$.each(products, function(i,val){
+		var js = "<script>\
+					$(document).ready(function (c) {\
+						$('.close"+val.sku+"').on('click', function (c) {\
+							$('.cart-header"+val.sku+"').fadeOut('slow', function (c) {\
+								$('.cart-header"+val.sku+"').remove();\
+							});\
+						});\
+					});\
+				<\/script>";
+		var html = '<div class="cart-header">\
+					<div class="cart-sec simpleCart_shelfItem">\
+						<div class="cart-item cyc">\
+							<img src="'+val.image+'" class="img-responsive" alt="">\
+						</div>\
+						<div class="cart-item-info">\
+							<h3> '+val.name+' <span>'+val.description+'</span></h3>\
+							<ul class="qty">\
+								<li>\
+									<p>Envío gratis</p>\
+								</li>\
+							</ul>\
+							<div class="delivery">\
+								<span>$'+val.price+'</span>\
+								<div class="clearfix"></div>\
+							</div>\
+						</div>\
+						<div class="clearfix"></div>\
+					</div>\
+				</div>';
+		
+		// $('#shopping-list').append('<div>SKU:'+val.sku+'</div>');
+		// $('#shopping-list').append('<div>id:'+val.idu+'</div>');
+		// $('#shopping-list').append('<div>Nombre:'+val.name+'</div>');
+		// $('#shopping-list').append('<div>Descripción:'+val.description+'</div>');
+		// $('#shopping-list').append('<div><img src="'+val.image+'"></div>');
+		$('#shopping-list').append(html)
+	});
+</script>
+
+</html>

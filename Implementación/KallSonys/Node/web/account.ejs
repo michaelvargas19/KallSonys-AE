@@ -1,0 +1,85 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <%- include('header'); %>
+</head>
+
+<body>
+    <!-- header-section-starts -->
+    <%- include('header_bar'); %>
+    <!-- header-section-ends -->
+    <%- include('banner_top'); %>
+    <!-- content-section-starts -->
+    <div class="content">
+        <div class="container">
+            <div class="login-page">
+                <!-- <div class="dreamcrub">
+                    <ul class="breadcrumbs">
+                        <li class="home">
+                            <a href="index.html" title="Go to Home Page">Home</a>&nbsp;
+                            <span>&gt;</span>
+                        </li>
+                        <li class="women">
+                            Login
+                        </li>
+                    </ul>
+                    <ul class="previous">
+                        <li><a href="index.html">Back to Previous Page</a></li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div> -->
+                <div class="account_grid">
+                    <!-- <div class="col-md-6 login-left wow fadeInLeft" data-wow-delay="0.4s">
+                        <h2>NEW CUSTOMERS</h2>
+                        <p>By creating an account with our store, you will be able to move through the checkout process
+                            faster, store multiple shipping addresses, view and track your orders in your account and
+                            more.</p>
+                        <a class="acount-btn" href="register.html">Create an Account</a>
+                    </div> -->
+                    <div class="col-md-6 login-right wow fadeInRight" data-wow-delay="0.4s">
+                        <h3>CLIENTES REGISTRADOS</h3>
+                        <p>Si tiene una cuenta, por favor inicie sesión</p>
+                        <form action="login" method="POST">
+                            <div>
+                                <span>Nombre de usuario<label>*</label></span>
+                                <input type="text" name="username">
+                            </div>
+                            <div>
+                                <span>Contraseña<label>*</label></span>
+                                <input type="password" name="password">
+                            </div>
+                            <!-- <a class="forgot" href="#">Forgot Your Password?</a> -->
+                            <input type="submit" value="Iniciar sesión">
+                        </form>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="news-letter">
+            <div class="container">
+                <div class="join">
+                    <h6>JOIN OUR MAILING LIST</h6>
+                    <div class="sub-left-right">
+                        <form>
+                            <input type="text" value="Enter Your Email Here" onfocus="this.value = '';"
+                                onblur="if (this.value == '') {this.value = 'Enter Your Email Here';}" />
+                            <input type="submit" value="SUBSCRIBE" />
+                        </form>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <%- include('footer'); %>
+</body>
+
+</html>
